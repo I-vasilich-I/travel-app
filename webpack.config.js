@@ -1,10 +1,13 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 const path = require('path');
-const ESLintPlugin = require('eslint-webpack-plugin');
+// const ESLintPlugin = require('eslint-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 
-const CopyWebpackPlugin = require('copy-webpack-plugin');
+// const CopyWebpackPlugin = require('copy-webpack-plugin');
+
 
 // const isDev = process.env.NODE_ENV === 'development';
 // const isProd = !isDev;
@@ -28,7 +31,7 @@ module.exports = (env, options) => {
     watchOptions: {
       aggregateTimeout: 6000,
     },
-    entry: ['@babel/polyfill', './src/index.jsx', './src/assets/sass/style.scss'],
+    entry: ['./src/index.tsx', './src/assets/sass/style.scss'],
     output: {
       path: path.join(__dirname, '/dist'),
       // publicPath: '/dist/',
@@ -113,24 +116,28 @@ module.exports = (env, options) => {
           loader: 'html-loader',
         },
         {
-          test: /\.(js|jsx)$/,
+          test: /\.(ts|js)x?$/,
           exclude: /node_modules/,
           use: {
-            loader: 'babel-loader',
+            loader: "babel-loader",
             options: {
-              presets: ['@babel/preset-env'],
+              presets: [
+                "@babel/preset-env",
+                "@babel/preset-react",
+                "@babel/preset-typescript",
+              ],
             },
           },
-        },
+        }
       ],
     },
 
-    resolve: { extensions: ['*', '.js', '.jsx'] },
+    resolve: { extensions: ['*', '.js', '.jsx', '.ts', '.tsx'] },
 
     devServer: {
-      contentBase: path.join(__dirname, 'public/'),
-      port: 3000,
-      publicPath: 'http://localhost:3000/dist/',
+      contentBase: path.join(__dirname, 'dist/'),
+      port: 5000,
+      publicPath: 'http://localhost:5000',
       hotOnly: true,
     },
 
@@ -150,21 +157,27 @@ module.exports = (env, options) => {
         filename: 'style.css',
       }),
 
-      new ESLintPlugin({
-        fix: true,
-      }),
+      // new ESLintPlugin({
+      //   fix: true,
+      // }),
 
-      new CopyWebpackPlugin({
-        patterns: [
-          // { from: 'src/assets/audio/shifting.wav'},
-          // { from: 'src/assets/audio/', to: 'assets/audio/' },
-          // { from: 'src/assets/images/svg/favicon.svg' },
-          // { from: 'favicon.svg' },
-          { from: 'src/assets/images/', to: 'assets/images/' },
-          { from: 'src/assets/icons/', to: 'assets/icons/' },
-          // { from: "src/assets/favicon/", to: "assets/favicon/" },
-          { from: 'src/assets/fonts/', to: 'assets/fonts/' },
-        ],
+      // new CopyWebpackPlugin({
+      //   patterns: [
+      //     // { from: 'src/assets/audio/shifting.wav'},
+      //     // { from: 'src/assets/audio/', to: 'assets/audio/' },
+      //     // { from: 'src/assets/images/svg/favicon.svg' },
+      //     // { from: 'favicon.svg' },
+      //     // { from: 'src/assets/images/', to: 'assets/images/' },
+      //     // { from: 'src/assets/icons/', to: 'assets/icons/' },
+      //     // { from: "src/assets/favicon/", to: "assets/favicon/" },
+      //     // { from: 'src/assets/fonts/', to: 'assets/fonts/' },
+      //   ],
+      // }),
+      new ForkTsCheckerWebpackPlugin({
+        async: false,
+        eslint: {
+          files: "./src/**/*.{js,ts,tsx}",
+        },
       }),
     ],
   };
