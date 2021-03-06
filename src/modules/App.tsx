@@ -1,11 +1,12 @@
 import React from 'react';
+import Header from './Header';
+import Footer from './Footer';
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 const App = () => {
-
-  console.log('hi');
   return (
-    <div>hi</div>
+    <><Header />
+      <Footer /></>
   )
 }
 

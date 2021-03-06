@@ -1,3 +1,5 @@
-body {
-  font-size: 20px;
-}
+// base
+@import './base/reset';
+// layouts
+@import './layouts/header';
+@import './layouts/footer';
