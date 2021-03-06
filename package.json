@@ -5,7 +5,7 @@
   "main": "index.tsx",
   "scripts": {
     "dev": "webpack --mode development",
-    "serv": "webpack-dev-server --mode development",
+    "serv": "webpack serve --mode development",
     "prod": "webpack --mode production",
     "watch": "webpack --mode development --watch",
     "style": "sass --watch src/assets/sass/style.scss src/style.css"
