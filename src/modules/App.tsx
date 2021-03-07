@@ -1,11 +1,12 @@
 import React from 'react';
 import Header from './Header';
+import CountriesContainer from './CountriesContainer';
 import Footer from './Footer';
 
-// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
-const App = () => {
+const App: React.FC = () => {
   return (
     <><Header />
+      <CountriesContainer />
       <Footer /></>
   )
 }

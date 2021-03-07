@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme: Theme) =>
 );
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
-export default function SimpleSelect() {
+export default function SimpleSelect()  {
   const classes = useStyles();
   const [lang, setLang] = React.useState('ru');
 
