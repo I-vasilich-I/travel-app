@@ -1,13 +1,17 @@
 import React from 'react';
 import Slider from 'react-slick';
 
-function ImageSlider() {
+function ImageSlider():JSX.Element {
   const settings = {
-
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
   }
 
   return (
-    <Slider {...settings}>
+    <Slider className='slider-box' {...settings}>
       <div>
         <h3>1</h3>
       </div>
