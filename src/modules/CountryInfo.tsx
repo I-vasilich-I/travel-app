@@ -42,7 +42,7 @@ function CountryInfo(props: CountryInfoProps): JSX.Element {
         </div>
         <div className="country-info__summary__item">
           <span className='country-info__summary__label'>Валюта</span>
-          <span className='country-info__summary__text'>{currency}</span>
+          <span className='country-info__summary__currency'>{currency}</span>
         </div>
         <div className="country-info__summary__item">
           <span className='country-info__summary__label'>Государственный язык</span>

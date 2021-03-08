@@ -4,7 +4,7 @@ import CountryPage from "./CountryPage";
 const App = ():JSX.Element  => {
 
   return (
-    <div>
+    <div className='app'>
       <CountryPage />
     </div>
   )
