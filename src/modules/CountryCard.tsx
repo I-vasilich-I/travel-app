@@ -18,32 +18,37 @@ const useStyles = makeStyles({
   },
 });
 
-export default function MediaCard():JSX.Element {
-  const classes = useStyles();
+interface CountryData {
+  country: any;
+}
 
+export default function MediaCard(props: CountryData):JSX.Element {
+  const classes = useStyles();
+  const { country } = props;
+  const { lang } = country;
+  const { name, capital, avatar } = lang[0];
   return (
     <Card className={classes.root}>
-      <CardActionArea>
+      <CardActionArea >
         <CardMedia
           className={classes.media}
-          image="../assets/images/GitHub-Mark.png"
-          title="Contemplative Reptile"
+          image={avatar}
+          title={name}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Lizard
+            {name}
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
+            {capital}
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions>
+      {/* <CardActions>
         <Button size="small" color="primary">
           Learn More
         </Button>
-      </CardActions>
+      </CardActions> */}
     </Card>
   );
 }

@@ -1,15 +1,13 @@
 import React from 'react';
-import CountryCard from './CountryCard'
+import CountryCard from './CountryCard';
+import data from '../data/data';
 
 const CountriesContainer= ():JSX.Element => {
   return (
     <section className="countries-container">
-      <CountryCard />
-      <CountryCard />
-      <CountryCard />
-      <CountryCard />
-      <CountryCard />
-      <CountryCard />
+      {
+        data.map((elem, id):JSX.Element => (<CountryCard key={id} country={elem}/>))
+      }
     </section>
   )
 }
