@@ -1,11 +1,12 @@
 import React from 'react';
+import CountryPage from "./CountryPage";
 
-// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
-const App = () => {
+const App = ():JSX.Element  => {
 
-  console.log('hi');
   return (
-    <div>hi</div>
+    <div>
+      <CountryPage />
+    </div>
   )
 }
 
