@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Footer: React.FC = () => {
+const Footer = ():JSX.Element => {
   return (
     <footer className="footer">
       <div className="footer__links">
@@ -53,7 +53,7 @@ const Footer: React.FC = () => {
             />
         </a>
       </div>
-      <p className="footer__year">2021</p>
+      <p className="footer__year">© 2021</p>
       <a href="https://rs.school/js/" target="_blank" rel="noreferrer">
         <img className="rss__logo" src="assets/images/rs_school_js.svg" alt="The Rolling Scopes" />
       </a>

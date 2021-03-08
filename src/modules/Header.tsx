@@ -2,7 +2,7 @@ import React from 'react';
 import SearchInput from './SearchInput';
 import LangSelect from './LangSelect';
 
-const Header: React.FC = () => {
+const Header = ():JSX.Element => {
   return (
     <header className="header">
       <div className="header__logo">

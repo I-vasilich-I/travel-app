@@ -27,8 +27,7 @@ const useStyles = makeStyles((theme: Theme) =>
   }),
 );
 
-// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
-export default function CustomizedInputBase() {
+export default function CustomizedInputBase():JSX.Element {
   const classes = useStyles();
 
   return (

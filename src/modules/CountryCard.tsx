@@ -18,8 +18,7 @@ const useStyles = makeStyles({
   },
 });
 
-// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
-export default function MediaCard() {
+export default function MediaCard():JSX.Element {
   const classes = useStyles();
 
   return (
