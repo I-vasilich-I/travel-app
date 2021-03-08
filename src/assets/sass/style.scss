@@ -1,6 +1,9 @@
 // base
-@import './base/reset';
+// @import './base/reset';
+@import "~normalize.css";
 // layouts
 @import './layouts/header';
 @import './layouts/main';
 @import './layouts/footer';
+@import "../layouts/ImageSlider";
+@import '../layouts/CountryPage';
