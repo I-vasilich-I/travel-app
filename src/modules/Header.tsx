@@ -2,7 +2,13 @@ import React from 'react';
 import SearchInput from './SearchInput';
 import LangSelect from './LangSelect';
 
-const Header = ():JSX.Element => {
+interface Language{
+  lang: string,
+  setLang: React.Dispatch<React.SetStateAction<string>>
+}
+
+const Header = (props: Language):JSX.Element => {
+  const { lang, setLang } = props;
   return (
     <header className="header">
       <div className="header__logo">
@@ -16,7 +22,7 @@ const Header = ():JSX.Element => {
         <SearchInput />
       </div>
       <div className="header__language">
-        <LangSelect />
+        <LangSelect lang={lang} setLang={setLang} />
       </div>
     </header>
   )

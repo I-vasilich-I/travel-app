@@ -22,34 +22,33 @@ interface CountryData {
   country: {
     avatar: string,
     name: {
-      ru: string,
-      en: string,
-      by: string,
+      [lang: string]: string,
     },
     capital: {
-      ru: string,
-      en: string,
-      by: string,
+      [lang: string]: string,
+      // [en: string]: string,
+      // [by: string]: string,
     },
     population: number,
     area: number,
     region: {
-      ru: string,
-      en: string,
-      by: string,
+      [lang: string]: string,
+      // [en: string]: string,
+      // [by: string]: string,
     },
     currency: string,
     flag: string,
     languages: string[],
-  }
-
+  },
+  lang: string
 }
 
-const lang = 'ru';
+// const lang = 'ru';
 export default function MediaCard(props: CountryData):JSX.Element {
   const classes = useStyles();
-  const { country } = props;
+  const { country, lang } = props;
   const { name, capital, avatar } = country;
+
 
   return (
     <Card className={classes.root}>

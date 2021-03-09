@@ -1,6 +1,6 @@
 import React from 'react';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
-import InputLabel from '@material-ui/core/InputLabel';
+// import InputLabel from '@material-ui/core/InputLabel';
 import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
@@ -17,9 +17,14 @@ const useStyles = makeStyles((theme: Theme) =>
   }),
 );
 
-export default function SimpleSelect():JSX.Element  {
+interface Language{
+  lang: string,
+  setLang: React.Dispatch<React.SetStateAction<string>>
+}
+
+export default function SimpleSelect(props: Language):JSX.Element  {
   const classes = useStyles();
-  const [lang, setLang] = React.useState('ru');
+  const { lang, setLang } = props;
 
   const handleChange = (event: React.ChangeEvent<{ value: unknown }>) => {
     setLang(event.target.value as string);
@@ -28,7 +33,7 @@ export default function SimpleSelect():JSX.Element  {
   return (
     <div>
       <FormControl className={classes.formControl}>
-        <InputLabel id="demo-simple-select-label">Language</InputLabel>
+        {/* <InputLabel id="demo-simple-select-label">Language</InputLabel> */}
         <Select
           labelId="demo-simple-select-label"
           id="demo-simple-select"
@@ -36,7 +41,7 @@ export default function SimpleSelect():JSX.Element  {
           onChange={handleChange}
         >
           <MenuItem value={'ru'}>ru</MenuItem>
-          <MenuItem value={'eng'}>eng</MenuItem>
+          <MenuItem value={'en'}>en</MenuItem>
           <MenuItem value={'by'}>by</MenuItem>
         </Select>
       </FormControl>

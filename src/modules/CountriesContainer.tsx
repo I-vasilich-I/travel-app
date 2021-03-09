@@ -2,14 +2,21 @@ import React from 'react';
 import CountryCard from './CountryCard';
 import data from '../data/data';
 
-const CountriesContainer= ():JSX.Element => {
+interface Language {
+  lang: string
+}
+
+const CountriesContainer = (props: Language):JSX.Element => {
+  const { lang } = props;
   return (
     <section className="countries-container">
       {
         data.map((elem, id):JSX.Element => (
           <CountryCard
             key={id}
-            country={elem}/>
+            country={elem}
+            lang={lang}
+          />
         ))
       }
     </section>
