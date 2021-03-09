@@ -12,6 +12,7 @@
   flex-direction: column;
   width: 30%;
   height: 100vh;
+  box-shadow: -3px 0px 8px -1px rgba(0, 0, 0, 0.25);
 
   &__name {
     display: flex;
@@ -71,8 +72,23 @@
     }
 
     &__flag {
-      width: 170px;
-      padding: 10px;
+      width: 150px;
+      margin: 10px;
     }
+  }
+}
+
+.country-content {
+  width: 70%;
+
+  &__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+    height: 45px;
+    background-color: #e84545;
+    color: #e4e9ea;
   }
 }
