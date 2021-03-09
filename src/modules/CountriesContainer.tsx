@@ -6,7 +6,11 @@ const CountriesContainer= ():JSX.Element => {
   return (
     <section className="countries-container">
       {
-        data.map((elem, id):JSX.Element => (<CountryCard key={id} country={elem}/>))
+        data.map((elem, id):JSX.Element => (
+          <CountryCard
+            key={id}
+            country={elem}/>
+        ))
       }
     </section>
   )
