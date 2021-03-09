@@ -1,7 +1,9 @@
+// base
+// @import './base/reset';
 @import "~normalize.css";
-@import "../layouts/ImageSlider";
-@import '../layouts/CountryPage';
-
-body {
-  font-size: 20px;
-}
+// layouts
+@import './layouts/header';
+@import './layouts/main';
+@import './layouts/footer';
+@import "./layouts/imageSlider";
+@import './layouts/countryPage';
