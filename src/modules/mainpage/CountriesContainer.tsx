@@ -6,10 +6,11 @@ interface Language {
   lang: string
 }
 
-const CountriesContainer = (props: Language):JSX.Element => {
+// eslint-disable-next-line react/display-name
+const CountriesContainer = React.forwardRef((props:Language, ref:React.Ref<HTMLElement>):JSX.Element => {
   const { lang } = props;
   return (
-    <section className="countries-container">
+    <section ref={ref} className="countries-container">
       {
         data.map((elem, id):JSX.Element => (
           <CountryCard
@@ -21,6 +22,6 @@ const CountriesContainer = (props: Language):JSX.Element => {
       }
     </section>
   )
-}
+})
 
 export default CountriesContainer;

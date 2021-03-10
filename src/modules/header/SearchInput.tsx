@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { makeStyles, Theme, createStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import InputBase from '@material-ui/core/InputBase';
@@ -27,9 +27,17 @@ const useStyles = makeStyles((theme: Theme) =>
   }),
 );
 
-export default function CustomizedInputBase():JSX.Element {
+interface Search{
+  search: string,
+  setSearch: React.Dispatch<React.SetStateAction<string>>
+}
+
+
+export default function CustomizedInputBase(props: Search):JSX.Element {
   const classes = useStyles();
-  const [search, setSearch] = useState('');
+  const { search, setSearch } = props;
+
+
 
   return (
       <Paper component="form" className={classes.root}>
