@@ -1,7 +1,8 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Slider from 'react-slick';
 
 import {ImageSlide, ImagesSlideType} from "./ImageSlide";
+import CloseIcon from '@material-ui/icons/Close';
 
 
 interface ImagesSliderProps {
@@ -10,7 +11,13 @@ interface ImagesSliderProps {
 
 function ImageSlider(props: ImagesSliderProps): JSX.Element {
 
+  const [fullScreen, setFullScreen] = useState(false);
+
   const {slides} = props;
+
+  function fullscreenChange(): void {
+    setFullScreen(!fullScreen);
+  }
 
   const settings = {
     customPaging(index: number): JSX.Element {
@@ -29,17 +36,18 @@ function ImageSlider(props: ImagesSliderProps): JSX.Element {
     slidesToShow: 1,
     slidesToScroll: 1,
     pauseOnHover: true,
-    fade:true,
+    fade: true,
   }
 
   return (
-    <div className='slider-box'>
+    <div className={`slider-box ${fullScreen ? 'slider-box__fullscreen' : ''}`}>
+      <button className='btn-fullscreen' title='Закрыть режим просмотра'><CloseIcon/></button>
       <Slider  {...settings}>
         {
           slides.map((slide, index) => {
             return (
               <ImageSlide key={index} image={slide.image} title={slide.title} description={slide.description}
-                          location={slide.location}/>
+                          location={slide.location} onSlideClick={fullscreenChange}/>
             )
           })
         }

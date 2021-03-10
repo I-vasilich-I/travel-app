@@ -8,7 +8,7 @@ import fourthImage from "../assets/images/4.jpg";
 import fifthImage from "../assets/images/5.jpg";
 import sixthImage from "../assets/images/6.jpg";
 
-function CountryContent(): JSX.Element {
+export default function CountryContent(): JSX.Element {
 
   const tempDate: Array<ImagesSlideType> = [
     {
@@ -51,18 +51,7 @@ function CountryContent(): JSX.Element {
 
   return (
     <div className='country-content'>
-      <TitleSection title='Фотогалерея'/>
       <ImageSlider slides={tempDate}/>
     </div>
   );
 }
-
-function TitleSection(props: { title: string }): JSX.Element {
-  return (
-    <div className="country-content__title">
-      <span>{props.title}</span>
-    </div>
-  );
-}
-
-export default CountryContent;
