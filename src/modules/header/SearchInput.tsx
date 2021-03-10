@@ -27,8 +27,17 @@ const useStyles = makeStyles((theme: Theme) =>
   }),
 );
 
-export default function CustomizedInputBase():JSX.Element {
+interface Search{
+  search: string,
+  setSearch: React.Dispatch<React.SetStateAction<string>>
+}
+
+
+export default function CustomizedInputBase(props: Search):JSX.Element {
   const classes = useStyles();
+  const { search, setSearch } = props;
+
+
 
   return (
       <Paper component="form" className={classes.root}>
@@ -36,6 +45,9 @@ export default function CustomizedInputBase():JSX.Element {
         className={classes.input}
         placeholder="Search country or capital"
         inputProps={{ 'aria-label': 'Search country or capital' }}
+        autoFocus={true}
+        value={search}
+        onChange={e => setSearch(e.target.value)}
       />
       <IconButton type="submit" className={classes.iconButton} aria-label="search">
         <SearchIcon />
