@@ -4,7 +4,7 @@ $slick-loader-path: "~slick-carousel/slick/";
 @import "~slick-carousel/slick/slick-theme";
 
 .slider-box {
-  padding: 0 40px;
+  padding: 20px 40px;
 
   .btn-fullscreen {
     display: none;
@@ -134,6 +134,7 @@ $slick-loader-path: "~slick-carousel/slick/";
 }
 
 .slick-dots {
+  position: static;
   bottom: auto;
 
   li {
