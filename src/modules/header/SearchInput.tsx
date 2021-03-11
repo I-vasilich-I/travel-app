@@ -11,7 +11,8 @@ const useStyles = makeStyles((theme: Theme) =>
       padding: '2px 4px',
       display: 'flex',
       alignItems: 'center',
-      width: 400,
+      maxWidth: 400,
+      minWidth: 280,
     },
     input: {
       marginLeft: theme.spacing(1),
@@ -37,10 +38,8 @@ export default function CustomizedInputBase(props: Search):JSX.Element {
   const classes = useStyles();
   const { search, setSearch } = props;
 
-
-
   return (
-      <Paper component="form" className={classes.root}>
+      <Paper component="form" className={classes.root}  onSubmit={(e) => {e.preventDefault()}}>
       <InputBase
         className={classes.input}
         placeholder="Search country or capital"

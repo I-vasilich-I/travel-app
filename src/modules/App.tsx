@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Header from './header/Header';
 import CountriesContainer from './mainpage/CountriesContainer';
 import Footer from './footer/Footer';
-import CountryPage from "./countrypage/CountryPage";
+// import CountryPage from "./countrypage/CountryPage";
 
 const App = ():JSX.Element  => {
   const [lang, setLang] = useState('ru');
@@ -36,11 +36,14 @@ const App = ():JSX.Element  => {
         search={search}
         setSearch={setSearch}
       />
-      <CountriesContainer
-      lang={lang}
-      ref={CountriesContainerRef}/>
-      <CountryPage />
-      <Footer /></>
+      <main className="main">
+        <CountriesContainer
+        lang={lang}
+        ref={CountriesContainerRef}/>
+        {/* <CountryPage /> */}
+      </main>
+      <Footer />
+    </>
   )
 }
 
