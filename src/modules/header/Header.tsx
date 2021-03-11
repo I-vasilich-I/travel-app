@@ -14,11 +14,13 @@ const Header = (props: HeaderProps):JSX.Element => {
   return (
     <header className="header">
       <div className="header__logo">
-      <img
-        className="header__logo"
-        src="assets/images/logo.svg"
-        alt="Oleg Vaskevich"
-      />
+        <a href="/">
+          <img
+            className="header__logo"
+            src="assets/images/logo.svg"
+            alt="Oleg Vaskevich"
+          />
+        </a>
       </div>
       <div className="header__search">
         <SearchInput
