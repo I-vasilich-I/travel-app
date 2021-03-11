@@ -5,9 +5,14 @@
   margin: auto;
   margin-top: 20px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-evenly;
+  align-items: flex-start;
   padding-bottom: 50px;
+  a {
+    min-width: 300px;
+    width: 370px;
+    text-decoration: none;
+  }
 }
 
 .country-card {

@@ -2,7 +2,14 @@ import React, { useState, useEffect } from 'react';
 import Header from './header/Header';
 import CountriesContainer from './mainpage/CountriesContainer';
 import Footer from './footer/Footer';
-// import CountryPage from "./countrypage/CountryPage";
+import CountryPage from "./countrypage/CountryPage";
+import {
+  BrowserRouter as Router,
+  // HashRouter as Router,
+  Switch,
+  Route,
+  // Redirect,
+} from "react-router-dom";
 
 const App = ():JSX.Element  => {
   const [lang, setLang] = useState('ru');
@@ -16,7 +23,8 @@ const App = ():JSX.Element  => {
       const countriesArray = Array.from(childrenArray);
       countriesArray.map((elem) => elem.classList.remove('hidden'));
       countriesArray.filter((elem) => {
-        const countryArray = Array.from(elem.children)[0];
+        const links = Array.from(elem.children)[0];
+        const countryArray = Array.from(links.children)[0];
         const countryTitleArray = Array.from(countryArray.children);
         const NameAndCapital = Array.from(countryTitleArray[1].children);
         const countryName = NameAndCapital[0].innerHTML.toLowerCase();
@@ -30,20 +38,28 @@ const App = ():JSX.Element  => {
   }, [search, CountriesContainerRef ]);
 
   return (
-    <><Header
+    <Router>
+      <Header
         lang={lang}
         setLang={setLang}
         search={search}
         setSearch={setSearch}
       />
       <main className="main">
-        <CountriesContainer
-        lang={lang}
-        ref={CountriesContainerRef}/>
-        {/* <CountryPage /> */}
+        <Switch>
+          <Route exact path="/">
+            <CountriesContainer
+              lang={lang}
+              ref={CountriesContainerRef}
+            />
+          </Route>
+          <Route path="/country">
+            <CountryPage />
+          </Route>
+        </Switch>
       </main>
       <Footer />
-    </>
+    </Router>
   )
 }
 
