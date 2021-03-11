@@ -54,6 +54,12 @@ export default function ImageSlider(props: ImagesSliderProps): JSX.Element {
 
   useKey('ArrowRight', changeSlideNext);
   useKey('ArrowLeft', changeSlidePrev);
+  useKey('Escape', () => {
+    if (fullScreenSlider) {
+      fullscreenChange(false);
+    }
+  });
+
   return (
     <div className={`slider-box ${fullScreenSlider ? 'slider-box__fullscreen' : ''}`}>
       <button className='btn-fullscreen' title='Закрыть режим просмотра' onClick={() => {
@@ -64,9 +70,11 @@ export default function ImageSlider(props: ImagesSliderProps): JSX.Element {
           slides.map((slide, index) => {
             return (
               <ImageSlide key={index} image={slide.image} title={slide.title} description={slide.description}
-                          location={slide.location} onSlideClick={() => {
-                fullscreenChange(true)
-              }}/>
+                          location={slide.location}
+                          tooltip={!fullScreenSlider ? 'Нажмите для увеличения изображения' : ''}
+                          onSlideClick={() => {
+                            fullscreenChange(true)
+                          }}/>
             )
           })
         }

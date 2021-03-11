@@ -53,8 +53,15 @@ export default function CountryContent(): JSX.Element {
 
   return (
     <div className='country-content'>
+      <ContentTitle title='Информация о стране'/>
+      <ContentTitle title='Фотогалерея'/>
       <ImageSlider slides={tempDate}/>
-      <VideoPlayer/>
+      <ContentTitle title='Видео о стране'/>
+      <VideoPlayer url='https://youtu.be/hHy_uUnvkho'/>
     </div>
   );
+}
+
+function ContentTitle(props: { title: string }) {
+  return <div className='content-caption'><h1>{props.title}</h1></div>
 }

@@ -1,9 +1,9 @@
 import React from 'react';
 import Player from 'react-player';
 
-export default function VideoPlayer(): JSX.Element {
+export default function VideoPlayer(props: { url: string }): JSX.Element {
   const config = {
-    url: 'https://youtu.be/hHy_uUnvkho',
+    url: props.url,
     className: 'video-player',
     controls: true,
     width: '100%',
@@ -11,8 +11,10 @@ export default function VideoPlayer(): JSX.Element {
   }
 
   return (
-    <div className='player-wrapper'>
-      <Player {...config}/>
+    <div className='video-section'>
+      <div className='player-wrapper'>
+        <Player {...config}/>
+      </div>
     </div>
   );
 }
