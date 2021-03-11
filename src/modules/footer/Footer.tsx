@@ -28,7 +28,7 @@ const Footer = ():JSX.Element => {
               alt="Denis Korotkevich"
             />
         </a>
-        <a
+        {/* <a
             href="https://github.com/vi-voe"
             className="footer__link"
             target="_blank"
@@ -51,7 +51,7 @@ const Footer = ():JSX.Element => {
               src="assets/images/GitHub-Mark.png"
               alt="Mikita Petravets"
             />
-        </a>
+        </a> */}
       </div>
       <p className="footer__year">© 2021</p>
       <a href="https://rs.school/js/" target="_blank" rel="noreferrer">

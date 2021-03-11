@@ -80,16 +80,42 @@ const data = [
       ]
   },
   {
-    avatar: "../assets/images/belarus.jpg",
+    avatar: "../assets/images/Poland.jpg",
     name: {
-      ru: "Республика Беларусь",
-      en: "Republic of Belarus",
-      by: "Республика Беларусь",
+      ru: "Польша",
+      en: "Poland",
+      by: "Польшча",
     },
     capital: {
-      ru: "Минск",
-      en: "Minsk",
-      by: "Miнск",
+      ru: "Варшава",
+      en: "Warsaw",
+      by: "Варшава",
+    },
+    population: 0,
+    area: 0,
+    region: {
+      ru: "Центральная Европа",
+      en: " Central Europe",
+      by: "Цэнтральная Еўропа",
+    },
+    currency: "",
+    flag: "../assets/images/Flag-Poland.jpg",
+    languages:
+      [
+        "Польский"
+      ]
+  },
+  {
+    avatar: "../assets/images/Lithuania.jpg",
+    name: {
+      ru: "Литва",
+      en: "Lithuania",
+      by: "Літва",
+    },
+    capital: {
+      ru: "Вильнюс",
+      en: "Vilnius",
+      by: "Вільнюс",
     },
     population: 9408400,
     area: 207600,
@@ -107,16 +133,16 @@ const data = [
       ]
   },
   {
-    avatar: "../assets/images/belarus.jpg",
+    avatar: "../assets/images/Latvia.jpg",
     name: {
-      ru: "Республика Беларусь",
-      en: "Republic of Belarus",
-      by: "Республика Беларусь",
+      ru: "Латвия",
+      en: "Latvia",
+      by: "Латвія",
     },
     capital: {
-      ru: "Минск",
-      en: "Minsk",
-      by: "Miнск",
+      ru: "Рига",
+      en: "Riga",
+      by: "Рiга",
     },
     population: 9408400,
     area: 207600,
@@ -126,7 +152,7 @@ const data = [
       by: "Усходняя Еўропа",
     },
     currency: "BYN",
-    flag: "../assets/images/flag.png",
+    flag: "../assets/images/Flag-Latvia.jpg",
     languages:
       [
         "Русский",
@@ -134,16 +160,16 @@ const data = [
       ]
   },
   {
-    avatar: "../assets/images/belarus.jpg",
+    avatar: "../assets/images/USA.jpg",
     name: {
-      ru: "Республика Беларусь",
-      en: "Republic of Belarus",
-      by: "Республика Беларусь",
+      ru: "США",
+      en: "USA",
+      by: "ЗША",
     },
     capital: {
-      ru: "Минск",
-      en: "Minsk",
-      by: "Miнск",
+      ru: "Вашингтон",
+      en: "Washington",
+      by: "Вашынгтон",
     },
     population: 9408400,
     area: 207600,
@@ -153,7 +179,7 @@ const data = [
       by: "Усходняя Еўропа",
     },
     currency: "BYN",
-    flag: "../assets/images/flag.png",
+    flag: "../assets/images/Flag_USA.png",
     languages:
       [
         "Русский",
@@ -161,43 +187,16 @@ const data = [
       ]
   },
   {
-    avatar: "../assets/images/belarus.jpg",
+    avatar: "../assets/images/GB.jpg",
     name: {
-      ru: "Республика Беларусь",
-      en: "Republic of Belarus",
-      by: "Республика Беларусь",
+      ru: "Великобритания",
+      en: "Great Britain",
+      by: "Велікабрытанія",
     },
     capital: {
-      ru: "Минск",
-      en: "Minsk",
-      by: "Miнск",
-    },
-    population: 9408400,
-    area: 207600,
-    region: {
-      ru: "Восточная Европа",
-      en: "Estern Europe",
-      by: "Усходняя Еўропа",
-    },
-    currency: "BYN",
-    flag: "../assets/images/flag.png",
-    languages:
-      [
-        "Русский",
-        "Белорусский"
-      ]
-  },
-  {
-    avatar: "../assets/images/belarus.jpg",
-    name: {
-      ru: "Республика Беларусь",
-      en: "Republic of Belarus",
-      by: "Республика Беларусь",
-    },
-    capital: {
-      ru: "Минск",
-      en: "Minsk",
-      by: "Miнск",
+      ru: "Лондон",
+      en: "London",
+      by: "Лондан",
     },
     population: 9408400,
     area: 207600,
