@@ -1,4 +1,86 @@
-.widget-wrapper {
+.weather-wrapper {
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  background-color: #53354a;
+  background-color: #2b2e4a;
+  padding: 10px 50px;
+
+  .weather-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+
+    &__icon {
+      font-size: 6.5rem;
+      color: #e4e9ea;
+    }
+
+    &__degree {
+      display: flex;
+      flex-direction: row;
+      margin: 0 25px;
+
+      .degree, .units {
+        color: #e4e9ea;
+        font-size: 5rem;
+        font-weight: 700;
+      }
+
+      .units {
+        font-size: 2rem;
+        font-weight: 600;
+        margin: 10px 0px;
+      }
+    }
+
+    &__description {
+      display: flex;
+      flex-direction: column;
+
+      .state, .country {
+        color: #e4e9ea;
+        font-size: 2rem;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .weather-indicators {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &__item {
+      display: flex;
+      flex-direction: column;
+      margin: 10px 20px;
+
+      .caption-indicator {
+        font-size: 1.8rem;
+        font-weight: 500;
+        color: #e4e9ea;
+        text-align: center;
+      }
+
+      .indicator-wrapper {
+        display: flex;
+        flex-direction: row;
+
+        svg {
+          font-size: 2rem;
+          color: #e4e9ea;
+          margin: 5px;
+        }
+
+        .indicator {
+          font-size: 1.8rem;
+          font-weight: 500;
+          color: #e4e9ea;
+          margin: 5px;
+        }
+      }
+    }
+  }
 }

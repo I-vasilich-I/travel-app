@@ -1,7 +1,9 @@
 @import "~normalize.css";
+@import "../fonts/weather/owfont-regular.min.css";
 @import "../layouts/ImageSlider";
 @import '../layouts/CountryPage';
 @import '../layouts/VideoPlayer';
+@import '../layouts/WeatherWidget';
 
 * {
   box-sizing: border-box;

@@ -55,7 +55,7 @@ export default function CountryContent(): JSX.Element {
   return (
     <div className='country-content'>
       <ContentTitle title='Погода в стране'/>
-      <WeatherWidget />
+      <WeatherWidget country='Belarus'/>
       <ContentTitle title='Фотогалерея'/>
       <ImageSlider slides={tempDate}/>
       <ContentTitle title='Видео о стране'/>
