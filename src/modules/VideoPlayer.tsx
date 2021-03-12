@@ -11,10 +11,8 @@ export default function VideoPlayer(props: { url: string }): JSX.Element {
   }
 
   return (
-    <div className='video-section'>
-      <div className='player-wrapper'>
-        <Player {...config}/>
-      </div>
+    <div className='player-wrapper'>
+      <Player {...config}/>
     </div>
   );
 }

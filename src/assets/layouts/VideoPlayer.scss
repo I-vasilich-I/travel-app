@@ -1,17 +1,12 @@
-.video-section {
+.player-wrapper {
   width: 100%;
-  padding: 20px 50px;
+  position: relative;
+  padding-top: 56.25%;
 
-  .player-wrapper {
-    width: 100%;
-    position: relative;
-    padding-top: 56.25%;
-
-    .video-player {
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
+  .video-player {
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 }
 

@@ -9,6 +9,7 @@ import fourthImage from "../assets/images/4.jpg";
 import fifthImage from "../assets/images/5.jpg";
 import sixthImage from "../assets/images/6.jpg";
 import VideoPlayer from "./VideoPlayer";
+import WeatherWidget from "./WeatherWidget";
 
 export default function CountryContent(): JSX.Element {
 
@@ -53,7 +54,8 @@ export default function CountryContent(): JSX.Element {
 
   return (
     <div className='country-content'>
-      <ContentTitle title='Информация о стране'/>
+      <ContentTitle title='Погода в стране'/>
+      <WeatherWidget />
       <ContentTitle title='Фотогалерея'/>
       <ImageSlider slides={tempDate}/>
       <ContentTitle title='Видео о стране'/>
