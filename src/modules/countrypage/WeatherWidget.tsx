@@ -40,7 +40,7 @@ export default function WeatherWidget(props: WeatherWidgetProps): JSX.Element {
   const {country} = props;
 
   useEffect(() => {
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${country}&units=metric&appid=19ba1578547b510127691c2268a5299b&lang=ru`)
+    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${country}&units=metric&appid=bfe77b66bdbd401c7b6a4210e7a8f5b2&lang=ru`)
       .then(res => res.json())
       .then((data) => {
           setWeather({

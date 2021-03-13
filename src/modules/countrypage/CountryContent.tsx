@@ -10,6 +10,7 @@ import fifthImage from "../../assets/images/5.jpg";
 import sixthImage from "../../assets/images/6.jpg";
 import VideoPlayer from "./VideoPlayer";
 import WeatherWidget from "./WeatherWidget";
+import TimeWidget from "./TimeWidget";
 
 export default function CountryContent(): JSX.Element {
 
@@ -54,6 +55,8 @@ export default function CountryContent(): JSX.Element {
 
   return (
     <div className='country-content'>
+      <ContentTitle title='Текущее время в стране'/>
+      <TimeWidget lang='ru' timeZone='Europe/Minsk'/>
       <ContentTitle title='Погода в стране'/>
       <WeatherWidget country='Беларусь'/>
       <ContentTitle title='Фотогалерея'/>

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, {useState, useEffect} from 'react';
 import Header from './header/Header';
 import CountriesContainer from './mainpage/CountriesContainer';
 import Footer from './footer/Footer';
@@ -11,10 +11,10 @@ import {
   // Redirect,
 } from "react-router-dom";
 
-const App = ():JSX.Element  => {
+const App = (): JSX.Element => {
   const [lang, setLang] = useState('ru');
   const [search, setSearch] = useState('');
-  const CountriesContainerRef:React.Ref<HTMLElement> = React.createRef();
+  const CountriesContainerRef: React.Ref<HTMLElement> = React.createRef();
 
   // filter country cards by search input
   useEffect(() => {
@@ -32,10 +32,10 @@ const App = ():JSX.Element  => {
         const isContain = countryName.includes(search.toLowerCase()) || countryCapital.includes(search.toLowerCase());
         return !isContain;
       })
-      .map((elem) => elem.classList.add('hidden'));
+        .map((elem) => elem.classList.add('hidden'));
     }
 
-  }, [search, CountriesContainerRef ]);
+  }, [search, CountriesContainerRef]);
 
   return (
     <Router>
@@ -54,11 +54,11 @@ const App = ():JSX.Element  => {
             />
           </Route>
           <Route path="/country">
-            <CountryPage />
+            <CountryPage/>
           </Route>
         </Switch>
       </main>
-      <Footer />
+      <Footer/>
     </Router>
   )
 }
