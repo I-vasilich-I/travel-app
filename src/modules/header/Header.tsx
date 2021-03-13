@@ -12,7 +12,7 @@ interface HeaderProps{
 
 const Header = (props: HeaderProps):JSX.Element => {
   const { lang, setLang, search, setSearch } = props;
-  
+  const location = useLocation();
   return (
     <header className="header">
       <div className="header__logo">
@@ -24,13 +24,17 @@ const Header = (props: HeaderProps):JSX.Element => {
           />
         </Link>
       </div>
-      <div className="header__search">
-        <SearchInput
-          lang={lang}
-          search={search}
-          setSearch={setSearch}
-        />
-      </div>
+      {
+        location.pathname === '/' &&
+        <div className="header__search">
+          <SearchInput
+            lang={lang}
+            search={search}
+            setSearch={setSearch}
+          />
+        </div>
+      }
+
       <div className="header__language">
         <LangSelect
           lang={lang}
