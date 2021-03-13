@@ -1,6 +1,7 @@
 import React from 'react';
 import SearchInput from './SearchInput';
 import LangSelect from './LangSelect';
+import { Link } from 'react-router-dom';
 
 interface HeaderProps{
   lang: string,
@@ -14,13 +15,13 @@ const Header = (props: HeaderProps):JSX.Element => {
   return (
     <header className="header">
       <div className="header__logo">
-        <a href="/">
+        <Link to="/">
           <img
             className="header__logo"
             src="assets/images/logo.svg"
             alt="Oleg Vaskevich"
           />
-        </a>
+        </Link>
       </div>
       <div className="header__search">
         <SearchInput

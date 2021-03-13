@@ -5,10 +5,11 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles({
   root: {
-    width: 350,
+    // width: 350,
     margin: 10,
   },
   media: {
@@ -42,25 +43,27 @@ export default function MediaCard(props: CountryData):JSX.Element {
   const { country, lang } = props;
   const { name, capital, avatar } = country;
 
-
   return (
-    <Card className={classes.root}>
-      <CardActionArea >
-        <CardMedia
-          className={classes.media}
-          image={avatar}
-          title={name[lang]}
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            {name[lang]}
-          </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            {capital[lang]}
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-    </Card>
+    <Link to="/country">
+      <Card className={classes.root}>
+        <CardActionArea >
+          <CardMedia
+            className={classes.media}
+            image={avatar}
+            title={name[lang]}
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="h2" >
+              {name[lang]}
+            </Typography>
+            <Typography variant="body2" color="textSecondary" component="p">
+              {capital[lang]}
+            </Typography>
+          </CardContent>
+        </CardActionArea>
+      </Card>
+    </Link>
+
   );
 }
 

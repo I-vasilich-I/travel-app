@@ -1,7 +1,6 @@
 import React from 'react';
 import CountryCard from './CountryCard';
 import data from '../../data/data';
-
 interface Language {
   lang: string
 }
