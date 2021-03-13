@@ -12,7 +12,11 @@ import {
 } from "react-router-dom";
 
 const App = ():JSX.Element  => {
-  const [lang, setLang] = useState('ru');
+  const getLanguage = () => {
+    const localStorageLang = localStorage.getItem('language') || null;
+    return localStorageLang ? JSON.parse(localStorageLang) : 'ru';
+  }
+  const [lang, setLang] = useState(getLanguage());
   const [search, setSearch] = useState('');
   const CountriesContainerRef:React.Ref<HTMLElement> = React.createRef();
 

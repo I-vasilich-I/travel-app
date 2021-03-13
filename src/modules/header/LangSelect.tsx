@@ -11,7 +11,8 @@ const useStyles = makeStyles((theme: Theme) =>
       minWidth: 40,
     },
     selectEmpty: {
-      marginTop: theme.spacing(2),
+      // marginTop: theme.spacing(2),
+      height: 40,
     },
   }),
 );
@@ -25,10 +26,13 @@ export default function SimpleSelect(props: Language):JSX.Element  {
   const classes = useStyles();
   const { lang, setLang } = props;
 
-  const handleChange = (event: React.ChangeEvent<{ value: unknown }>) => setLang(event.target.value as string);
+  const handleChange = (event: React.ChangeEvent<{ value: unknown }>) => {
+    setLang(event.target.value as string);
+    localStorage.setItem('language', JSON.stringify(event.target.value));
+  }
 
   return (
-    <div>
+    <>
       <FormControl className={classes.formControl}>
         <Select
           labelId="demo-simple-select-label"
@@ -41,6 +45,6 @@ export default function SimpleSelect(props: Language):JSX.Element  {
           <MenuItem value={'by'}>by</MenuItem>
         </Select>
       </FormControl>
-    </div>
+    </>
   );
 }

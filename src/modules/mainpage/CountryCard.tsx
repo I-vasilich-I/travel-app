@@ -6,11 +6,13 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import { Link } from 'react-router-dom';
+import { COLOR_MUI_PAPER_BACKGROUND } from '../constants';
 
 const useStyles = makeStyles({
   root: {
     // width: 350,
     margin: 10,
+    backgroundColor: COLOR_MUI_PAPER_BACKGROUND,
   },
   media: {
     height: 240,

@@ -12,7 +12,7 @@ const Footer = ():JSX.Element => {
           >
             <img
               className="github__logo"
-              src="assets/images/GitHub-Mark.png"
+              src="assets/images/GitHub.svg"
               alt="Oleg Vaskevich"
             />
         </a>
@@ -24,7 +24,7 @@ const Footer = ():JSX.Element => {
           >
             <img
               className="github__logo"
-              src="assets/images/GitHub-Mark.png"
+              src="assets/images/GitHub.svg"
               alt="Denis Korotkevich"
             />
         </a>

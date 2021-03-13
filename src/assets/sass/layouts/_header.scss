@@ -9,7 +9,8 @@
 }
 
 .header__logo {
-  height: 50px;
+  height: 40px;
+  margin-bottom: 10px;
   transition: .3s ease-in-out;
   &:hover {
     transform: scale(1.1);
