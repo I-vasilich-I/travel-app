@@ -1,9 +1,12 @@
 // base
 // @import './base/reset';
 @import "~normalize.css";
-// layouts
+@import "../fonts/weather/owfont-regular.min.css";
+@import "./base/base";
 @import './layouts/header';
 @import './layouts/main';
 @import './layouts/footer';
 @import "./layouts/imageSlider";
 @import './layouts/countryPage';
+@import './layouts/videoPlayer';
+@import './layouts/weatherWidget';
