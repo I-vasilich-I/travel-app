@@ -3,6 +3,11 @@ import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
+import {
+  LANGUAGE_1,
+  LANGUAGE_2,
+  LANGUAGE_3,
+} from '../constants';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -40,9 +45,9 @@ export default function SimpleSelect(props: Language):JSX.Element  {
           value={lang}
           onChange={handleChange}
         >
-          <MenuItem value={'ru'}>ru</MenuItem>
-          <MenuItem value={'en'}>en</MenuItem>
-          <MenuItem value={'by'}>by</MenuItem>
+          <MenuItem value={LANGUAGE_1}>{LANGUAGE_1}</MenuItem>
+          <MenuItem value={LANGUAGE_2}>{LANGUAGE_2}</MenuItem>
+          <MenuItem value={LANGUAGE_3}>{LANGUAGE_3}</MenuItem>
         </Select>
       </FormControl>
     </>
