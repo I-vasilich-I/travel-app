@@ -1,6 +1,7 @@
 const data = [
   {
     avatar: "../assets/images/belarus.jpg",
+    path: "Belarus",
     name: {
       ru: "Республика Беларусь",
       en: "Republic of Belarus",
@@ -28,6 +29,7 @@ const data = [
   },
   {
     avatar: "../assets/images/Russia.jpg",
+    path: "Russia",
     name: {
       ru: "Российская Федерация",
       en: "Russian Federation",
@@ -54,6 +56,7 @@ const data = [
   },
   {
     avatar: "../assets/images/ukraina.jpg",
+    path: "Ukraine",
     name: {
       ru: "Украина",
       en: "Ukraine",
@@ -81,6 +84,7 @@ const data = [
   },
   {
     avatar: "../assets/images/Poland.jpg",
+    path: "Poland",
     name: {
       ru: "Польша",
       en: "Poland",
@@ -107,6 +111,7 @@ const data = [
   },
   {
     avatar: "../assets/images/Lithuania.jpg",
+    path: "Lithuania",
     name: {
       ru: "Литва",
       en: "Lithuania",
@@ -134,6 +139,7 @@ const data = [
   },
   {
     avatar: "../assets/images/Latvia.jpg",
+    path: "Latvia",
     name: {
       ru: "Латвия",
       en: "Latvia",
@@ -161,6 +167,7 @@ const data = [
   },
   {
     avatar: "../assets/images/USA.jpg",
+    path: "USA",
     name: {
       ru: "США",
       en: "USA",
@@ -188,6 +195,7 @@ const data = [
   },
   {
     avatar: "../assets/images/GB.jpg",
+    path: "Great-Britain",
     name: {
       ru: "Великобритания",
       en: "Great Britain",

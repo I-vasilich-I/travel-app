@@ -22,6 +22,7 @@ const useStyles = makeStyles({
 interface CountryData {
   country: {
     avatar: string,
+    path: string,
     name: {
       [lang: string]: string,
     },
@@ -43,10 +44,10 @@ interface CountryData {
 export default function MediaCard(props: CountryData):JSX.Element {
   const classes = useStyles();
   const { country, lang } = props;
-  const { name, capital, avatar } = country;
+  const { name, capital, avatar, path } = country;
 
   return (
-    <Link to="/country">
+    <Link to={path}>
       <Card className={classes.root}>
         <CardActionArea >
           <CardMedia
@@ -65,7 +66,6 @@ export default function MediaCard(props: CountryData):JSX.Element {
         </CardActionArea>
       </Card>
     </Link>
-
   );
 }
 
