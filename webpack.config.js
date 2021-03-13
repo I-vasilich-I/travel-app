@@ -6,7 +6,7 @@ const HTMLWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 
-// const CopyWebpackPlugin = require('copy-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 
 // const isDev = process.env.NODE_ENV === 'development';
@@ -161,18 +161,18 @@ module.exports = (env, options) => {
       //   fix: true,
       // }),
 
-      // new CopyWebpackPlugin({
-      //   patterns: [
-      //     // { from: 'src/assets/audio/shifting.wav'},
-      //     // { from: 'src/assets/audio/', to: 'assets/audio/' },
-      //     // { from: 'src/assets/images/svg/favicon.svg' },
-      //     // { from: 'favicon.svg' },
-      //     // { from: 'src/assets/images/', to: 'assets/images/' },
-      //     // { from: 'src/assets/icons/', to: 'assets/icons/' },
-      //     // { from: "src/assets/favicon/", to: "assets/favicon/" },
-      //     // { from: 'src/assets/fonts/', to: 'assets/fonts/' },
-      //   ],
-      // }),
+      new CopyWebpackPlugin({
+        patterns: [
+          // { from: 'src/assets/audio/shifting.wav'},
+          // { from: 'src/assets/audio/', to: 'assets/audio/' },
+          // { from: 'src/assets/images/svg/favicon.svg' },
+          // { from: 'favicon.svg' },
+          { from: 'src/assets/images/', to: 'assets/images/' },
+          // { from: 'src/assets/icons/', to: 'assets/icons/' },
+          // { from: "src/assets/favicon/", to: "assets/favicon/" },
+          // { from: 'src/assets/fonts/', to: 'assets/fonts/' },
+        ],
+      }),
       new ForkTsCheckerWebpackPlugin({
         async: false,
         eslint: {

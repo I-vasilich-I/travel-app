@@ -2,12 +2,12 @@ import React from 'react';
 import ImageSlider from "./ImageSlider";
 import {ImagesSlideType} from "./ImageSlide";
 
-import firstImage from "../assets/images/1.jpg";
-import secondImage from "../assets/images/2.jpg";
-import thirdImage from "../assets/images/3.jpg";
-import fourthImage from "../assets/images/4.jpg";
-import fifthImage from "../assets/images/5.jpg";
-import sixthImage from "../assets/images/6.jpg";
+import firstImage from "../../assets/images/1.jpg";
+import secondImage from "../../assets/images/2.jpg";
+import thirdImage from "../../assets/images/3.jpg";
+import fourthImage from "../../assets/images/4.jpg";
+import fifthImage from "../../assets/images/5.jpg";
+import sixthImage from "../../assets/images/6.jpg";
 import VideoPlayer from "./VideoPlayer";
 import WeatherWidget from "./WeatherWidget";
 

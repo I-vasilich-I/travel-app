@@ -1,8 +1,8 @@
 import React from 'react';
 import CountryInfo from "./CountryInfo";
 
-import Belarus from '../assets/images/belarus.jpg';
-import FlagBel from '../assets/images/flag.png'
+import Belarus from '../../assets/images/belarus.jpg';
+import FlagBel from '../../assets/images/flag.png'
 import CountryContent from "./CountryContent";
 
 function CountryPage(): JSX.Element {
