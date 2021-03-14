@@ -4,9 +4,9 @@ const LANGUAGE_1 = 'ru';
 const LANGUAGE_2 = 'en';
 const LANGUAGE_3 = 'de';
 const DEFAULT_LANGUAGE = LANGUAGE_1;
-const SEARCH_PLACE_HOLDER_LANG_1 = 'Введите страну или сталицу';
-const SEARCH_PLACE_HOLDER_LANG_2 = 'Search country or capital';
-const SEARCH_PLACE_HOLDER_LANG_3 = 'Suche Land oder Hauptstadt';
+const SEARCH_PLACE_HOLDER_LANG_1 = 'Введите страну/сталицу';
+const SEARCH_PLACE_HOLDER_LANG_2 = 'Search country/capital';
+const SEARCH_PLACE_HOLDER_LANG_3 = 'Suche Land/Hauptstadt';
 
 export {
   COLOR_MUI_PAPER_BACKGROUND,
