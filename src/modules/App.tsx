@@ -3,6 +3,8 @@ import Header from './header/Header';
 import CountriesContainer from './mainpage/CountriesContainer';
 import Footer from './footer/Footer';
 import CountryPage from "./countrypage/CountryPage";
+import { DEFAULT_LANGUAGE } from './constants';
+import data from '../data/data';
 import {
   BrowserRouter as Router,
   // HashRouter as Router,
@@ -12,10 +14,13 @@ import {
 } from "react-router-dom";
 
 const App = ():JSX.Element  => {
-  const [lang, setLang] = useState('ru');
+  const getLanguage = () => {
+    const localStorageLang = localStorage.getItem('language') || null;
+    return localStorageLang ? JSON.parse(localStorageLang) : DEFAULT_LANGUAGE;
+  }
+  const [lang, setLang] = useState(getLanguage());
   const [search, setSearch] = useState('');
   const CountriesContainerRef:React.Ref<HTMLElement> = React.createRef();
-
   // filter country cards by search input
   useEffect(() => {
     const childrenArray = CountriesContainerRef.current?.children;
@@ -53,9 +58,13 @@ const App = ():JSX.Element  => {
               ref={CountriesContainerRef}
             />
           </Route>
-          <Route path="/country">
-            <CountryPage />
-          </Route>
+          {data.map((elem, id) => (
+            <Route key={id} path={`/${elem.path}`}>
+              <CountryPage />
+            </Route>
+          ))
+          }
+
         </Switch>
       </main>
       <Footer />
