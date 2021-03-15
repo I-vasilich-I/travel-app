@@ -72,19 +72,291 @@
   },
   {
     "name":{
-      "ru":"Российская Федерация",
-      "en":"Russian Federation",
-      "de":"Russische Föderation"
+      "ru":"Польша",
+      "en":"Poland",
+      "de":"Polen"
     },
     "capital":{
-      "ru":"Москва",
-      "en":"Moscow",
-      "de":"Moskau"
+      "ru":"Варшава",
+      "en":"Warsaw",
+      "de":"Warschau"
     },
     "region":{
-      "ru":"Восточная Европа/Северная Азия",
-      "en":"Eastern Europe/North Asia",
-      "de":"Osteuropa/Nordasien"
+      "ru":"Центральная Европа",
+      "en":"Central Europe",
+      "de":"Zentraleuropa"
+    },
+    "languages":{
+      "ru": [
+        "Польский"
+      ],
+      "en": [
+        "Polish"
+      ],
+      "de": [
+        "Polieren"
+      ]
+    },
+    "avatar":"../assets/images/Poland.jpg",
+    "path":"Poland",
+    "population":37817529,
+    "area":312679,
+    "currency":"PLN",
+    "flag":"../assets/images/Poland/Flag-Poland.jpg"
+  },
+  {
+    "name":{
+      "ru":"США",
+      "en":"USA",
+      "de":"USA"
+    },
+    "capital":{
+      "ru":"Вашингтон",
+      "en":"Washington",
+      "de":"Washington"
+    },
+    "region":{
+      "ru":"Северная Америка",
+      "en":"North America",
+      "de":"Nordamerika"
+    },
+    "languages":{
+      "ru": [
+        "Английский"
+      ],
+      "en": [
+        "English"
+      ],
+      "de": [
+        "Englisch"
+      ]
+    },
+    "avatar":"../assets/images/USA/USA.jpg",
+    "path":"USA",
+    "population":332380049,
+    "area":9834000,
+    "currency":"USD",
+    "flag":"../assets/images/USA/Flag_USA.png"
+  },
+  {
+    "name":{
+      "ru":"Англия",
+      "en":"England",
+      "de":"England"
+    },
+    "capital":{
+      "ru":"Лондон",
+      "en":"London",
+      "de":"London"
+    },
+    "region":{
+      "ru":"Европа",
+      "en":"Europe",
+      "de":"Europa"
+    },
+    "languages":{
+      "ru": [
+        "Английский"
+      ],
+      "en": [
+        "English"
+      ],
+      "de": [
+        "Englisch"
+      ]
+    },
+    "avatar":"../assets/images/England/England.jpg",
+    "path":"England",
+    "population":56286961,
+    "area":130279,
+    "currency":"GBP",
+    "flag":"../assets/images/England/Flag_England.jpg"
+  },
+  {
+    "name":{
+      "ru":"",
+      "en":"",
+      "de":""
+    },
+    "capital":{
+      "ru":"",
+      "en":"",
+      "de":""
+    },
+    "region":{
+      "ru":"",
+      "en":"",
+      "de":""
+    },
+    "languages":{
+      "ru": [
+        "Русский"
+      ],
+      "en": [
+        "Russian"
+      ],
+      "de": [
+        "Russisch"
+      ]
+    },
+    "avatar":"../assets/images/Russia.jpg",
+    "path":"Russia",
+    "population":146238185,
+    "area":17125191,
+    "currency":"RUB",
+    "flag":"../assets/images/Flag_of_Russia.png"
+  },
+  {
+    "name":{
+      "ru":"",
+      "en":"",
+      "de":""
+    },
+    "capital":{
+      "ru":"",
+      "en":"",
+      "de":""
+    },
+    "region":{
+      "ru":"",
+      "en":"",
+      "de":""
+    },
+    "languages":{
+      "ru": [
+        "Русский"
+      ],
+      "en": [
+        "Russian"
+      ],
+      "de": [
+        "Russisch"
+      ]
+    },
+    "avatar":"../assets/images/Russia.jpg",
+    "path":"Russia",
+    "population":146238185,
+    "area":17125191,
+    "currency":"RUB",
+    "flag":"../assets/images/Flag_of_Russia.png"
+  },
+  {
+    "name":{
+      "ru":"",
+      "en":"",
+      "de":""
+    },
+    "capital":{
+      "ru":"",
+      "en":"",
+      "de":""
+    },
+    "region":{
+      "ru":"",
+      "en":"",
+      "de":""
+    },
+    "languages":{
+      "ru": [
+        "Русский"
+      ],
+      "en": [
+        "Russian"
+      ],
+      "de": [
+        "Russisch"
+      ]
+    },
+    "avatar":"../assets/images/Russia.jpg",
+    "path":"Russia",
+    "population":146238185,
+    "area":17125191,
+    "currency":"RUB",
+    "flag":"../assets/images/Flag_of_Russia.png"
+  },
+  {
+    "name":{
+      "ru":"",
+      "en":"",
+      "de":""
+    },
+    "capital":{
+      "ru":"",
+      "en":"",
+      "de":""
+    },
+    "region":{
+      "ru":"",
+      "en":"",
+      "de":""
+    },
+    "languages":{
+      "ru": [
+        "Русский"
+      ],
+      "en": [
+        "Russian"
+      ],
+      "de": [
+        "Russisch"
+      ]
+    },
+    "avatar":"../assets/images/Russia.jpg",
+    "path":"Russia",
+    "population":146238185,
+    "area":17125191,
+    "currency":"RUB",
+    "flag":"../assets/images/Flag_of_Russia.png"
+  },
+  {
+    "name":{
+      "ru":"",
+      "en":"",
+      "de":""
+    },
+    "capital":{
+      "ru":"",
+      "en":"",
+      "de":""
+    },
+    "region":{
+      "ru":"",
+      "en":"",
+      "de":""
+    },
+    "languages":{
+      "ru": [
+        "Русский"
+      ],
+      "en": [
+        "Russian"
+      ],
+      "de": [
+        "Russisch"
+      ]
+    },
+    "avatar":"../assets/images/Russia.jpg",
+    "path":"Russia",
+    "population":146238185,
+    "area":17125191,
+    "currency":"RUB",
+    "flag":"../assets/images/Flag_of_Russia.png"
+  },
+  {
+    "name":{
+      "ru":"",
+      "en":"",
+      "de":""
+    },
+    "capital":{
+      "ru":"",
+      "en":"",
+      "de":""
+    },
+    "region":{
+      "ru":"",
+      "en":"",
+      "de":""
     },
     "languages":{
       "ru": [
