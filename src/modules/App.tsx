@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, {useState, useEffect} from 'react';
 import Header from './header/Header';
 import CountriesContainer from './mainpage/CountriesContainer';
 import Footer from './footer/Footer';
@@ -19,7 +19,7 @@ const App = ():JSX.Element  => {
   }
   const [lang, setLang] = useState(getLanguage());
   const [search, setSearch] = useState('');
-  const CountriesContainerRef:React.Ref<HTMLElement> = React.createRef();
+  const CountriesContainerRef: React.Ref<HTMLElement> = React.createRef();
 
   const [countriesData, setCountriesData] = useState([]);
   const [isLoaded, setIsLoaded] = useState(false);
@@ -50,10 +50,10 @@ const App = ():JSX.Element  => {
         const isContain = countryName.includes(search.toLowerCase()) || countryCapital.includes(search.toLowerCase());
         return !isContain;
       })
-      .map((elem) => elem.classList.add('hidden'));
+        .map((elem) => elem.classList.add('hidden'));
     }
 
-  }, [search, CountriesContainerRef ]);
+  }, [search, CountriesContainerRef]);
 
   return (
     <Router>
@@ -86,7 +86,7 @@ const App = ():JSX.Element  => {
           </div>
         }
       </main>
-      <Footer />
+      <Footer/>
     </Router>
   )
 }
