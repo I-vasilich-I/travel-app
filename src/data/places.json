@@ -588,86 +588,86 @@
     ]
   },
   {
-    "path":"",
-    "videoUrl": "https://www.youtube.com/watch?v=Nye_O4PEh7k",
+    "path":"USA",
+    "videoUrl": "https://www.youtube.com/watch?v=b7FNvq11CEw&t=3s",
     "places": [
       {
         "name": {
-          "ru": "",
-          "en": "",
-          "de": ""
+          "ru": "Большой Каньон",
+          "en": "Grand Canyon",
+          "de": "Grand Canyon"
         },
         "info": {
-          "ru": "",
-          "en": "",
-          "de": ""
+          "ru": "Гранд-Каньон расположен в северной части Аризоны и является одной из величайших туристических достопримечательностей Соединенных Штатов. Вырезанный на протяжении нескольких миллионов лет рекой Колорадо, каньон достигает глубины более 1,6 км (1 мили) и 446 км (277 миль) в длину.",
+          "en": "The Grand Canyon is located in northern Arizona and is one of the great tourist attractions in the United States. Carved over several million years by the Colorado River, the canyon attains a depth of over 1.6 km (1 mile) and 446 km (277 miles) long.",
+          "de": "Der Grand Canyon befindet sich im Norden von Arizona und ist eine der größten Touristenattraktionen in den Vereinigten Staaten. Der vom Colorado River über mehrere Millionen Jahre geschnitzte Canyon erreicht eine Tiefe von über 1,6 km und eine Länge von 446 km."
         },
-        "img": "../assets/images/Peru/"
+        "img": "../assets/images/USA/grand_canyon.jpg"
       },
       {
         "name": {
-          "ru": "",
-          "en": "",
-          "de": ""
+          "ru": "Йеллоустон",
+          "en": "Yellowstone",
+          "de": "Yellowstone"
         },
         "info": {
-          "ru": "",
-          "en": "",
-          "de": ""
+          "ru": "Йеллоустонский национальный парк был первым в мире национальным парком, созданным в 1872 году для сохранения огромного количества гейзеров, горячих источников и других термальных зон, а также для защиты невероятной дикой природы и суровой красоты местности. Йеллоустон находится на вершине гигантской горячей точки, где легкие, горячие, расплавленные мантийные породы поднимаются к поверхности.",
+          "en": "Yellowstone National Park was the world’s first national park, set aside in 1872 to preserve the vast number of geysers, hot springs, and other thermal areas, as well as to protect the incredible wildlife and rugged beauty of the area. Yellowstone lies on top of a gigantic hotspot where light, hot, molten mantle rock rises towards the surface.",
+          "de": "Der Yellowstone-Nationalpark war der erste Nationalpark der Welt, der 1872 zur Erhaltung der großen Anzahl von Geysiren, heißen Quellen und anderen Thermalgebieten sowie zum Schutz der unglaublichen Tierwelt und der rauen Schönheit der Region eingerichtet wurde. Yellowstone liegt auf einem riesigen Hotspot, an dem leichtes, heißes, geschmolzenes Mantelgestein an die Oberfläche steigt."
         },
-        "img": "../assets/images/Peru/"
+        "img": "../assets/images/USA/yellowstone.jpg"
       },
       {
         "name": {
-          "ru": "",
-          "en": "",
-          "de": ""
+          "ru": "Мост Золотые Ворота в Сан-Франциско",
+          "en": "Golden Gate Bridge in San Francisco",
+          "de": "Golden Gate Bridge in San Francisco"
         },
         "info": {
-          "ru": "",
-          "en": "",
-          "de": ""
+          "ru": "Мост Золотые Ворота был самым длинным пролетом подвесного моста в мире, когда он был построен в 1937 году, и стал всемирно признанным символом Сан-Франциско и Калифорнии. Знаменитый красно-оранжевый цвет моста был выбран специально, чтобы сделать его более заметным в густом тумане, который часто окутывает мост.",
+          "en": "The Golden Gate Bridge was the longest suspension bridge span in the world when it was completed in 1937, and has become an internationally recognized symbol of San Francisco and California. The famous red-orange color of the bridge was specifically chosen to make the bridge more easily visible through the thick fog that frequently shrouds the bridge.",
+          "de": "Die Golden Gate Bridge war die längste Hängebrücke der Welt, als sie 1937 fertiggestellt wurde, und hat sich zu einem international anerkannten Symbol für San Francisco und Kalifornien entwickelt. Die berühmte rot-orange Farbe der Brücke wurde speziell gewählt, um die Brücke durch den dichten Nebel, der die Brücke häufig bedeckt, besser sichtbar zu machen."
         },
-        "img": "../assets/images/Peru/"
+        "img": "../assets/images/USA/golden_gate_bridge.jpg"
       },
       {
         "name": {
-          "ru": "",
-          "en": "",
-          "de": ""
+          "ru": "Ниагарский водопад",
+          "en": "Niagara Falls",
+          "de": "Niagarafälle"
         },
         "info": {
-          "ru": "",
-          "en": "",
-          "de": ""
+          "ru": "Ниагарский водопад, расположенный между штатом Нью-Йорк и провинцией Онтарио, является одним из самых впечатляющих природных чудес на североамериканском континенте. Ниагарский водопад - это на самом деле три разных водопада: Американский водопад, водопад Фата невесты и водопад Подкова.",
+          "en": "Situated between the state of New York and the province of Ontario, Niagara Falls is one of the most spectacular natural wonders on the North American continent. Niagara Falls is actually three different falls, the American Falls, Bridal Veil Falls and Horseshoe Falls.",
+          "de": "Die Niagarafälle liegen zwischen dem Bundesstaat New York und der Provinz Ontario und sind eines der spektakulärsten Naturwunder des nordamerikanischen Kontinents. Niagara Falls ist eigentlich drei verschiedene Fälle, die American Falls, Bridal Veil Falls und Horseshoe Falls."
         },
-        "img": "../assets/images/Peru/"
+        "img": "../assets/images/USA/niagara_falls.jpg"
       },
       {
         "name": {
-          "ru": "",
-          "en": "",
-          "de": ""
+          "ru": "Лас-Вегас-Стрип",
+          "en": "Las Vegas Strip",
+          "de": "Las Vegas Strip"
         },
         "info": {
-          "ru": "",
-          "en": "",
-          "de": ""
+          "ru": "Мекка азартных игр мира, Лас-Вегас расположен посреди пустынного ландшафта южной Невады. Казино можно найти по всему Лас-Вегасу, но большинство из них находится на южной части бульвара Лас-Вегаса.",
+          "en": "The gambling mecca of the world, Las Vegas is situated in the midst of the southern Nevada desert landscape. Casinos can be found throughout Las Vegas, but the strip, a stretch of Las Vegas Boulevard South, contains the most of them.",
+          "de": "Las Vegas, das Glücksspiel-Mekka der Welt, liegt inmitten der südlichen Wüstenlandschaft von Nevada. Casinos gibt es in ganz Las Vegas, aber der Strip, ein Abschnitt des Las Vegas Boulevard South, enthält die meisten davon."
         },
-        "img": "../assets/images/Peru/"
+        "img": "../assets/images/USA/las_vegas_strip.jpg"
       },
       {
         "name": {
-          "ru": "",
-          "en": "",
-          "de": ""
+          "ru": "Мир Уолта Диснея в Орландо",
+          "en": "Walt Disney World in Orlando",
+          "de": "Walt Disney World in Orlando"
         },
         "info": {
-          "ru": "",
-          "en": "",
-          "de": ""
+          "ru": "Орландо, штат Флорида, является центром парков развлечений, но ни один из них не пользуется такой популярностью, как Мир Уолта Диснея. Многие путешественники не догадываются, что Мир Уолта Диснея на самом деле состоит из нескольких тематических парков, включая Волшебное королевство, Эпкот, Голливудские студии, Царство животных и аквапарк Blizzard Beach.",
+          "en": "Orlando, Florida, is a hub of amusement parks, but none is so popular as Walt Disney World. Many travelers don’t realize that Walt Disney World is actually made up of several distinct theme parks, including the Magic Kingdom, Epcot, Hollywood Studios, Animal Kingdom and the Blizzard Beach Water Park.",
+          "de": "Orlando, Florida, ist ein Zentrum für Vergnügungsparks, aber keiner ist so beliebt wie Walt Disney World. Vielen Reisenden ist nicht klar, dass Walt Disney World tatsächlich aus mehreren unterschiedlichen Themenparks besteht, darunter das Magic Kingdom, Epcot, die Hollywood Studios, das Animal Kingdom und der Blizzard Beach Water Park."
         },
-        "img": "../assets/images/Peru/"
+        "img": "../assets/images/USA/walt_disney_world.jpg"
       }
     ]
   }
