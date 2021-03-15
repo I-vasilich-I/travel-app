@@ -252,6 +252,109 @@
     ]
   },
   {
+    "path":"Brazil",
+    "videoUrl": "https://www.youtube.com/watch?v=q7zdJ-nMrlE",
+    "places": [
+      {
+        "name": {
+          "ru": "Кристо Редентор и Корковадо, Рио-де-Жанейро",
+          "en": "Cristo Redentor and Corcovado, Rio de Janeiro",
+          "de": "Cristo Redentor und Corcovado, Rio de Janeiro"
+        },
+        "info": {
+          "ru": "С вытянутыми руками на 28 метров, как если бы охватывала все человечество, колоссальная статуя Христа в стиле ар-деко, называемая Cristo Redentor (Христос-Искупитель), смотрит на Рио-де-Жанейро и залив с вершины Корковадо.",
+          "en": "With arms outstretched 28 meters, as if to encompass all of humanity, the colossal Art Deco statue of Christ, called Cristo Redentor (Christ the Redeemer), gazes out over Rio de Janeiro and the bay from the summit of Corcovado.",
+          "de": "Mit 28 Metern ausgestreckten Armen, als wollte sie die gesamte Menschheit erfassen, blickt die kolossale Art-Deco-Statue Christi namens Cristo Redentor (Christus der Erlöser) vom Gipfel des Corcovado über Rio de Janeiro und die Bucht."
+        },
+        "img": "../assets/images/Brazil/brazil-rio-de-janeiro-cristo-redentor.jpg"
+      },
+      {
+        "name": {
+          "ru": "Сахарная голова, Рио-де-Жанейро",
+          "en": "Sugar Loaf, Rio de Janeiro",
+          "de": "Zuckerhut, Rio de Janeiro"
+        },
+        "info": {
+          "ru": "Легко узнаваемая эмблема Рио-де-Жанейро, округлая скала Сахарная голова выступает из покрытого деревьями мыса, возвышаясь на 394 метра над пляжами и городом. Его вершина - одно из первых мест, которое стоит посетить для туристов, чтобы полюбоваться видами Рио и гавани, а также испытать острые ощущения от езды на канатной дороге между Сахарной Головой и Морро-да-Урка, более низкой вершиной, с которой соединяется вторая канатная дорога. в город.",
+          "en": "The easily recognized emblem of Rio de Janeiro, the rounded rock peak of Sugar Loaf juts out of a tree-covered promontory, rising 394 meters above the beaches and city. Its summit is one of the first places to visit for tourists, for views of Rio and the harbor, and for the thrill of riding suspended in a cable car between Sugar Loaf and the Morro da Urca, a lower peak from which a second cableway connects to the city.",
+          "de": "Das leicht zu erkennende Wahrzeichen von Rio de Janeiro, der abgerundete Felsgipfel des Zuckerhuts, ragt aus einem mit Bäumen bewachsenen Vorgebirge heraus und erhebt sich 394 Meter über den Stränden und der Stadt. Der Gipfel ist einer der ersten Orte für Touristen, für die Aussicht auf Rio und den Hafen sowie für den Nervenkitzel, in einer Seilbahn zwischen dem Zuckerhut und dem Morro da Urca zu fahren, einem unteren Gipfel, von dem aus eine zweite Seilbahn verbunden ist in die Stadt."
+        },
+        "img": "../assets/images/Brazil/brazil-rio-de-janeiro-sugar-loaf.jpg"
+      },
+      {
+        "name": {
+          "ru": "Водопады Игуасу",
+          "en": "Iguazu Falls",
+          "de": "Iguazu Falls"
+        },
+        "info": {
+          "ru": "В том месте, где встречаются Бразилия, Парагвай и Аргентина, река Игуасу эффектно обрывается полукругом из 247 водопадов, которые с грохотом ниспадают в ущелье внизу. Прямо над водопадом река сужена до одной четвертой своей обычной ширины, что усиливает силу воды.",
+          "en": "At the point where Brazil, Paraguay, and Argentina meet, the Iguaçu river drops spectacularly in a semicircle of 247 waterfalls that thunder down into the gorge below. Just above the falls, the river is constricted to one-fourth of its usual width, making the force of the water even stronger.At the point where Brazil, Paraguay, and Argentina meet, the Iguaçu river drops spectacularly in a semicircle of 247 waterfalls that thunder down into the gorge below. Just above the falls, the river is constricted to one-fourth of its usual width, making the force of the water even stronger.",
+          "de": "An dem Punkt, an dem sich Brasilien, Paraguay und Argentinien treffen, fällt der Fluss Iguaçu spektakulär in einen Halbkreis von 247 Wasserfällen ab, die in die darunter liegende Schlucht donnern. Unmittelbar über den Wasserfällen ist der Fluss auf ein Viertel seiner üblichen Breite eingeengt, wodurch die Kraft des Wassers noch stärker wird."
+        },
+        "img": "../assets/images/Brazil/foz-do-iguacu.jpg"
+      },
+      {
+        "name": {
+          "ru": "Копакабана, Рио-де-Жанейро",
+          "en": "Copacabana, Rio de Janeiro",
+          "de": "Copacabana, Rio de Janeiro"
+        },
+        "info": {
+          "ru": "Самый модный и знаменитый район центра Рио следует за Авенида Носа-Сеньора-де-Копакабана и граничит с одной стороны четырьмя километрами белого песка и серфингом. Пляж отделен от зданий и движения широкой набережной, вымощенной черно-белой мозаикой с волнистым рисунком, напоминающим улицы Лиссабона, Португалия.",
+          "en": "Downtown Rio's most fashionable and famous section follows Avenida Nossa Senhora de Copacabana and is bordered all along one side by four kilometers of white sand and breaking surf. The beach is separated from the buildings and traffic by a broad promenade paved in black and white mosaic in an undulating pattern reminiscent of streets in Lisbon, Portugal.",
+          "de": "Der angesagteste und berühmteste Abschnitt der Innenstadt von Rio folgt der Avenida Nossa Senhora de Copacabana und wird auf einer Seite von vier Kilometern weißem Sand und brechender Brandung begrenzt. Der Strand ist von den Gebäuden und dem Verkehr durch eine breite Promenade getrennt, die mit einem schwarz-weißen Mosaik in einem welligen Muster gepflastert ist, das an Straßen in Lissabon, Portugal, erinnert."
+        },
+        "img": "../assets/images/Brazil/brazil-rio-de-janeiro-copacabana.jpg"
+      },
+      {
+        "name": {
+          "ru": "Ипанема",
+          "en": "Ipanema",
+          "de": "Ipanema"
+        },
+        "info": {
+          "ru": "Помимо пляжей Копакабаны, великолепный белый песок сливается с столь же знаменитыми пляжами Ипанемы. Тот же волновой дизайн широкой набережной Копакабаны продолжается и здесь, отделяя песок от ряда отелей, ресторанов, кафе, художественных галерей и кинотеатров, которые делают это место популярной общественной зоной круглый год.",
+          "en": "Beyond the beaches of Copacabana, the glorious white sands merge into the just-as-famous beaches of Ipanema. The same wave design of Copacabana's wide promenade continues here, separating the sand from the line of hotels, restaurants, cafés, art galleries, and cinemas that make this a popular social zone year-round.",
+          "de": "Jenseits der Strände der Copacabana verschmelzen die herrlichen weißen Sande mit den ebenso berühmten Stränden von Ipanema. Das gleiche Wellendesign der breiten Promenade von Copacabana setzt sich hier fort und trennt den Sand von der Reihe von Hotels, Restaurants, Cafés, Kunstgalerien und Kinos, die diese Zone das ganze Jahr über zu einer beliebten sozialen Zone machen."
+        },
+        "img": "../assets/images/Brazil/brazil-top-attractions-ipanema.jpg"
+      },
+      {
+        "name": {
+          "ru": "Дождевые леса Амазонки",
+          "en": "Amazon Rain Forests",
+          "de": "Amazonas-Regenwälder"
+        },
+        "info": {
+          "ru": "Примерно в 20 километрах к юго-востоку от Манауса темные воды Рио-Негро встречаются со светлой мутной водой Рио-Солимоэнс, протекая бок о бок примерно на шесть километров, прежде чем смешаться с Амазонкой. Морские прогулки из Манауса приведут вас к этой точке, называемой Encontro das Aguas, слиянием вод.",
+          "en": "About 20 kilometers southeast of Manaus, the dark Rio Negro waters meet the light muddy water of the Rio Solimões, flowing side by side for about six kilometers before mixing as the Amazon. Boat trips from Manaus take you to this point, called Encontro das Aguas, meeting of the waters.",
+          "de": "Ungefähr 20 Kilometer südöstlich von Manaus treffen die dunklen Gewässer des Rio Negro auf das leichte schlammige Wasser des Rio Solimões, das etwa sechs Kilometer nebeneinander fließt, bevor es sich als Amazonas mischt. Bootsfahrten von Manaus bringen Sie zu diesem Punkt, dem Encontro das Aguas, dem Treffen der Gewässer."
+        },
+        "img": "../assets/images/Brazil/brazil-amazon-rain-forest.jpg"
+      }
+    ]
+  },
+  {
+    "path":"",
+    "videoUrl": "",
+    "places": [
+      {
+        "name": {
+          "ru": "",
+          "en": "",
+          "de": ""
+        },
+        "info": {
+          "ru": "",
+          "en": "",
+          "de": ""
+        },
+        "img": "../assets/images/Poland/main_market_square.jpg"
+      }
+    ]
+  },
+  {
     "path":"",
     "videoUrl": "",
     "places": [
