@@ -1,0 +1,170 @@
+[
+  {
+    "path":"Russia",
+    "videoUrl": "https://www.youtube.com/watch?v=YrNxPr4PKQo",
+    "places": [
+      {
+        "name": {
+          "ru": "Гора Эльбрус",
+          "en": "Mount Elbrus",
+          "de": "Berg Elbrus"
+        },
+        "info": {
+          "ru": "Гора Эльбрус расположена в Кавказском хребте на юге России. Эльбрус высотой 5642 метра (18 510 футов) входит в число семи вершин, высочайших вершин на каждом из семи континентов планеты, привлекающих как опытных, так и начинающих альпинистов. Хотя гора образовалась из вулкана, она считается бездействующей, извержений не зарегистрировано. Система канатной дороги может поднимать посетителей на высоту до 3800 метров (12500 футов), что облегчает восхождение на вершину.",
+          "en": "Mount Elbrus is located in the Caucasus Mountain Range in Southern Russia. At 5,642 meters (18,510 ft), Elbrus is included as one of the Seven Summits, the highest summits on each of the planet’s seven continents, attracting both experienced and novice mountain climbers. While the mountain was formed from a volcano, it is considered dormant, with no recorded eruptions. A cable car system can take visitors as high as 3,800 meters (12,500 ft), facilitating ascents to the summit.",
+          "de": "Der Elbrus liegt im Kaukasus in Südrussland. Mit 5.642 Metern gehört Elbrus zu den sieben Gipfeln, den höchsten Gipfeln auf jedem der sieben Kontinente des Planeten, und zieht sowohl erfahrene als auch unerfahrene Bergsteiger an. Während der Berg aus einem Vulkan geformt wurde, gilt er als ruhend, ohne dass Ausbrüche registriert wurden. Ein Seilbahnsystem kann Besucher bis zu 3.800 Meter hoch bringen und so den Aufstieg zum Gipfel erleichtern."
+        },
+        "img": "../assets/images/Russia/mount_elbrus.jpg"
+      },
+      {
+        "name": {
+          "ru": "Озеро Байкал",
+          "en": "Lake Baikal",
+          "de": "Baikalsee"
+        },
+        "info": {
+          "ru": "Многие путешественники по Транссибирской магистрали планируют остановиться на Байкале, самом глубоком и старейшем озере на Земле. Озеро Байкал содержит около 20 процентов пресной воды в мире. Озеро возрастом 25 миллионов лет, расположенное в Сибири, окружено горными хребтами. Озеро считается одним из самых чистых озер мира. Озеро Байкал, известное как Жемчужина Сибири, является домом для нескольких курортов, что делает его популярным местом отдыха.",
+          "en": "Many travelers on the Trans-Siberian railway make plans to stop at Lake Baikal, the deepest and oldest lake on Earth. Lake Baikal holds around 20 percent of the world’s fresh water. Located in Siberia, the 25-million-year-old lake is surrounded by mountain ranges. The lake is considered one of the clearest lakes in the world. Known as the Pearl of Siberia, Lake Baikal is home to several resorts, making the area a popular vacation destination.",
+          "de": "Viele Reisende der Transsibirischen Eisenbahn planen, am Baikalsee, dem tiefsten und ältesten See der Erde, Halt zu machen. Der Baikalsee enthält rund 20 Prozent des weltweiten Süßwassers. Der 25 Millionen Jahre alte See in Sibirien ist von Gebirgszügen umgeben. Der See gilt als einer der klarsten Seen der Welt. Der Baikalsee, der als Perle Sibiriens bekannt ist, beherbergt mehrere Ferienorte, was die Gegend zu einem beliebten Urlaubsziel macht."
+        },
+        "img": "../assets/images/Russia/lake_baikal.jpg"
+      },
+      {
+        "name": {
+          "ru": "Суздаль",
+          "en": "Suzdal",
+          "de": "Susdal"
+        },
+        "info": {
+          "ru": "Когда-то столица нескольких русских княжеств, Суздаль является жемчужиной «Золотого кольца» России, древних городов, которые страна сохранила как живые музеи культурного прошлого России. Те, кто желает увидеть лучшее из исторической архитектуры России, полной кремлей с луковичными куполами, соборов и монастырей, найдут это в Суздале. Здание было построено в 1024 году, и весь город похож на большой музей под открытым небом, который переносит посетителей в прошлое.",
+          "en": "Once the capital of several Russian principalities, Suzdal is the jewel of Russia’s “Golden Ring,” ancient cities that the country has preserved as living museums of Russia’s cultural past. Those who wish to experience the best of Russia’s historic architecture, full of onion-dome topped kremlins, cathedrals and monasteries, will find it in Suzdal. Dating back to 1024, the entire city is like a large open-air museum that transports visitors back in time.",
+          "de": "Suzdal, einst die Hauptstadt mehrerer russischer Fürstentümer, ist das Juwel des „Goldenen Rings“ Russlands, einer antiken Stadt, die das Land als lebendige Museen der kulturellen Vergangenheit Russlands erhalten hat. Wer das Beste der historischen Architektur Russlands mit Kremlins, Kathedralen und Klöstern mit Zwiebeltürmen erleben möchte, findet es in Susdal. Die ganze Stadt stammt aus dem Jahr 1024 und ist wie ein großes Freilichtmuseum, das Besucher in die Vergangenheit versetzt."
+        },
+        "img": "../assets/images/Russia/suzdal.jpg"
+      },
+      {
+        "name": {
+          "ru": "Московский Кремль",
+          "en": "Moscow Kremlin",
+          "de": "Moskauer Kreml"
+        },
+        "info": {
+          "ru": "Кремль является обязательной достопримечательностью для всех, кто приезжает в Москву. В обнесенном стеной корпусе находятся высшие правительственные учреждения страны, четыре собора, построенные в 15 и 16 веках, а также несколько известных музеев. На территории площадью 250 акров находится Оружейная палата, наполненная королевскими сокровищами прошлого, и Выставка алмазного фонда, коллекция ювелирных изделий, в которую входит бриллиант весом 190 карат, подаренный Екатерине Великой.",
+          "en": "The Kremlin is a must-see attraction for anyone visiting Moscow. Home to the nation’s top governmental offices, the walled enclosure also houses four cathedrals built in the 15th and 16th century as well as several notable museums. The 250-acre grounds include the Armoury, filled with royal treasures of the past, and the Diamond Fund Exhibition, a collection of jewelry that includes a 190-carat diamond given to Catherine the Great.",
+          "de": "Der Kreml ist ein Muss für jeden, der Moskau besucht. Das ummauerte Gehege beherbergt die wichtigsten Regierungsbüros des Landes und beherbergt vier Kathedralen aus dem 15. und 16. Jahrhundert sowie mehrere bemerkenswerte Museen. Auf dem 250 Hektar großen Gelände befinden sich die Waffenkammer, die mit königlichen Schätzen der Vergangenheit gefüllt ist, und die Diamond Fund Exhibition, eine Schmucksammlung mit einem 190-Karat-Diamanten, der Katharina der Großen übergeben wurde."
+        },
+        "img": "../assets/images/Russia/moscow_kremlin.jpg"
+      },
+      {
+        "name": {
+          "ru": "Эрмитаж",
+          "en": "Hermitage Museum",
+          "de": "Eremitage"
+        },
+        "info": {
+          "ru": "Эрмитаж в Санкт-Петербурге, Россия, основанный в 1764 году Екатериной Великой, представляет собой огромный музей искусства и культуры, демонстрирующий основные моменты коллекции из более чем 3 миллионов предметов, охватывающих весь земной шар. Коллекции занимают большой комплекс из шести исторических зданий, включая Зимний дворец, бывшую резиденцию русских императоров.",
+          "en": "Founded in 1764 by Catherine the Great, the Hermitage Museum in Saint Petersburg, Russia is a massive museum of art and culture showing the highlights of a collection of over 3 million items spanning the globe. The collections occupy a large complex of six historic buildings including the Winter Palace, a former residence of Russian emperors.",
+          "de": "Die Eremitage in Sankt Petersburg, Russland, wurde 1764 von Katharina der Großen gegründet und ist ein riesiges Kunst- und Kulturmuseum, das die Höhepunkte einer Sammlung von über 3 Millionen Objekten auf der ganzen Welt zeigt. Die Sammlungen befinden sich in einem großen Komplex von sechs historischen Gebäuden, darunter der Winterpalast, eine ehemalige Residenz russischer Kaiser."
+        },
+        "img": "../assets/images/Russia/hermitage_museum.jpg"
+      },
+      {
+        "name": {
+          "ru": "Собор Василия Блаженного",
+          "en": "Saint Basil's Cathedral",
+          "de": "Basilius-Kathedrale"
+        },
+        "info": {
+          "ru": "Собор Василия Блаженного, построенный между 1554 и 1561 годами и расположенный в самом центре Москвы, входит в число главных туристических достопримечательностей России. Посетителей привлекают не предметы интерьера здания, а самобытная архитектура собора. Архитектура, напоминающая форму открытого костра, уникальна не только для того периода, в который она была построена, но и для любого последующего периода. На земле нет ничего лучше храма Василия Блаженного.",
+          "en": "Built between 1554 and 1561 and situated in the heart of Moscow, St. Basil’s Cathedral has been among the top tourist attractions in Russia. It is not the building’s interior artifacts that attract visitors, but rather the cathedral’s distinctive architecture. Designed to resemble the shape of a bonfire in full flame, the architecture is not only unique to the period in which it was built but to any subsequent period. There is no other structure on earth quite like St. Basil’s Cathedral.",
+          "de": "Die Basilius-Kathedrale wurde zwischen 1554 und 1561 erbaut und befindet sich im Herzen von Moskau. Sie gehört zu den beliebtesten Touristenattraktionen in Russland. Es sind nicht die inneren Artefakte des Gebäudes, die Besucher anziehen, sondern die unverwechselbare Architektur der Kathedrale. Die Architektur wurde so entworfen, dass sie der Form eines Freudenfeuers in voller Flamme ähnelt. Sie ist nicht nur einzigartig für die Zeit, in der sie gebaut wurde, sondern auch für jede weitere Zeit. Es gibt kein anderes Bauwerk auf der Erde wie die Basilius-Kathedrale."
+        },
+        "img": "../assets/images/Russia/saint_basils_cathedral.jpg"
+      }
+    ]
+  },
+  {
+    "path":"Poland",
+    "videoUrl": "https://www.youtube.com/watch?v=6KjOfVTX10Q",
+    "places": [
+      {
+        "name": {
+          "ru": "Главная рыночная площадь",
+          "en": "Main Market Square",
+          "de": "Hauptmarkt"
+        },
+        "info": {
+          "ru": "Возведенная в 13 веке, Главная рыночная площадь в Старом городе Кракова является крупнейшей средневековой городской площадью в Европе и одной из главных туристических достопримечательностей Польши.",
+          "en": "Dating back to the 13th century, the Main Market Square in the Old Town in Kraków is the largest medieval town square in Europe and one of the main tourist attractions in Poland.",
+          "de": "Der Hauptmarkt in der Altstadt von Krakau stammt aus dem 13. Jahrhundert und ist der größte mittelalterliche Stadtplatz in Europa und eine der wichtigsten Touristenattraktionen in Polen."
+        },
+        "img": "../assets/images/Poland/main_market_square.jpg"
+      },
+      {
+        "name": {
+          "ru": "Варшавский Старый рынок",
+          "en": "Warsaw Old Market Place",
+          "de": "Warschauer alter Marktplatz"
+        },
+        "info": {
+          "ru": "Варшава и центральная рыночная площадь города, основанная в конце 13 века, на протяжении пяти веков были сердцем польской культуры.",
+          "en": "Founded in the late 13th century, Warsaw and the city’s central marketplace were the heart of Polish culture for five centuries.",
+          "de": "Warschau und der zentrale Marktplatz der Stadt wurden Ende des 13. Jahrhunderts gegründet und waren fünf Jahrhunderte lang das Herz der polnischen Kultur."
+        },
+        "img": "../assets/images/Poland/warsaw_old_market_place.jpg"
+      },
+      {
+        "name": {
+          "ru": "Старый город Гданьска",
+          "en": "Gdansk Old Town",
+          "de": "Danziger Altstadt"
+        },
+        "info": {
+          "ru": "Город Гданьск, расположенный на побережье Балтийского моря, включает в себя долгую жизнь тевтонских рыцарей 14 века, чьи крепости сильно контрастировали с существующим городом, который стал известен как Альтштадт, или «Старый город».",
+          "en": "Located on the Baltic coast, the city of Gdansk’s history includes a long occupation by 14th century Teutonic Knights whose fortresses contrasted strongly with the existing town that came to be known as Altstadt, or “Old Town.”",
+          "de": "Die an der Ostseeküste gelegene Stadt Danzig umfasst eine lange Besetzung durch germanische Ritter aus dem 14. Jahrhundert, deren Festungen einen starken Kontrast zu der bestehenden Stadt bildeten, die als Altstadt oder „Altstadt“ bekannt wurde."
+        },
+        "img": "../assets/images/Poland/gdansk_old_town.jpg"
+      },
+      {
+        "name": {
+          "ru": "Соляная шахта в Величке",
+          "en": "Wieliczka Salt Mine",
+          "de": "Salzbergwerk Wieliczka"
+        },
+        "info": {
+          "ru": "Соляная шахта в Величке, расположенная на окраине Кракова, считается одной из старейших компаний в мире. Соль добывается на этом месте непрерывно с 13 века.",
+          "en": "Located on the outskirts of Krakow, the Wieliczka Salt Mine is considered one of the oldest companies in the world. Salt has been mined from the site continuously since the 13th century.",
+          "de": "Das Salzbergwerk Wieliczka am Stadtrand von Krakau gilt als eines der ältesten Unternehmen der Welt. Seit dem 13. Jahrhundert wird auf dem Gelände kontinuierlich Salz abgebaut."
+        },
+        "img": "../assets/images/Poland/wieliczka_salt_mine.jpg"
+      },
+      {
+        "name": {
+          "ru": "Замок Мальборк",
+          "en": "Malbork Castle",
+          "de": "Schloss Malbork"
+        },
+        "info": {
+          "ru": "Замок Мальборк был основан в 1274 году тевтонскими рыцарями, которые использовали его в качестве своей штаб-квартиры, чтобы помочь победить польских врагов и управлять своими собственными северными балтийскими территориями.",
+          "en": "Malbork Castle was founded in 1274 by the Teutonic Knights who used it as their headquarters to help defeat Polish enemies and rule their own northern Baltic territories.",
+          "de": "Die Burg von Malbork wurde 1274 von den Deutschen Rittern gegründet, die sie als Hauptquartier nutzten, um polnische Feinde zu besiegen und ihre eigenen nördlichen baltischen Gebiete zu regieren."
+        },
+        "img": "../assets/images/Poland/malbork_castle.jpg"
+      },
+      {
+        "name": {
+          "ru": "Песчаные дюны Словински",
+          "en": "Slowinski Sand Dunes",
+          "de": "Slowinski Sanddünen"
+        },
+        "info": {
+          "ru": "Песчаные дюны Словински, расположенные на севере Польши, являются частью Словинского национального парка, расположенного на побережье Балтийского моря. Парк назван в честь словинцев, которые когда-то там жили, а в музее под открытым небом в городе Клюки представлены артефакты их культуры.",
+          "en": "Situated in northern Poland, the Slowinski Sand Dunes are part of the Slowinski National Park located on the coast of the Baltic Sea. The park is named after the Slovincians who once lived there, and an open-air museum in the town of Kluki features artifacts of their culture.",
+          "de": "Die Slowinski Sanddünen im Norden Polens sind Teil des Slowinski-Nationalparks an der Ostseeküste. Der Park ist nach den Slowaken benannt, die einst dort lebten, und ein Freilichtmuseum in der Stadt Kluki zeigt Artefakte ihrer Kultur."
+        },
+        "img": "../assets/images/Poland/slowinski_sand_dunes.jpg"
+      }
+    ]
+  }
+]
