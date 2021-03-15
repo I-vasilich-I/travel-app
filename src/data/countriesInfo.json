@@ -174,206 +174,147 @@
   },
   {
     "name":{
-      "ru":"",
-      "en":"",
-      "de":""
+      "ru":"Бразилия",
+      "en":"Brazil",
+      "de":"Brasilien"
     },
     "capital":{
-      "ru":"",
-      "en":"",
-      "de":""
+      "ru":"Бразилия",
+      "en":"Brasilia",
+      "de":"Brasilia"
     },
     "region":{
-      "ru":"",
-      "en":"",
-      "de":""
+      "ru":"Южная америка",
+      "en":"South America",
+      "de":"Südamerika"
     },
     "languages":{
       "ru": [
-        "Русский"
+        "Португальский"
       ],
       "en": [
-        "Russian"
+        "Portuguese"
       ],
       "de": [
-        "Russisch"
+        "Portugiesisch"
       ]
     },
-    "avatar":"../assets/images/Russia.jpg",
-    "path":"Russia",
-    "population":146238185,
-    "area":17125191,
-    "currency":"RUB",
-    "flag":"../assets/images/Flag_of_Russia.png"
+    "avatar":"../assets/images/Brazil/Brazil.png",
+    "path":"Brazil",
+    "population":210147125,
+    "area":8515767,
+    "currency":"BRL",
+    "flag":"../assets/images/Brazil/Flag-Brazil.jpg"
   },
   {
     "name":{
-      "ru":"",
-      "en":"",
-      "de":""
+      "ru":"Япония",
+      "en":"Japan",
+      "de":"Japan"
     },
     "capital":{
-      "ru":"",
-      "en":"",
-      "de":""
+      "ru":"Токио",
+      "en":"Tokyo",
+      "de":"Tokio"
     },
     "region":{
-      "ru":"",
-      "en":"",
-      "de":""
+      "ru":"Восточная Азия",
+      "en":"East Asia",
+      "de":"Ostasien"
     },
     "languages":{
       "ru": [
-        "Русский"
+        "Японский"
       ],
       "en": [
-        "Russian"
+        "Japanese"
       ],
       "de": [
-        "Russisch"
+        "Japanisch"
       ]
     },
-    "avatar":"../assets/images/Russia.jpg",
-    "path":"Russia",
-    "population":146238185,
-    "area":17125191,
-    "currency":"RUB",
-    "flag":"../assets/images/Flag_of_Russia.png"
+    "avatar":"../assets/images/Japan/Japan.jpg",
+    "path":"Japan",
+    "population":125620000,
+    "area":377975,
+    "currency":"Yen",
+    "flag":"../assets/images/Japan/Flag_Japan.png"
   },
   {
     "name":{
-      "ru":"",
-      "en":"",
-      "de":""
+      "ru":"Нидерланды",
+      "en":"Netherlands",
+      "de":"Niederlande"
     },
     "capital":{
-      "ru":"",
-      "en":"",
-      "de":""
+      "ru":"Амстердам",
+      "en":"Amsterdam",
+      "de":"Amsterdam"
     },
     "region":{
-      "ru":"",
-      "en":"",
-      "de":""
+      "ru":"Западная Европа",
+      "en":"Western Europe",
+      "de":"Westeuropa"
     },
     "languages":{
       "ru": [
-        "Русский"
+        "Нидерландский язык",
+        "Английский",
+        "Папьяменто",
+        "Западно-Фризский"
       ],
       "en": [
-        "Russian"
+        "Dutch",
+        "English",
+        "Papiamento",
+        "West Frisian"
       ],
       "de": [
-        "Russisch"
+        "Niederländisch",
+        "Englisch",
+        "Papiamento",
+        "Westfriesisch"
       ]
     },
-    "avatar":"../assets/images/Russia.jpg",
-    "path":"Russia",
-    "population":146238185,
-    "area":17125191,
-    "currency":"RUB",
-    "flag":"../assets/images/Flag_of_Russia.png"
+    "avatar":"../assets/images/Netherlands/Netherlands.jpg",
+    "path":"Netherlands",
+    "population":17469635,
+    "area":41865,
+    "currency":"EUR,USD",
+    "flag":"../assets/images/Netherlands/Flag_Netherlands.png"
   },
   {
     "name":{
-      "ru":"",
-      "en":"",
-      "de":""
+      "ru":"Перу",
+      "en":"Peru",
+      "de":"Peru"
     },
     "capital":{
-      "ru":"",
-      "en":"",
-      "de":""
+      "ru":"Лима",
+      "en":"Lima",
+      "de":"Lima"
     },
     "region":{
-      "ru":"",
-      "en":"",
-      "de":""
+      "ru":"Южная америка",
+      "en":"South America",
+      "de":"Südamerika"
     },
     "languages":{
       "ru": [
-        "Русский"
+        "Испанский"
       ],
       "en": [
-        "Russian"
+        "Spanish"
       ],
       "de": [
-        "Russisch"
+        "Spanisch"
       ]
     },
-    "avatar":"../assets/images/Russia.jpg",
-    "path":"Russia",
-    "population":146238185,
-    "area":17125191,
-    "currency":"RUB",
-    "flag":"../assets/images/Flag_of_Russia.png"
-  },
-  {
-    "name":{
-      "ru":"",
-      "en":"",
-      "de":""
-    },
-    "capital":{
-      "ru":"",
-      "en":"",
-      "de":""
-    },
-    "region":{
-      "ru":"",
-      "en":"",
-      "de":""
-    },
-    "languages":{
-      "ru": [
-        "Русский"
-      ],
-      "en": [
-        "Russian"
-      ],
-      "de": [
-        "Russisch"
-      ]
-    },
-    "avatar":"../assets/images/Russia.jpg",
-    "path":"Russia",
-    "population":146238185,
-    "area":17125191,
-    "currency":"RUB",
-    "flag":"../assets/images/Flag_of_Russia.png"
-  },
-  {
-    "name":{
-      "ru":"",
-      "en":"",
-      "de":""
-    },
-    "capital":{
-      "ru":"",
-      "en":"",
-      "de":""
-    },
-    "region":{
-      "ru":"",
-      "en":"",
-      "de":""
-    },
-    "languages":{
-      "ru": [
-        "Русский"
-      ],
-      "en": [
-        "Russian"
-      ],
-      "de": [
-        "Russisch"
-      ]
-    },
-    "avatar":"../assets/images/Russia.jpg",
-    "path":"Russia",
-    "population":146238185,
-    "area":17125191,
-    "currency":"RUB",
-    "flag":"../assets/images/Flag_of_Russia.png"
+    "avatar":"../assets/images/Peru/Peru.jpg",
+    "path":"Peru",
+    "population":32824358,
+    "area":1285216,
+    "currency":"PEN",
+    "flag":"../assets/images/Peru/Flag_Peru.png"
   }
 ]
