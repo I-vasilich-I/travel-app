@@ -336,27 +336,92 @@
     ]
   },
   {
-    "path":"",
-    "videoUrl": "",
+    "path":"Peru",
+    "videoUrl": "https://www.youtube.com/watch?v=Nye_O4PEh7k",
     "places": [
       {
         "name": {
-          "ru": "",
-          "en": "",
-          "de": ""
+          "ru": "Мачу-Пикчу",
+          "en": "Machu Picchu",
+          "de": "Machu Picchu"
         },
         "info": {
-          "ru": "",
-          "en": "",
-          "de": ""
+          "ru": "Расположенный высоко на хребте, на высоте 300 метров над рекой Урубамба, величественный город инков Мачу-Пикчу является одним из самых драматических мест разрушенного города в мире. Почти так же впечатляюще, как и сами руины, впечатляющий фон крутых, пышных и часто окутанных облаками гор.",
+          "en": "Perched high upon a ridge, 300 meters above the Urubamba River, the majestic Inca City of Machu Picchu is one of the most dramatic settings of a ruined city anywhere in the world. Almost as impressive as the ruins themselves is the spectacular backdrop of steep, lush, and often cloud-shrouded mountains.",
+          "de": "Die majestätische Inka-Stadt Machu Picchu thront hoch auf einem Bergrücken 300 Meter über dem Urubamba-Fluss und ist eine der dramatischsten Kulissen einer zerstörten Stadt auf der ganzen Welt. Fast so beeindruckend wie die Ruinen selbst ist die spektakuläre Kulisse steiler, üppiger und oft wolkenverhangener Berge."
         },
-        "img": "../assets/images/Poland/main_market_square.jpg"
+        "img": "../assets/images/Peru/peru-machu-picchu-1.jpg"
+      },
+      {
+        "name": {
+          "ru": "Тропа инков",
+          "en": "The Inca Trail",
+          "de": "Der Inka-Pfad"
+        },
+        "info": {
+          "ru": "Знаменитая тропа инков - это четырехдневный поход, который заканчивается в Мачу-Пикчу, и многие считают его кульминационным моментом их поездки в Перу. Этот живописный маршрут зачастую более сложен, чем ожидают многие, но и приносит больше удовольствия.",
+          "en": "The famous Inca Trail is a four-day hike, which terminates at Machu Picchu, and is regarded by many as the highlight of their trip to Peru. This scenic trail is often more demanding than what many people are expecting, but also more rewarding.",
+          "de": "Der berühmte Inka-Pfad ist eine viertägige Wanderung, die in Machu Picchu endet und von vielen als Höhepunkt ihrer Reise nach Peru angesehen wird. Dieser landschaftlich reizvolle Weg ist oft anspruchsvoller als von vielen Menschen erwartet, aber auch lohnender."
+        },
+        "img": "../assets/images/Peru/peru-inca-trail.jpg"
+      },
+      {
+        "name": {
+          "ru": "Архитектурные сокровища Куско",
+          "en": "Cusco's Architectural Treasures",
+          "de": "Cuscos architektonische Schätze"
+        },
+        "info": {
+          "ru": "Прогулка по улицам Куско похожа на прогулку по музею, история которого основана на истории в этом объекте Всемирного наследия ЮНЕСКО. Руины инков были использованы в фундаменте многих прекрасных старых колониальных зданий, выстроившихся вдоль узких дорог, демонстрируя многовековую историю города.",
+          "en": "Walking through the streets of Cusco is like wandering through a museum, with history built upon history in this UNESCO World Heritage Site. Inca ruins have been used in the foundations of many of the lovely old colonial buildings lining the narrow roads, showcasing the city's long history.",
+          "de": "Ein Spaziergang durch die Straßen von Cusco ist wie ein Spaziergang durch ein Museum, dessen Geschichte auf der Geschichte dieses UNESCO-Weltkulturerbes basiert. Inka-Ruinen wurden in den Fundamenten vieler der schönen alten Kolonialgebäude entlang der engen Straßen verwendet, um die lange Geschichte der Stadt zu demonstrieren."
+        },
+        "img": "../assets/images/Peru/peru-cusco-inca-wall.jpg"
+      },
+      {
+        "name": {
+          "ru": "Озеро Титикака",
+          "en": "Lake Titicaca",
+          "de": "Titicacasee"
+        },
+        "info": {
+          "ru": "Сверкающая голубая вода озера Титикака окружена холмами и небольшими традиционными деревнями. Район озера представляет собой сочетание красивых пейзажей и культуры, что отличает его от других регионов страны. Озеро Титикака, расположенное на высоте 3820 метров над уровнем моря, известно как самое высокое судоходное озеро в мире.",
+          "en": "The sparkling blue water of Lake Titicaca is surrounded by rolling hills and traditional small villages. The lake area is a mix of beautiful scenery and culture that sets it apart from other regions of the country. Sitting at 3,820 meters above sea level, Lake Titicaca is known for being the highest navigable lake in the world.",
+          "de": "Das glitzernde blaue Wasser des Titicacasees ist von sanften Hügeln und traditionellen kleinen Dörfern umgeben. Das Seegebiet ist eine Mischung aus wunderschöner Landschaft und Kultur, die es von anderen Regionen des Landes unterscheidet. Der Titicacasee liegt auf 3.820 Metern über dem Meeresspiegel und ist als der höchste schiffbare See der Welt bekannt."
+        },
+        "img": "../assets/images/Peru/peru-lake-titicaca-amantani.jpg"
+      },
+      {
+        "name": {
+          "ru": "Каньон Колка",
+          "en": "Colca Canyon",
+          "de": "Colca Canyon"
+        },
+        "info": {
+          "ru": "Хотя когда-то считалось, что это самый глубокий каньон в мире, Каньон Колка (Каньон-дель-Колка), вдвое глубже Гранд-Каньона, является вторым по глубине после близлежащего каньона Котахуаси. Каньон достигает глубины 3400 метров и является результатом сейсмического разлома между двумя вулканами. У основания далеко внизу протекает извилистая река.",
+          "en": "Although it was once thought to be the deepest canyon in the world, Colca Canyon (Cañon del Colca), twice as deep as the Grand Canyon, is the second deepest after nearby Cotahuasi Canyon. The canyon reaches a depth of 3,400 meters and is the result of a seismic fault between two volcanoes. At the base far below is a winding river.",
+          "de": "Obwohl einst angenommen wurde, dass es sich um den tiefsten Canyon der Welt handelt, ist der Colca Canyon (Cañon del Colca), doppelt so tief wie der Grand Canyon, nach dem nahe gelegenen Cotahuasi Canyon der zweittiefste. Der Canyon erreicht eine Tiefe von 3.400 Metern und ist das Ergebnis eines seismischen Fehlers zwischen zwei Vulkanen. An der Basis weit unten befindet sich ein gewundener Fluss."
+        },
+        "img": "../assets/images/Peru/peru-colca-canyon-view.jpg"
+      },
+      {
+        "name": {
+          "ru": "Священная долина",
+          "en": "The Sacred Valley",
+          "de": "Das Heilige Tal"
+        },
+        "info": {
+          "ru": "Менее чем в часе езды к северу от Куско находится красивая Священная долина и города Писак, Урубамба и Ольянтайтамбо. В этой плодородной долине есть много руин инков, которые стоит исследовать, но это также спокойное место, где можно провести некоторое время, прогуливаясь по рынкам или знакомясь с местной культурой.",
+          "en": "Less than an hour's drive north of Cusco is the beautiful Sacred Valley and the towns of Pisac, Urubamba, and Ollantaytambo. This fertile valley has many Inca ruins worth exploring but is also a peaceful area to spend some time wandering through markets or soaking up local culture.",
+          "de": "Weniger als eine Autostunde nördlich von Cusco liegen das wunderschöne Heilige Tal und die Städte Pisac, Urubamba und Ollantaytambo. Dieses fruchtbare Tal hat viele Inka-Ruinen, die es wert sind, erkundet zu werden, ist aber auch eine friedliche Gegend, um einige Zeit auf Märkten zu verbringen oder die lokale Kultur zu genießen."
+        },
+        "img": "../assets/images/Peru/peru-sacred-valley-3.jpg"
       }
     ]
   },
   {
     "path":"",
-    "videoUrl": "",
+    "videoUrl": "https://www.youtube.com/watch?v=Nye_O4PEh7k",
     "places": [
       {
         "name": {
@@ -369,7 +434,72 @@
           "en": "",
           "de": ""
         },
-        "img": "../assets/images/Poland/main_market_square.jpg"
+        "img": "../assets/images/Peru/"
+      },
+      {
+        "name": {
+          "ru": "",
+          "en": "",
+          "de": ""
+        },
+        "info": {
+          "ru": "",
+          "en": "",
+          "de": ""
+        },
+        "img": "../assets/images/Peru/"
+      },
+      {
+        "name": {
+          "ru": "",
+          "en": "",
+          "de": ""
+        },
+        "info": {
+          "ru": "",
+          "en": "",
+          "de": ""
+        },
+        "img": "../assets/images/Peru/"
+      },
+      {
+        "name": {
+          "ru": "",
+          "en": "",
+          "de": ""
+        },
+        "info": {
+          "ru": "",
+          "en": "",
+          "de": ""
+        },
+        "img": "../assets/images/Peru/"
+      },
+      {
+        "name": {
+          "ru": "",
+          "en": "",
+          "de": ""
+        },
+        "info": {
+          "ru": "",
+          "en": "",
+          "de": ""
+        },
+        "img": "../assets/images/Peru/"
+      },
+      {
+        "name": {
+          "ru": "",
+          "en": "",
+          "de": ""
+        },
+        "info": {
+          "ru": "",
+          "en": "",
+          "de": ""
+        },
+        "img": "../assets/images/Peru/"
       }
     ]
   }
