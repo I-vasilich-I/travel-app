@@ -6,45 +6,51 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import { Link } from 'react-router-dom';
+import { COLOR_MUI_PAPER_BACKGROUND } from '../constants';
 
 const useStyles = makeStyles({
   root: {
-    // width: 350,
     margin: 10,
+    backgroundColor: COLOR_MUI_PAPER_BACKGROUND,
   },
   media: {
     height: 240,
   },
 });
 
-interface CountryData {
-  country: {
-    avatar: string,
-    name: {
-      [lang: string]: string,
-    },
-    capital: {
-      [lang: string]: string,
-    },
-    population: number,
-    area: number,
-    region: {
-      [lang: string]: string,
-    },
-    currency: string,
-    flag: string,
-    languages: string[],
+interface Country {
+  avatar: string,
+  path: string,
+  name: {
+    [lang: string]: string,
   },
+  capital: {
+    [lang: string]: string,
+  },
+  population: number,
+  area: number,
+  region: {
+    [lang: string]: string,
+  },
+  currency: string,
+  flag: string,
+  languages: {
+    [lang: string]: string[],
+  },
+}
+
+interface CountryData {
+  country: Country,
   lang: string
 }
 
 export default function MediaCard(props: CountryData):JSX.Element {
   const classes = useStyles();
   const { country, lang } = props;
-  const { name, capital, avatar } = country;
+  const { name, capital, avatar, path } = country;
 
   return (
-    <Link to="/country">
+    <Link to={path}>
       <Card className={classes.root}>
         <CardActionArea >
           <CardMedia
@@ -63,7 +69,6 @@ export default function MediaCard(props: CountryData):JSX.Element {
         </CardActionArea>
       </Card>
     </Link>
-
   );
 }
 

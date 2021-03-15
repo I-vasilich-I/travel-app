@@ -9,7 +9,7 @@ interface CountryInfoProps {
   region: string,
   currency: string,
   flag: string,
-  languages: Array<string>
+  languages: string[],
 }
 
 function CountryInfo(props: CountryInfoProps): JSX.Element {

@@ -1,9 +1,12 @@
+.main {
+  margin-top: 30px;
+}
+
 .countries-container {
   max-width: 1280px;
   min-height: 75vh;
   flex-wrap: wrap;
   margin: auto;
-  margin-top: 20px;
   display: flex;
   justify-content: space-evenly;
   align-items: flex-start;
@@ -12,6 +15,10 @@
     min-width: 300px;
     width: 370px;
     text-decoration: none;
+  }
+
+  &--onload {
+    align-items: center;
   }
 }
 
@@ -29,5 +36,5 @@
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }

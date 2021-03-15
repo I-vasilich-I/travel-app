@@ -1,7 +1,7 @@
 import React from 'react';
 import SearchInput from './SearchInput';
 import LangSelect from './LangSelect';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 interface HeaderProps{
   lang: string,
@@ -12,9 +12,10 @@ interface HeaderProps{
 
 const Header = (props: HeaderProps):JSX.Element => {
   const { lang, setLang, search, setSearch } = props;
+  const location = useLocation();
   return (
     <header className="header">
-      <div className="header__logo">
+      {/* <div className="header__logo"> */}
         <Link to="/">
           <img
             className="header__logo"
@@ -22,13 +23,18 @@ const Header = (props: HeaderProps):JSX.Element => {
             alt="Oleg Vaskevich"
           />
         </Link>
-      </div>
-      <div className="header__search">
-        <SearchInput
-          search={search}
-          setSearch={setSearch}
-        />
-      </div>
+      {/* </div> */}
+      {
+        location.pathname === '/' &&
+        <div className="header__search">
+          <SearchInput
+            lang={lang}
+            search={search}
+            setSearch={setSearch}
+          />
+        </div>
+      }
+
       <div className="header__language">
         <LangSelect
           lang={lang}

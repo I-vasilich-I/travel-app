@@ -34,7 +34,7 @@ module.exports = (env, options) => {
     entry: ['./src/index.tsx', './src/assets/sass/style.scss'],
     output: {
       path: path.join(__dirname, '/dist'),
-      // publicPath: '/dist/',
+      publicPath: '/',
       filename: '[name].js',
     },
     optimization: {
@@ -139,6 +139,7 @@ module.exports = (env, options) => {
       port: 5000,
       publicPath: 'http://localhost:5000',
       hotOnly: true,
+      historyApiFallback: true,
     },
 
     plugins: [

@@ -3,18 +3,36 @@ import Header from './header/Header';
 import CountriesContainer from './mainpage/CountriesContainer';
 import Footer from './footer/Footer';
 import CountryPage from "./countrypage/CountryPage";
+import { CircularProgress } from "@material-ui/core";
+import { DEFAULT_LANGUAGE, COUNTRIES_API_URL } from './constants';
+import Country from './interfaces';
 import {
   BrowserRouter as Router,
-  // HashRouter as Router,
   Switch,
   Route,
-  // Redirect,
 } from "react-router-dom";
 
-const App = (): JSX.Element => {
-  const [lang, setLang] = useState('ru');
+const App = ():JSX.Element  => {
+  const getLanguage = () => {
+    const localStorageLang = localStorage.getItem('language') || null;
+    return localStorageLang ? JSON.parse(localStorageLang) : DEFAULT_LANGUAGE;
+  }
+  const [lang, setLang] = useState(getLanguage());
   const [search, setSearch] = useState('');
   const CountriesContainerRef: React.Ref<HTMLElement> = React.createRef();
+
+  const [countriesData, setCountriesData] = useState([]);
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  useEffect(() => {
+      fetch(COUNTRIES_API_URL)
+      .then(res => res.json())
+      .then((data) => {
+        setCountriesData(data);
+        setIsLoaded(true);
+      })
+      .catch((e) => console.log(e.message));
+  }, []);
 
   // filter country cards by search input
   useEffect(() => {
@@ -46,17 +64,27 @@ const App = (): JSX.Element => {
         setSearch={setSearch}
       />
       <main className="main">
-        <Switch>
-          <Route exact path="/">
-            <CountriesContainer
-              lang={lang}
-              ref={CountriesContainerRef}
-            />
-          </Route>
-          <Route path="/country">
-            <CountryPage/>
-          </Route>
-        </Switch>
+        { isLoaded ?
+          <Switch>
+            <Route exact path="/">
+              <CountriesContainer
+                lang={lang}
+                ref={CountriesContainerRef}
+                data={countriesData}
+              />
+            </Route>
+            {
+              countriesData.map((elem: Country, id) => (
+                <Route key={id} path={`/${elem.path}`}>
+                  <CountryPage country={elem} />
+                </Route>
+              ))
+            }
+          </Switch> :
+          <div className="countries-container countries-container--onload">
+            <CircularProgress />
+          </div>
+        }
       </main>
       <Footer/>
     </Router>
