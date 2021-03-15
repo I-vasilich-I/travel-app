@@ -1,17 +1,38 @@
 import React from 'react';
 import CountryCard from './CountryCard';
-import data from '../../data/data';
+
+interface Country {
+  avatar: string,
+  path: string,
+  name: {
+    [lang: string]: string,
+  },
+  capital: {
+    [lang: string]: string,
+  },
+  population: number,
+  area: number,
+  region: {
+    [lang: string]: string,
+  },
+  currency: string,
+  flag: string,
+  languages: string[],
+}
+
 interface Language {
-  lang: string
+  lang: string,
+  data: Country[]
 }
 
 // eslint-disable-next-line react/display-name
 const CountriesContainer = React.forwardRef((props:Language, ref:React.Ref<HTMLElement>):JSX.Element => {
-  const { lang } = props;
+  const { lang, data } = props;
+
   return (
     <section ref={ref} className="countries-container">
       {
-        data.map((elem, id):JSX.Element => (
+        data.map((elem: Country, id):JSX.Element => (
           <CountryCard
             key={id}
             country={elem}
