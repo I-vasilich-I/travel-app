@@ -7,10 +7,8 @@ import { CircularProgress } from "@material-ui/core";
 import { DEFAULT_LANGUAGE, COUNTRIES_API_URL } from './constants';
 import {
   BrowserRouter as Router,
-  // HashRouter as Router,
   Switch,
   Route,
-  // Redirect,
 } from "react-router-dom";
 
 
@@ -48,12 +46,14 @@ const App = ():JSX.Element  => {
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
-    fetch(COUNTRIES_API_URL)
+      fetch(COUNTRIES_API_URL)
       .then(res => res.json())
-      .then((data) => setCountriesData(data));
-      setIsLoaded(true);
+      .then((data) => {
+        setCountriesData(data);
+        setIsLoaded(true);
+      })
+      .catch((e) => console.log(e.message));
   }, []);
-
 
   // filter country cards by search input
   useEffect(() => {
@@ -101,7 +101,10 @@ const App = ():JSX.Element  => {
                 </Route>
               ))
             }
-          </Switch> : <CircularProgress />
+          </Switch> :
+          <div className="countries-container countries-container--onload">
+            <CircularProgress />
+          </div>
         }
       </main>
       <Footer />
