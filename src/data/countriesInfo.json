@@ -1,0 +1,107 @@
+[
+  {
+    "name":{
+      "ru":"Республика Беларусь",
+      "en":"Republic of Belarus",
+      "de":"Republik Weißrussland"
+      },
+    "capital":{
+      "ru":"Минск",
+      "en":"Minsk",
+      "de":"Minsk"
+      },
+    "region":{
+      "ru":"Восточная Европа",
+      "en":"Eastern Europe",
+      "de":"Osteuropa"
+    },
+    "languages":{
+      "ru": [
+        "Русский",
+        "Белорусский"
+      ],
+      "en": [
+        "Russian",
+        "Belarusian"
+      ],
+      "de": [
+        "Russisch",
+        "Belarussisch"
+      ]
+    },
+    "avatar":"../assets/images/belarus.jpg",
+    "path":"Belarus",
+    "population":9408400,
+    "area":207600,
+    "currency":"BYN",
+    "flag":"../assets/images/flag.png"
+  },
+  {
+    "name":{
+      "ru":"Российская Федерация",
+      "en":"Russian Federation",
+      "de":"Russische Föderation"
+    },
+    "capital":{
+      "ru":"Москва",
+      "en":"Moscow",
+      "de":"Moskau"
+    },
+    "region":{
+      "ru":"Восточная Европа/Северная Азия",
+      "en":"Eastern Europe/North Asia",
+      "de":"Osteuropa/Nordasien"
+    },
+    "languages":{
+      "ru": [
+        "Русский"
+      ],
+      "en": [
+        "Russian"
+      ],
+      "de": [
+        "Russisch"
+      ]
+    },
+    "avatar":"../assets/images/Russia.jpg",
+    "path":"Russia",
+    "population":146238185,
+    "area":17125191,
+    "currency":"RUB",
+    "flag":"../assets/images/Flag_of_Russia.png"
+  },
+  {
+    "name":{
+      "ru":"Российская Федерация",
+      "en":"Russian Federation",
+      "de":"Russische Föderation"
+    },
+    "capital":{
+      "ru":"Москва",
+      "en":"Moscow",
+      "de":"Moskau"
+    },
+    "region":{
+      "ru":"Восточная Европа/Северная Азия",
+      "en":"Eastern Europe/North Asia",
+      "de":"Osteuropa/Nordasien"
+    },
+    "languages":{
+      "ru": [
+        "Русский"
+      ],
+      "en": [
+        "Russian"
+      ],
+      "de": [
+        "Russisch"
+      ]
+    },
+    "avatar":"../assets/images/Russia.jpg",
+    "path":"Russia",
+    "population":146238185,
+    "area":17125191,
+    "currency":"RUB",
+    "flag":"../assets/images/Flag_of_Russia.png"
+  }
+]
