@@ -166,5 +166,108 @@
         "img": "../assets/images/Poland/slowinski_sand_dunes.jpg"
       }
     ]
+  },
+  {
+    "path":"Netherlands",
+    "videoUrl": "https://www.youtube.com/watch?v=wAppCTDtW3Y",
+    "places": [
+      {
+        "name": {
+          "ru": "Каналы Йордана и Амстердама",
+          "en": "Jordaan and Amsterdam's Canals",
+          "de": "Jordaan und Amsterdams Kanäle"
+        },
+        "info": {
+          "ru": "Каналы являются такой же важной частью городского пейзажа Амстердама, как и Венеции, и одним из самых ярких воспоминаний для любого посетителя является время, потраченное на изучение прекрасных водных путей города. Хотя до многих из лучших туристических достопримечательностей Амстердама можно легко добраться на лодке или водном такси, включая большинство крупных музеев и художественных галерей, ничто не сравнится с прогулкой по меньшим, более тихим улочкам, тянущимся вдоль водных путей.",
+          "en": "Canals are as important a part of Amsterdam's cityscape as they are to the city of Venice, and some of the most enduring memories for any visitor are the time spent exploring the city's wonderful waterways. While many of Amsterdam's best tourist attractions can easily be accessed by boat tour or water taxi - including most of the major museums and art galleries - nothing beats strolling along the smaller, quieter streets that line the waterways.",
+          "de": "Kanäle sind ein ebenso wichtiger Bestandteil des Amsterdamer Stadtbildes wie für die Stadt Venedig, und einige der beständigsten Erinnerungen für jeden Besucher sind die Zeit, die er damit verbringt, die wunderschönen Wasserstraßen der Stadt zu erkunden. Während viele der besten Touristenattraktionen Amsterdams leicht mit dem Boot oder dem Wassertaxi zu erreichen sind - einschließlich der meisten großen Museen und Kunstgalerien -, gibt es nichts Schöneres, als durch die kleineren, ruhigeren Straßen zu schlendern, die die Wasserstraßen säumen."
+        },
+        "img": "../assets/images/Netherlands/netherlands-amsterdam-jordaan-canal.jpg"
+      },
+      {
+        "name": {
+          "ru": "Кёкенхоф",
+          "en": "Keukenhof",
+          "de": "Keukenhof"
+        },
+        "info": {
+          "ru": "Кёкенхоф, также известный как «Сад Европы», расположен на окраине города Лиссе, в том месте, которое считается «поясом луковиц» в Нидерландах. Самый большой общественный сад в мире, занимающий более 70 акров того, что когда-то было кухонным (или «кёкеном») садом большого загородного поместья, Кёкенхоф демонстрирует более 700 разновидностей тюльпанов, которые находятся на пике формы. Апрель и май.",
+          "en": "Keukenhof, otherwise known as the \"Garden of Europe,\" is located on the outskirts of the town of Lisse in what's widely considered the \"bulb belt\" of the Netherlands. The largest public garden in the world, encompassing more than 70 acres of what was once the former kitchen (or \"keuken\") garden of a large country estate, Keukenhof displays more than 700 varieties of tulips, which are at their height in April and May.",
+          "de": "Der Keukenhof, auch als \"Garten Europas\" bekannt, befindet sich am Rande der Stadt Lisse im sogenannten \"Glühbirnengürtel\" der Niederlande. Der Keukenhof ist der größte öffentliche Garten der Welt und umfasst mehr als 70 Hektar des ehemaligen Küchengartens (oder \"Keuken\") eines großen Landgutes. Er zeigt mehr als 700 Tulpensorten, die sich auf ihrem Höhepunkt befinden April und Mai."
+        },
+        "img": "../assets/images/Netherlands/netherlands-keukenhof.jpg"
+      },
+      {
+        "name": {
+          "ru": "Рейксмузеум, Амстердам",
+          "en": "Rijksmuseum, Amsterdam",
+          "de": "Rijksmuseum, Amsterdam"
+        },
+        "info": {
+          "ru": "Впечатляющий Рейксмузеум - также известный как Национальный музей - на Музейной площади Амстердама собирает редкие предметы искусства и старины с 1809 года. Неудивительно, что сегодня его обширная коллекция насчитывает почти семь миллионов произведений искусства, в том числе 5000 картин в более чем 250 залах. , а также обширная библиотека, насчитывающая около 35 000 книг.",
+          "en": "The spectacular Rijksmuseum - aka the National Museum - in Amsterdam's Museumplein (Museum Square) has been collecting rare art and antiquities since 1809. Not surprisingly, its extensive collection today amounts to nearly seven million works of art, including 5,000 paintings in more than 250 rooms, as well as a vast library with some 35,000 books.",
+          "de": "Das spektakuläre Rijksmuseum - auch bekannt als Nationalmuseum - im Amsterdamer Museumplein (Museumsplatz) sammelt seit 1809 seltene Kunst und Antiquitäten. Es überrascht nicht, dass seine umfangreiche Sammlung heute fast sieben Millionen Kunstwerke umfasst, darunter 5.000 Gemälde in mehr als 250 Räumen sowie eine riesige Bibliothek mit rund 35.000 Büchern."
+        },
+        "img": "../assets/images/Netherlands/netherlands-amsterdam-rijksmuseum-2.jpg"
+      },
+      {
+        "name": {
+          "ru": "Дом Анны Франк, Амстердам",
+          "en": "Anne Frank House, Amsterdam",
+          "de": "Anne-Frank-Haus, Amsterdam"
+        },
+        "info": {
+          "ru": "Обязательно посетите Дом Анны Франк в Амстердаме. На Принсенграхте, в доме, где семья Анны пряталась большую часть Второй мировой войны (они были еврейскими беженцами из Франкфурта), эта замечательная девушка вела свой знаменитый дневник. Хотя она умерла всего за два месяца до окончания войны, ее наследие живет благодаря ее словам, которые с тех пор были переведены на 51 язык.",
+          "en": "The Anne Frank House is a must-see when in Amsterdam. On Prinsengracht, in the home where Anne's family hid for much of WWII (they were Jewish refugees from Frankfurt), is where this remarkable girl wrote her famous diary. Although she died just two months before the war ended, her legacy lives on through her words, which have since been translated into 51 languages.",
+          "de": "Das Anne-Frank-Haus ist ein Muss in Amsterdam. In der Prinsengracht, in dem Haus, in dem sich Annes Familie während eines Großteils des Zweiten Weltkriegs versteckte (sie waren jüdische Flüchtlinge aus Frankfurt), schrieb dieses bemerkenswerte Mädchen ihr berühmtes Tagebuch. Obwohl sie nur zwei Monate vor Kriegsende starb, lebt ihr Erbe durch ihre Worte weiter, die inzwischen in 51 Sprachen übersetzt wurden."
+        },
+        "img": "../assets/images/Netherlands/netherlands-amsterdam-anne-frank-statue.jpg"
+      },
+      {
+        "name": {
+          "ru": "Музей Ван Гога, Амстердам",
+          "en": "Van Gogh Museum, Amsterdam",
+          "de": "Van Gogh Museum, Amsterdam"
+        },
+        "info": {
+          "ru": "Как и положено одному из величайших художников мира, великолепный музей Ван Гога в Амстердаме занимает впечатляющее 2-е место в ведущем списке лучших художественных музеев мира, привлекая почти 1,5 миллиона посетителей каждый год.",
+          "en": "As befits one of the world's greatest artists, the spectacular Van Gogh Museum in Amsterdam is ranked an impressive #2 in a leading list of the top art museums globally, attracting almost 1.5 million visitors each year.",
+          "de": "Wie es sich für einen der größten Künstler der Welt gehört, ist das spektakuläre Van Gogh Museum in Amsterdam eine beeindruckende Nummer 2 in einer führenden Liste der besten Kunstmuseen der Welt und zieht jedes Jahr fast 1,5 Millionen Besucher an."
+        },
+        "img": "../assets/images/Netherlands/netherlands-amsterdam-van-gogh-museum-2.jpg"
+      },
+      {
+        "name": {
+          "ru": "Ветряные мельницы Киндердейка",
+          "en": "The Windmills of Kinderdijk",
+          "de": "Die Windmühlen von Kinderdijk"
+        },
+        "info": {
+          "ru": "В наши дни главная достопримечательность - это фантастически сохранившиеся ветряные мельницы 18-го века. В настоящее время объекты всемирного наследия ЮНЕСКО, 19 ветряных мельниц Киндердейк, построенных между 1722 и 1761 годами, являются крупнейшим сохранившимся скоплением ветряных мельниц в Нидерландах. Первоначально использовавшиеся для осушения болот, эти величественные здания с их впечатляющими 92-футовыми парусами открыты для публики с апреля по октябрь, включая специальные Мельничные дни, когда паруса приводят в движение.",
+          "en": "The big draw these days are the fantastically preserved 18th-century windmills. Now UNESCO World Heritage Sites, the 19 Kinderdijk windmills, built between 1722 and 1761, are the largest surviving concentration of windmills in the Netherlands. Originally used to drain the fenlands, these majestic buildings with their impressive 92-foot sails are open to the public from April to October, including special Mill Days when the sails are set in motion.",
+          "de": "Die große Attraktion dieser Tage sind die fantastisch erhaltenen Windmühlen aus dem 18. Jahrhundert. Die 19 Windmühlen von Kinderdijk, die zwischen 1722 und 1761 gebaut wurden und heute zum UNESCO-Weltkulturerbe gehören, sind die größte erhaltene Windmühlenkonzentration in den Niederlanden. Ursprünglich zur Entwässerung der Moore verwendet, sind diese majestätischen Gebäude mit ihren beeindruckenden 92-Fuß-Segeln von April bis Oktober für die Öffentlichkeit zugänglich, einschließlich spezieller Mühlentage, an denen die Segel in Bewegung gesetzt werden."
+        },
+        "img": "../assets/images/Netherlands/netherlands-kinderdijk.jpg"
+      }
+    ]
+  },
+  {
+    "path":"",
+    "videoUrl": "",
+    "places": [
+      {
+        "name": {
+          "ru": "",
+          "en": "",
+          "de": ""
+        },
+        "info": {
+          "ru": "",
+          "en": "",
+          "de": ""
+        },
+        "img": "../assets/images/Poland/main_market_square.jpg"
+      }
+    ]
   }
 ]
