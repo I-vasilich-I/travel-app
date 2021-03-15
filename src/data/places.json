@@ -504,86 +504,86 @@
     ]
   },
   {
-    "path":"",
-    "videoUrl": "https://www.youtube.com/watch?v=Nye_O4PEh7k",
+    "path":"England",
+    "videoUrl": "https://www.youtube.com/watch?v=wSHXd-K-jIk",
     "places": [
       {
         "name": {
-          "ru": "",
-          "en": "",
-          "de": ""
+          "ru": "Стоунхендж",
+          "en": "Stonehenge",
+          "de": "Stonehenge"
         },
         "info": {
-          "ru": "",
-          "en": "",
-          "de": ""
+          "ru": "Стоунхендж, расположенный в 10 милях к северу от исторического города Солсбери на равнине Солсбери, является самым известным доисторическим памятником Европы. Это настолько популярно, что посетителям необходимо заранее купить билет на время, чтобы гарантировать вход. Выставки в превосходном центре для посетителей Стоунхенджа подготовили почву для посещения, объясняя через аудиовизуальные впечатления и более 250 древних объектов, как были возведены мегалиты между 3000 и 1500 годами до нашей эры, и делясь информацией о жизни в то время.",
+          "en": "Stonehenge, 10 miles north of the historic city of Salisbury on Salisbury Plain, is Europe's best-known prehistoric monument. It's so popular that visitors need to purchase a timed ticket in advance to guarantee entry. Exhibitions at the excellent Stonehenge visitor center set the stage for a visit, explaining through audio-visual experiences and more than 250 ancient objects how the megaliths were erected between 3000 and 1500 BC, and sharing information about life during this time.",
+          "de": "Stonehenge, 16 km nördlich der historischen Stadt Salisbury in der Salisbury Plain, ist Europas bekanntestes prähistorisches Denkmal. Es ist so beliebt, dass Besucher im Voraus ein zeitgesteuertes Ticket kaufen müssen, um den Eintritt zu garantieren. Ausstellungen im hervorragenden Besucherzentrum von Stonehenge bereiteten die Bühne für einen Besuch. Sie erklärten anhand von audiovisuellen Erlebnissen und mehr als 250 antiken Objekten, wie die Megalithen zwischen 3000 und 1500 v. Chr. Errichtet wurden, und tauschten Informationen über das Leben in dieser Zeit aus."
         },
-        "img": "../assets/images/Peru/"
+        "img": "../assets/images/England/england-stonehenge.jpg"
       },
       {
         "name": {
-          "ru": "",
-          "en": "",
-          "de": ""
+          "ru": "Башня Лондона",
+          "en": "Tower of London",
+          "de": "Tower of London"
         },
         "info": {
-          "ru": "",
-          "en": "",
-          "de": ""
+          "ru": "Тюрьма, дворец, сокровищница, обсерватория и зверинец: Лондонский Тауэр сделал все это, и это одна из главных достопримечательностей Лондона. Считается самым важным зданием в Англии, в этом объекте всемирного наследия есть что посмотреть и чем заняться, чтобы посетители были заняты часами.",
+          "en": "Prison, palace, treasure vault, observatory, and menagerie: the Tower of London has done it all and it's one of the top attractions in London. Widely considered the most important building in England, there's enough to see and do at this World Heritage Site to keep visitors busy for hours.",
+          "de": "Gefängnis, Palast, Schatzkammer, Observatorium und Menagerie: Der Tower of London hat alles getan und ist eine der Hauptattraktionen in London. Dieses Weltkulturerbe gilt als das wichtigste Gebäude Englands und bietet genug zu sehen und zu erleben, um die Besucher stundenlang zu beschäftigen."
         },
-        "img": "../assets/images/Peru/"
+        "img": "../assets/images/England/england-tower-of-london.jpg"
       },
       {
         "name": {
-          "ru": "",
-          "en": "",
-          "de": ""
+          "ru": "Британский музей",
+          "en": "The British Museum",
+          "de": "Das Britische Museum"
         },
         "info": {
-          "ru": "",
-          "en": "",
-          "de": ""
+          "ru": "Британский музей с коллекциями древностей, которые являются одними из лучших в мире, хранит более 13 миллионов артефактов из Ассирии, Вавилонии, Египта, Греции, Римской империи, Китая и Европы. Самыми известными древними артефактами являются мрамор Элгин из Парфенона в Афинах, а также знаменитый Розеттский камень.",
+          "en": "With collections of antiquities that are among the world's finest, the British Museum holds more than 13 million artifacts from Assyria, Babylonia, Egypt, Greece, the Roman Empire, China, and Europe. The most famous ancient artifacts are the Elgin Marbles from the Parthenon in Athens, as well as the famous Rosetta Stone.",
+          "de": "Mit Sammlungen von Antiquitäten, die zu den besten der Welt gehören, besitzt das British Museum mehr als 13 Millionen Artefakte aus Assyrien, Babylonien, Ägypten, Griechenland, dem Römischen Reich, China und Europa. Die bekanntesten antiken Artefakte sind die Elgin Marbles aus dem Parthenon in Athen sowie der berühmte Rosetta Stone."
         },
-        "img": "../assets/images/Peru/"
+        "img": "../assets/images/England/england-london-british-museum.jpg"
       },
       {
         "name": {
-          "ru": "",
-          "en": "",
-          "de": ""
+          "ru": "Йоркский собор и исторический Йоркшир",
+          "en": "York Minster and Historic Yorkshire",
+          "de": "York Minster und historisches Yorkshire"
         },
         "info": {
-          "ru": "",
-          "en": "",
-          "de": ""
+          "ru": "Великолепный Йоркский собор является вторым по значимости в англиканской церкви только после Кентерберийского собора. Он стоит в центре исторического Йорка, в окружении фахверковых домов и магазинов, средневековых ратушей гильдий и церквей.",
+          "en": "The magnificent York Minster is second in importance in the Church of England only to the cathedral at Canterbury. It stands in the center of historic York, surrounded by half-timbered homes and shops, medieval guildhalls, and churches.",
+          "de": "Das prächtige York Minster ist in der Church of England nach der Kathedrale von Canterbury an zweiter Stelle. Es befindet sich im Zentrum des historischen York, umgeben von Fachwerkhäusern und Geschäften, mittelalterlichen Gildenhäusern und Kirchen."
         },
-        "img": "../assets/images/Peru/"
+        "img": "../assets/images/England/england-historic-yorkshire.jpg"
       },
       {
         "name": {
-          "ru": "",
-          "en": "",
-          "de": ""
+          "ru": "Честерский зоопарк",
+          "en": "Chester Zoo",
+          "de": "Chester Zoo"
         },
         "info": {
-          "ru": "",
-          "en": "",
-          "de": ""
+          "ru": "Зоопарк Честера, расположенный в Аптоне, чуть более чем в миле к северу от центра города Честер, является самой посещаемой достопримечательностью Англии за пределами Лондона и одним из лучших мест в Англии для семейного отдыха.",
+          "en": "Located in Upton, just over a mile north of Chester city center, Chester Zoo is England's most visited attraction outside of London and is one of the best places to visit in England for families.",
+          "de": "Der Chester Zoo befindet sich in Upton, etwas mehr als 1,6 km nördlich des Stadtzentrums von Chester. Er ist Englands meistbesuchte Sehenswürdigkeit außerhalb Londons und einer der besten Orte für Familien in England."
         },
-        "img": "../assets/images/Peru/"
+        "img": "../assets/images/England/england-chester-zoo-2.jpg"
       },
       {
         "name": {
-          "ru": "",
-          "en": "",
-          "de": ""
+          "ru": "Котсуолдс",
+          "en": "The Cotswolds",
+          "de": "Die Cotswolds"
         },
         "info": {
-          "ru": "",
-          "en": "",
-          "de": ""
+          "ru": "Котсуолдс покрывает около 787 квадратных миль и включает части некоторых из самых красивых графств Англии: Глостершир, Оксфордшир, Уилтшир, Сомерсет, Вустершир и Уорикшир. И все это требует изучения. Зона выдающейся природной красоты благодаря редким местам обитания известняковых пастбищ и старовозрастным буковым лесам, красота Котсуолдса во многом связана с его причудливыми деревнями и городами, такими как Касл Комб, Чиппинг Нортон и Тетбери.",
+          "en": "The Cotswolds cover some 787 square miles and encompass parts of some of England's prettiest counties: Gloucestershire, Oxfordshire, Wiltshire, Somerset, Worcestershire, and Warwickshire. And all of it begs to be explored. Designated an Area of Outstanding Natural Beauty due to its rare limestone grassland habitats and old-growth beech woodlands, the beauty of the Cotswolds has much to do with its quaint villages and towns, such as Castle Combe, Chipping Norton, and Tetbury.",
+          "de": "Die Cotswolds erstrecken sich über 787 Quadratmeilen und umfassen Teile einiger der schönsten Grafschaften Englands: Gloucestershire, Oxfordshire, Wiltshire, Somerset, Worcestershire und Warwickshire. Und alles muss erforscht werden. Die Schönheit der Cotswolds, die aufgrund ihrer seltenen Lebensräume aus Kalkwiesen und altem Buchenwald als Gebiet von außergewöhnlicher natürlicher Schönheit ausgewiesen ist, hat viel mit ihren malerischen Dörfern und Städten wie Castle Combe, Chipping Norton und Tetbury zu tun."
         },
-        "img": "../assets/images/Peru/"
+        "img": "../assets/images/England/england-the-cotswolds.jpg"
       }
     ]
   },
