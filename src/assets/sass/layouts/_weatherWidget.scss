@@ -95,13 +95,13 @@
       }
 
       &:before {
-        content: '℃';
+        content: '℉';
         left: 4px;
         text-align: start;
       }
 
       &:after {
-        content: '℉';
+        content: '℃';
         right: 4px;
         text-align: center;
       }

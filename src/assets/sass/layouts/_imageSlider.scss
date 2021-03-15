@@ -32,7 +32,7 @@ $slick-loader-path: "~slick-carousel/slick/";
   }
 
   &__fullscreen {
-    position: absolute;
+    position: fixed;
     padding: 20px 140px;
     left: 0;
     top: 0;

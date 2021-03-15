@@ -155,7 +155,7 @@ module.exports = (env, options) => {
         },
       }),
       new MiniCssExtractPlugin({
-        filename: 'style.css',
+        filename: '[name].css',
       }),
 
       // new ESLintPlugin({
