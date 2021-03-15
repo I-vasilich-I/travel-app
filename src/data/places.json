@@ -420,6 +420,174 @@
     ]
   },
   {
+    "path":"Japan",
+    "videoUrl": "https://www.youtube.com/watch?v=CxuiFNYnEr4",
+    "places": [
+      {
+        "name": {
+          "ru": "Гора Фудзи",
+          "en": "Mount Fuji",
+          "de": "Berg Fuji"
+        },
+        "info": {
+          "ru": "Без сомнения, самая узнаваемая достопримечательность Японии, величественная гора Фудзи (Fuji-san), также является самой высокой горной вершиной страны. Эта величественная и легендарная гора возвышается на 3776 метров над равнинным ландшафтом на юге и востоке, достаточно высока, чтобы ее можно было увидеть из Токио, находящегося на расстоянии более 100 километров.",
+          "en": "Without a doubt Japan's most recognizable landmark, majestic Mount Fuji (Fuji-san) is also the country's highest mountain peak. Towering 3,776 meters over an otherwise largely flat landscape to the south and east, this majestic and fabled mountain is tall enough to be seen from Tokyo, more than 100 kilometers away.",
+          "de": "Ohne Zweifel ist Japans bekanntestes Wahrzeichen, der majestätische Berg Fuji (Fuji-san), auch der höchste Berg des Landes. Dieser majestätische und sagenumwobene Berg ragt 3.776 Meter über eine ansonsten weitgehend flache Landschaft im Süden und Osten und ist hoch genug, um von Tokio aus gesehen zu werden, das mehr als 100 Kilometer entfernt ist."
+        },
+        "img": "../assets/images/Japan/japan-attractions-mount-fuji.jpg"
+      },
+      {
+        "name": {
+          "ru": "Императорский Токио",
+          "en": "Imperial Tokyo",
+          "de": "Kaiserliches Tokio"
+        },
+        "info": {
+          "ru": "Самая известная достопримечательность Токио, Императорский дворец с его красивыми парками 17-го века, окруженными стенами и рвами, является обязательным для посещения при посещении столицы страны. Не пугайтесь того факта, что большая часть дворца закрыта для публики (он все еще используется императорской семьей), так как здесь все еще достаточно, чтобы увидеть, просто прогуливаясь по территории.",
+          "en": "Tokyo's most famous landmark, the Imperial Palace with its beautiful 17th-century parks surrounded by walls and moats, is a must-see when visiting the nation's capital. Don't be put off by the fact that the majority of the palace is closed to the public (it's still in use by the Imperial family), as there is still enough to see simply by strolling the grounds.",
+          "de": "Tokios berühmtestes Wahrzeichen, der Kaiserpalast mit seinen wunderschönen Parks aus dem 17. Jahrhundert, die von Mauern und Wassergräben umgeben sind, ist ein Muss, wenn Sie die Hauptstadt des Landes besuchen. Lassen Sie sich nicht von der Tatsache abschrecken, dass der Großteil des Palastes für die Öffentlichkeit geschlossen ist (er wird immer noch von der kaiserlichen Familie genutzt), da es immer noch genug gibt, um einfach durch das Gelände zu schlendern."
+        },
+        "img": "../assets/images/Japan/japan-attractions-imperial-palace.jpg"
+      },
+      {
+        "name": {
+          "ru": "Мемориальный парк мира в Хиросиме",
+          "en": "Hiroshima Peace Memorial Park",
+          "de": "Hiroshima Peace Memorial Park"
+        },
+        "info": {
+          "ru": "Хотя здесь мало что нужно сказать об ужасах атомной бомбардировки Хиросимы в августе 1945 года, многое можно сказать о невероятных усилиях, предпринятых этим ярким городом, чтобы почтить память многих жертв первой в мире ядерной атаки. Возможно, что еще более важно, Хиросима стала символом прочного мира.",
+          "en": "While little needs to be said here of the horrors of the atomic bombing of Hiroshima in August 1945, much can be said of the incredible efforts this vibrant city has made to commemorate the many victims of the world's first nuclear attack. Perhaps even more importantly, Hiroshima has become a symbol of lasting peace.",
+          "de": "Während hier wenig über die Schrecken der Atombomben auf Hiroshima im August 1945 gesagt werden muss, kann viel über die unglaublichen Anstrengungen gesagt werden, die diese pulsierende Stadt unternommen hat, um den vielen Opfern des ersten Atomangriffs der Welt zu gedenken. Vielleicht noch wichtiger ist, dass Hiroshima ein Symbol für dauerhaften Frieden geworden ist."
+        },
+        "img": "../assets/images/Japan/japan-attractions-hiroshima-peace-memorial-park.jpg"
+      },
+      {
+        "name": {
+          "ru": "Исторический Киото",
+          "en": "Historic Kyoto",
+          "de": "Historisches Kyoto"
+        },
+        "info": {
+          "ru": "Один из самых посещаемых городов Японии, прекрасный Киото - один из немногих городов страны, который избежал разрушений Второй мировой войны - ежегодно привлекает более 10 миллионов посетителей. Большинство из них здесь, чтобы исследовать прекрасные старые улицы и архитектуру Киото, большая часть которой не изменилась с тех пор, как Императорская семья поселилась здесь более 1000 лет назад.",
+          "en": "One of Japan's most visited cities, lovely Kyoto - one of the few cities in the country to be spared the devastation of WWII - attracts more than 10 million visitors annually. Most of them are here to explore Kyoto's fine old streets and architecture, much of it unchanged since the Imperial family took up residence here more than 1,000 years ago.",
+          "de": "Eine der meistbesuchten Städte Japans, das schöne Kyoto - eine der wenigen Städte des Landes, die von den Verwüstungen des Zweiten Weltkriegs verschont bleiben - zieht jährlich mehr als 10 Millionen Besucher an. Die meisten von ihnen sind hier, um Kyotos schöne alte Straßen und Architektur zu erkunden. Ein Großteil davon ist unverändert geblieben, seit die kaiserliche Familie vor mehr als 1.000 Jahren hier ihren Wohnsitz gefunden hat."
+        },
+        "img": "../assets/images/Japan/japan-attractions-kyoto.jpg"
+      },
+      {
+        "name": {
+          "ru": "Островной храм Ицукусима",
+          "en": "The Island Shrine of Itsukushima",
+          "de": "Der Inselschrein von Itsukushima"
+        },
+        "info": {
+          "ru": "Всего в нескольких минутах езды на пароме от материковой части Хиросимы находится остров Миядзима, известный во всем мире как Японский остров святынь. Миядзима, занимающий территорию в 30 квадратных километров в заливе Хиросима, наиболее известен как дом для святилища Ицукусима, синтоистского храма, посвященного принцессам, дочерям бога ветра Сусаноо.",
+          "en": "Just a short ferry ride from mainland Hiroshima is the island of Miyajima, famous the world over as Japan's Shrine Island. Covering an area of 30 square kilometers in Hiroshima Bay, Miyajima is best known as the home of the Itsukushima Shrine, a Shinto temple dedicated to the Princess daughters of the wind god Susanoo.",
+          "de": "Nur eine kurze Fahrt mit der Fähre vom Festland Hiroshima entfernt liegt die Insel Miyajima, die weltweit als Japans Schreininsel bekannt ist. Auf einer Fläche von 30 Quadratkilometern in der Hiroshima-Bucht ist Miyajima vor allem als Heimat des Itsukushima-Schreins bekannt, eines shintoistischen Tempels, der den Töchtern der Prinzessin des Windgottes Susanoo gewidmet ist."
+        },
+        "img": "../assets/images/Japan/japan-attractions-hiroshima-itsukushima.jpg"
+      },
+      {
+        "name": {
+          "ru": "Храм Ацута, Нагоя",
+          "en": "The Atsuta Shrine, Nagoya",
+          "de": "Der Atsuta-Schrein, Nagoya"
+        },
+        "info": {
+          "ru": "Святилище Ацута в центре города Нагоя является самым важным синтоистским святилищем в Японии и ежегодно привлекает более пяти миллионов посетителей. Основанный в первом веке, это религиозное место славится сохранившимися императорскими знаками отличия, «мечом для косилки травы» (кусанаги-но-цуруги), одним из трех в стране.",
+          "en": "The Atsuta Shrine, in the heart of the city of Nagoya, is the most important Shinto shrine in Japan, and attracts more than five million visitors each year. Established in the first century, this religious site is famous for its preserved Imperial insignia, the \"grass-mowing sword\" (kusanagi-no-tsurugi), one of only three in the country.",
+          "de": "Der Atsuta-Schrein im Herzen der Stadt Nagoya ist der wichtigste Shinto-Schrein in Japan und zieht jedes Jahr mehr als fünf Millionen Besucher an. Diese religiöse Stätte wurde im ersten Jahrhundert gegründet und ist berühmt für ihre erhaltenen kaiserlichen Insignien, das \"Grasmähschwert\" (kusanagi-no-tsurugi), eines von nur drei im Land."
+        },
+        "img": "../assets/images/Japan/japan-attractions-atsuta-shrine.jpg"
+      }
+    ]
+  },
+  {
+    "path":"",
+    "videoUrl": "https://www.youtube.com/watch?v=Nye_O4PEh7k",
+    "places": [
+      {
+        "name": {
+          "ru": "",
+          "en": "",
+          "de": ""
+        },
+        "info": {
+          "ru": "",
+          "en": "",
+          "de": ""
+        },
+        "img": "../assets/images/Peru/"
+      },
+      {
+        "name": {
+          "ru": "",
+          "en": "",
+          "de": ""
+        },
+        "info": {
+          "ru": "",
+          "en": "",
+          "de": ""
+        },
+        "img": "../assets/images/Peru/"
+      },
+      {
+        "name": {
+          "ru": "",
+          "en": "",
+          "de": ""
+        },
+        "info": {
+          "ru": "",
+          "en": "",
+          "de": ""
+        },
+        "img": "../assets/images/Peru/"
+      },
+      {
+        "name": {
+          "ru": "",
+          "en": "",
+          "de": ""
+        },
+        "info": {
+          "ru": "",
+          "en": "",
+          "de": ""
+        },
+        "img": "../assets/images/Peru/"
+      },
+      {
+        "name": {
+          "ru": "",
+          "en": "",
+          "de": ""
+        },
+        "info": {
+          "ru": "",
+          "en": "",
+          "de": ""
+        },
+        "img": "../assets/images/Peru/"
+      },
+      {
+        "name": {
+          "ru": "",
+          "en": "",
+          "de": ""
+        },
+        "info": {
+          "ru": "",
+          "en": "",
+          "de": ""
+        },
+        "img": "../assets/images/Peru/"
+      }
+    ]
+  },
+  {
     "path":"",
     "videoUrl": "https://www.youtube.com/watch?v=Nye_O4PEh7k",
     "places": [
