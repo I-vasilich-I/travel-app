@@ -10,6 +10,7 @@ const SEARCH_PLACE_HOLDER_LANG_3 = 'Suche Land/Hauptstadt';
 
 const COUNTRIES_API_URL = 'https://nameless-citadel-16403.herokuapp.com/countries';
 const PLACES_API_URL = 'https://nameless-citadel-16403.herokuapp.com/places';
+const COORDINATES_API_URL = 'https://nameless-citadel-16403.herokuapp.com/coordinates';
 
 export {
   COLOR_MUI_PAPER_BACKGROUND,
@@ -21,5 +22,6 @@ export {
   SEARCH_PLACE_HOLDER_LANG_2,
   SEARCH_PLACE_HOLDER_LANG_3,
   COUNTRIES_API_URL,
-  PLACES_API_URL
+  PLACES_API_URL,
+  COORDINATES_API_URL
 }
