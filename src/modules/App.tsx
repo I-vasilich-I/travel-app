@@ -3,15 +3,35 @@ import Header from './header/Header';
 import CountriesContainer from './mainpage/CountriesContainer';
 import Footer from './footer/Footer';
 import CountryPage from "./countrypage/CountryPage";
-import { DEFAULT_LANGUAGE } from './constants';
-import data from '../data/data';
+import { CircularProgress } from "@material-ui/core";
+import { DEFAULT_LANGUAGE, COUNTRIES_API_URL } from './constants';
 import {
   BrowserRouter as Router,
-  // HashRouter as Router,
   Switch,
   Route,
-  // Redirect,
 } from "react-router-dom";
+
+
+interface CountryData {
+    avatar: string,
+    path: string,
+    name: {
+      [lang: string]: string,
+    },
+    capital: {
+      [lang: string]: string,
+    },
+    population: number,
+    area: number,
+    region: {
+      [lang: string]: string,
+    },
+    currency: string,
+    flag: string,
+    languages: string[],
+}
+
+
 
 const App = ():JSX.Element  => {
   const getLanguage = () => {
@@ -21,6 +41,20 @@ const App = ():JSX.Element  => {
   const [lang, setLang] = useState(getLanguage());
   const [search, setSearch] = useState('');
   const CountriesContainerRef:React.Ref<HTMLElement> = React.createRef();
+
+  const [countriesData, setCountriesData] = useState([]);
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  useEffect(() => {
+      fetch(COUNTRIES_API_URL)
+      .then(res => res.json())
+      .then((data) => {
+        setCountriesData(data);
+        setIsLoaded(true);
+      })
+      .catch((e) => console.log(e.message));
+  }, []);
+
   // filter country cards by search input
   useEffect(() => {
     const childrenArray = CountriesContainerRef.current?.children;
@@ -51,21 +85,27 @@ const App = ():JSX.Element  => {
         setSearch={setSearch}
       />
       <main className="main">
-        <Switch>
-          <Route exact path="/">
-            <CountriesContainer
-              lang={lang}
-              ref={CountriesContainerRef}
-            />
-          </Route>
-          {data.map((elem, id) => (
-            <Route key={id} path={`/${elem.path}`}>
-              <CountryPage />
+        { isLoaded ?
+          <Switch>
+            <Route exact path="/">
+              <CountriesContainer
+                lang={lang}
+                ref={CountriesContainerRef}
+                data={countriesData}
+              />
             </Route>
-          ))
-          }
-
-        </Switch>
+            {
+              countriesData.map((elem: CountryData, id) => (
+                <Route key={id} path={`/${elem.path}`}>
+                  <CountryPage />
+                </Route>
+              ))
+            }
+          </Switch> :
+          <div className="countries-container countries-container--onload">
+            <CircularProgress />
+          </div>
+        }
       </main>
       <Footer />
     </Router>

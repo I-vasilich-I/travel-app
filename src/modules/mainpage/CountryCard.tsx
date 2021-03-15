@@ -10,7 +10,6 @@ import { COLOR_MUI_PAPER_BACKGROUND } from '../constants';
 
 const useStyles = makeStyles({
   root: {
-    // width: 350,
     margin: 10,
     backgroundColor: COLOR_MUI_PAPER_BACKGROUND,
   },
@@ -19,25 +18,27 @@ const useStyles = makeStyles({
   },
 });
 
-interface CountryData {
-  country: {
-    avatar: string,
-    path: string,
-    name: {
-      [lang: string]: string,
-    },
-    capital: {
-      [lang: string]: string,
-    },
-    population: number,
-    area: number,
-    region: {
-      [lang: string]: string,
-    },
-    currency: string,
-    flag: string,
-    languages: string[],
+interface Country {
+  avatar: string,
+  path: string,
+  name: {
+    [lang: string]: string,
   },
+  capital: {
+    [lang: string]: string,
+  },
+  population: number,
+  area: number,
+  region: {
+    [lang: string]: string,
+  },
+  currency: string,
+  flag: string,
+  languages: string[],
+}
+
+interface CountryData {
+  country: Country,
   lang: string
 }
 
