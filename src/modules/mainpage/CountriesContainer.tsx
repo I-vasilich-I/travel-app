@@ -1,24 +1,6 @@
 import React from 'react';
 import CountryCard from './CountryCard';
-
-interface Country {
-  avatar: string,
-  path: string,
-  name: {
-    [lang: string]: string,
-  },
-  capital: {
-    [lang: string]: string,
-  },
-  population: number,
-  area: number,
-  region: {
-    [lang: string]: string,
-  },
-  currency: string,
-  flag: string,
-  languages: string[],
-}
+import Country from '../interfaces';
 
 interface Language {
   lang: string,

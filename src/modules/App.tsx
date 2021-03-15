@@ -5,33 +5,12 @@ import Footer from './footer/Footer';
 import CountryPage from "./countrypage/CountryPage";
 import { CircularProgress } from "@material-ui/core";
 import { DEFAULT_LANGUAGE, COUNTRIES_API_URL } from './constants';
+import Country from './interfaces';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
-
-
-interface CountryData {
-    avatar: string,
-    path: string,
-    name: {
-      [lang: string]: string,
-    },
-    capital: {
-      [lang: string]: string,
-    },
-    population: number,
-    area: number,
-    region: {
-      [lang: string]: string,
-    },
-    currency: string,
-    flag: string,
-    languages: string[],
-}
-
-
 
 const App = ():JSX.Element  => {
   const getLanguage = () => {
@@ -95,9 +74,9 @@ const App = ():JSX.Element  => {
               />
             </Route>
             {
-              countriesData.map((elem: CountryData, id) => (
+              countriesData.map((elem: Country, id) => (
                 <Route key={id} path={`/${elem.path}`}>
-                  <CountryPage />
+                  <CountryPage country={elem} />
                 </Route>
               ))
             }

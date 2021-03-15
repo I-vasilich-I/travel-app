@@ -34,7 +34,9 @@ interface Country {
   },
   currency: string,
   flag: string,
-  languages: string[],
+  languages: {
+    [lang: string]: string[],
+  },
 }
 
 interface CountryData {
