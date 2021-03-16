@@ -4,7 +4,7 @@ export interface ImagesSlideType {
   image: string,
   title: string,
   description: string,
-  location: string,
+  location?: string,
   tooltip?: string,
   onSlideClick?: () => void
 }

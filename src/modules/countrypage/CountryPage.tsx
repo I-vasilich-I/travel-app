@@ -21,14 +21,14 @@ interface Mesure {
 }
 
 function CountryPage(props: CountryData): JSX.Element {
-  const { avatar, name, capital, population, area, region, currency, flag, languages } = props.country;
+  const { avatar, name, capital, population, area, region, currency, flag, languages, path } = props.country;
   const { lang } = props;
   const localLang = `${lang}-${lang.toUpperCase()}`;
   const mesureLang: Mesure = {
     areaM: {
       'ru': 'км².',
-      'en': 'км².',
-      'de': 'км².'
+      'en': 'km².',
+      'de': 'km².'
     },
     populationM: {
       'ru': 'чел.',
@@ -53,7 +53,7 @@ function CountryPage(props: CountryData): JSX.Element {
         flag={flag}
         languages={langObj[lang]}
         lang={lang}/>
-      <CountryContent/>
+      <CountryContent path={path} lang={lang} />
     </div>
   );
 }
