@@ -94,6 +94,7 @@ useEffect(() => {
             lang={lang}
             capital={capital}
             country={country}
+            typePolygon={path === 'Belarus' || path === 'Poland' ? 'Polygon' : 'MultiPolygon'}
           />
         </>
         :
