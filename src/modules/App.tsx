@@ -28,7 +28,8 @@ const App = ():JSX.Element  => {
       fetch(COUNTRIES_API_URL)
       .then(res => res.json())
       .then((data) => {
-        setCountriesData(data.filter((el: Country) => el.path !== "Belarus"));
+        // setCountriesData(data.filter((el: Country) => el.path !== "Belarus"));
+        setCountriesData(data);
         setIsLoaded(true);
       })
       .catch((e) => console.log(e.message));
