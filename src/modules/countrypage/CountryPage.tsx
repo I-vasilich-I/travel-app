@@ -35,8 +35,6 @@ function CountryPage(props: CountryData): JSX.Element {
       'en': 'ppl.',
       'de': 'mnsch.'
     },
-
-
   }
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const langObj: any = languages[0];
@@ -53,7 +51,7 @@ function CountryPage(props: CountryData): JSX.Element {
         flag={flag}
         languages={langObj[lang]}
         lang={lang}/>
-      <CountryContent path={path} lang={lang} />
+      <CountryContent path={path} lang={lang} capital={capital[lang]} country={name[lang]} />
     </div>
   );
 }

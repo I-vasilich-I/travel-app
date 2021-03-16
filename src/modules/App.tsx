@@ -28,7 +28,7 @@ const App = ():JSX.Element  => {
       fetch(COUNTRIES_API_URL)
       .then(res => res.json())
       .then((data) => {
-        setCountriesData(data);
+        setCountriesData(data.filter((el: Country) => el.path !== "Belarus"));
         setIsLoaded(true);
       })
       .catch((e) => console.log(e.message));
@@ -75,6 +75,7 @@ const App = ():JSX.Element  => {
             </Route>
             {
               countriesData.map((elem: Country, id) => (
+
                 <Route key={id} path={`/${elem.path}`}>
                   <CountryPage country={elem} lang={lang} />
                 </Route>
