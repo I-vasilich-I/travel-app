@@ -7,7 +7,9 @@ import Sunset from '@material-ui/icons/NightsStay';
 import {CircularProgress, Switch} from "@material-ui/core";
 
 interface WeatherWidgetProps {
-  country: string
+  capital: string,
+  lang: string,
+  timeZone: string
 }
 
 interface WeatherType {
@@ -17,8 +19,8 @@ interface WeatherType {
   stateWeather: string,
   wind: string,
   humidity: string,
-  sunrise: Date,
-  sunset: Date,
+  sunrise: number,
+  sunset: number,
 }
 
 interface Titles {
@@ -51,11 +53,11 @@ export default function WeatherWidget(props: WeatherWidgetProps): JSX.Element {
     stateWeather: '',
     wind: '',
     humidity: '',
-    sunrise: new Date(),
-    sunset: new Date()
+    sunrise: 0,
+    sunset: 0,
   });
 
-  const {country} = props;
+  const {capital, lang, timeZone} = props;
 
   const titles: Titles = {
     wind: {
@@ -86,9 +88,10 @@ export default function WeatherWidget(props: WeatherWidgetProps): JSX.Element {
   }
 
   useEffect(() => {
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${country}&units=metric&appid=bfe77b66bdbd401c7b6a4210e7a8f5b2&lang=ru`)
+    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${capital}&units=metric&appid=bfe77b66bdbd401c7b6a4210e7a8f5b2&lang=${lang}`)
       .then(res => res.json())
       .then((data) => {
+          console.log(data);
           setWeather({
             temp: Math.round(data.main.temp),
             icon: data.weather[0].id,
@@ -96,15 +99,15 @@ export default function WeatherWidget(props: WeatherWidgetProps): JSX.Element {
             stateWeather: data.weather[0].description[0].toUpperCase() + data.weather[0].description.slice(1),
             wind: data.wind.speed,
             humidity: data.main.humidity,
-            sunrise: new Date(data.sys.sunrise * 1000),
-            sunset: new Date(data.sys.sunset * 1000)
+            sunrise: data.sys.sunrise * 1000,
+            sunset: data.sys.sunset * 1000,
           });
           setIsLoaded(true);
         },
         (error) => {
           console.log(error);
         });
-  }, [country]);
+  }, [capital, lang, timeZone]);
 
   function onChangeMetric() {
     setUseMetrics(!useMetrics);
@@ -125,7 +128,7 @@ export default function WeatherWidget(props: WeatherWidgetProps): JSX.Element {
                 <span className='units'>{useMetrics ? '℃' : '℉'}</span>
               </div>
               <div className="weather-info__description">
-                <span className="country">{country}</span>
+                <span className="country">{capital}</span>
                 <span className="state">{weather.stateWeather}</span>
               </div>
             </div>
@@ -148,7 +151,9 @@ export default function WeatherWidget(props: WeatherWidgetProps): JSX.Element {
                 <span className="caption-indicator">{titles.sunrise[lang]}</span>
                 <div className="indicator-wrapper">
                   <Sunrise/>
-                  <span className="indicator">{weather.sunrise.toLocaleTimeString('ru-Ru', {
+                  <span
+                    className="indicator">{new Date(weather.sunrise).toLocaleTimeString(lang, {
+                    timeZone: `${timeZone}`,
                     hour: "numeric",
                     minute: "numeric"
                   })}</span>
@@ -158,7 +163,8 @@ export default function WeatherWidget(props: WeatherWidgetProps): JSX.Element {
                 <span className="caption-indicator">{titles.sunset[lang]}</span>
                 <div className="indicator-wrapper">
                   <Sunset/>
-                  <span className="indicator">{weather.sunset.toLocaleTimeString('ru-Ru', {
+                  <span className="indicator">{new Date(weather.sunset).toLocaleTimeString(lang, {
+                    timeZone: `${timeZone}`,
                     hour: "numeric",
                     minute: "numeric"
                   })}</span>
