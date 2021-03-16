@@ -7,6 +7,7 @@ import VideoPlayer from './VideoPlayer';
 import WeatherWidget from './WeatherWidget';
 import TimeWidget from './TimeWidget';
 import { CircularProgress } from "@material-ui/core";
+import { LatLngExpression } from 'leaflet';
 
 interface CountryContentProps {
   path: string;
@@ -16,8 +17,8 @@ interface CountryContentProps {
 }
 
 interface MapObj {
-  coordinates: any,
-  location: any
+  coordinates: Array<LatLngExpression[]>,
+  location: LatLngExpression
 }
 
 interface Titles {
@@ -42,13 +43,23 @@ interface TimeZone {
   [id: string]: string
 }
 
+interface Place {
+  img: string
+  name: {
+    [lang: string]: string
+  }
+  info: {
+    [name: string]: string
+  }
+}
+
 export default function CountryContent(props: CountryContentProps): JSX.Element {
   const { path, lang, capital, country } = props;
 
   const placesArray: Array<ImagesSlideType> = [];
   const mapObj: MapObj = {
-    coordinates: [],
-    location: []
+    coordinates: [[]],
+    location: [0, 0]
   };
   const [placesData, setPlacesData] = useState(placesArray);
   const [mapData, setMapData] = useState(mapObj);
@@ -101,7 +112,7 @@ export default function CountryContent(props: CountryContentProps): JSX.Element 
     fetch(`${PLACES_API_URL}/${path}`)
     .then(res => res.json())
     .then((data) => {
-      data[0].places.map((elem: any) => {
+      data[0].places.map((elem: Place) => {
         const place: ImagesSlideType = {
           image: elem.img,
           title: elem.name[lang],
@@ -114,6 +125,7 @@ export default function CountryContent(props: CountryContentProps): JSX.Element 
       setIsPlacesLoaded(true);
     })
     .catch((e) => console.log(e.message));
+// eslint-disable-next-line react-hooks/exhaustive-deps
 }, [lang, path]);
 
 //Map data
@@ -128,6 +140,7 @@ useEffect(() => {
     })
     .catch((e) => console.log(e.message));
 
+// eslint-disable-next-line react-hooks/exhaustive-deps
 }, [lang, path]);
 
   return (
