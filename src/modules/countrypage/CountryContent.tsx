@@ -136,6 +136,8 @@ export default function CountryContent(props: CountryContentProps): JSX.Element 
       <TimeWidget lang={lang} timeZone={timeZones[path]}/>
       <ContentTitle title={titles.weather[lang]}/>
       <WeatherWidget capital={capital} lang={lang} timeZone={timeZones[path]}/>
+      <ContentTitle title='Курс валют по отношению к BYN'/>
+      <CurrencyWidget currency='BYN'/>
       {
         isPlacesLoaded ?
           <>

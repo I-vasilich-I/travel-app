@@ -2,8 +2,15 @@
   display: flex;
   flex-direction: row;
   width: 100%;
+  min-height: 240px;
   background-color: #2b2e4a;
   padding: 0 55px;
+  justify-content: center;
+  align-items: center;
+
+  .MuiCircularProgress-svg {
+    color: #e4e9ea;
+  }
 
   .currency-captions, .currency-numbers {
     display: flex;
@@ -37,7 +44,7 @@
     align-items: center;
 
     .currency-icon {
-      width: 80px;
+      width: 60px;
     }
 
     .currency-point {
