@@ -12,6 +12,7 @@ interface MapProps {
   location: LatLngExpression,
   lang: string,
   coordinates: Array<LatLngExpression[]>,
+  typePolygon: string,
   country: string,
   capital: string
 }
@@ -19,13 +20,13 @@ interface MapProps {
 export default function Map(props: MapProps): JSX.Element {
 
   const [fullscreen, setFullscreen] = useState(false);
-  const {location, lang, coordinates, capital, country} = props;
+  const {location, lang, coordinates, typePolygon, capital, country} = props;
   const mapRef = useRef<L.Map>();
 
   const GeoJsonData = {
     geometry: {
       coordinates: coordinates,
-      type: 'Polygon' as "Polygon",
+      type: `${typePolygon}` as "MultiPolygon",
     },
     properties: {
       name: country
