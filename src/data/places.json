@@ -670,5 +670,89 @@
         "img": "../assets/images/USA/walt_disney_world.jpg"
       }
     ]
+  },
+  {
+    "path":"Belarus",
+    "videoUrl": "https://youtu.be/hHy_uUnvkho",
+    "places": [
+      {
+        "name": {
+          "ru": "Брестская крепость",
+          "en": "Brest Fortress",
+          "de": "Festung Brest"
+        },
+        "info": {
+          "ru": "Одно из знаковых мест Беларуси, символ советского сопротивления во время Второй мировой войны.",
+          "en": "One of the iconic places in Belarus, a symbol of Soviet resistance during the Second World War.",
+          "de": "Einer der Wahrzeichen in Belarus, ein Symbol des sowjetischen Widerstands während des Zweiten Weltkriegs."
+        },
+        "img": "../assets/images/Belarus/Brest_Fortress.jpg"
+      },
+      {
+        "name": {
+          "ru": "Августовский канал",
+          "en": "Augustow Canal",
+          "de": "Augustow-Kanal"
+        },
+        "info": {
+          "ru": "Судоходный канал, построенный в XIX веке, чтобы создать путь от Черного моря до Балтийского.",
+          "en": "A shipping canal built in the 19th century to create a route from the Black Sea to the Baltic.",
+          "de": "Ein Schifffahrtskanal, der im 19. Jahrhundert gebaut wurde, um eine Route vom Schwarzen Meer zur Ostsee zu schaffen."
+        },
+        "img": "../assets/images/Belarus/Augustow_Canal.jpg"
+      },
+      {
+        "name": {
+          "ru": "Несвижский замок",
+          "en": "Nesvizh Castle",
+          "de": "Nesvizh Schloss"
+        },
+        "info": {
+          "ru": "В XVI веке Несвиж стал родовом гнездом Радзивиллов, главной династии в истории Великого Княжества Литовского.",
+          "en": "In the 16th century, Nesvizh became the ancestral home of the Radziwills, the main dynasty in the history of the Grand Duchy of Lithuania.",
+          "de": "Im 16. Jahrhundert wurde Nesvizh das Stammhaus der Radziwills, der Hauptdynastie in der Geschichte des Großherzogtums Litauen."
+        },
+        "img": "../assets/images/Belarus/Nesvizh_Castle.jpg"
+      },
+      {
+        "name": {
+          "ru": "Софийский собор",
+          "en": "Saint Sophia Cathedral",
+          "de": "St. Sophia Kathedrale"
+        },
+        "info": {
+          "ru": "Первый мурованый храм на территории Беларуси, построенный в XI веке главным героем всех беларусских легенд Всеславом Черодеем.",
+          "en": "The first moored temple on the territory of Belarus, built in the XI century by the main hero of all Belarusian legends Vseslav Cherodey.",
+          "de": "Der erste festgemachte Tempel auf dem Territorium von Belarus, der im 11. Jahrhundert vom Haupthelden aller belarussischen Legenden, Vseslav Cherodey, erbaut wurde."
+        },
+        "img": "../assets/images/Belarus/Saint_Sophia_Cathedral.jpg"
+      },
+      {
+        "name": {
+          "ru": "Новогрудский замок",
+          "en": "Novogrudok castle",
+          "de": "Novogrudok Schloss"
+        },
+        "info": {
+          "ru": "Новогрудок – древний беларусский город, который был первой столицей ВКЛ.",
+          "en": "Novogrudok is an ancient Belarusian city, which was the first capital of the Grand Duchy of Lithuania.",
+          "de": "Novogrudok ist eine alte belarussische Stadt, die die erste Hauptstadt des Großherzogtums Litauen war."
+        },
+        "img": "../assets/images/Belarus/Novogrudok_castle.jpg"
+      },
+      {
+        "name": {
+          "ru": "Беловежская пуща",
+          "en": "Bialowieza Forest",
+          "de": "Bialowieza Wald"
+        },
+        "info": {
+          "ru": "Беларусский повод для гордости – самый большой и старый лесной массив Европы.",
+          "en": "The Belarusian reason for pride is the largest and oldest forest in Europe.",
+          "de": "Der belarussische Grund für Stolz ist der größte und älteste Wald in Europa."
+        },
+        "img": "../assets/images/Belarus/Bialowieza_Forest.jpg"
+      }
+    ]
   }
 ]
