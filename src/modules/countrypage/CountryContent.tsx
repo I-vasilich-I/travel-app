@@ -6,6 +6,7 @@ import { PLACES_API_URL, COORDINATES_API_URL } from '../constants';
 import VideoPlayer from './VideoPlayer';
 import WeatherWidget from './WeatherWidget';
 import TimeWidget from './TimeWidget';
+import { CircularProgress } from "@material-ui/core";
 
 interface CountryContentProps {
   path: string;
@@ -144,7 +145,9 @@ useEffect(() => {
           <VideoPlayer url={videoLink}/>
         </>
         :
-        <></>
+        <div className="countries-container countries-container--onload">
+          <CircularProgress />
+        </div>
       }
       {
         isMapLoaded ?
@@ -160,7 +163,9 @@ useEffect(() => {
           />
         </>
         :
-        <></>
+        <div className="countries-container countries-container--onload">
+          <CircularProgress />
+        </div>
       }
     </div>
   );
