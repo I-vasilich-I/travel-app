@@ -19,6 +19,28 @@ interface MapObj {
   location: any
 }
 
+interface Titles {
+  time: {
+    [lang: string]: string
+  }
+  weather: {
+    [lang: string]: string
+  }
+  photo: {
+    [lang: string]: string
+  }
+  video: {
+    [lang: string]: string
+  }
+  map: {
+    [lang: string]: string
+  }
+}
+
+interface TimeZone {
+  [id: string]: string
+}
+
 export default function CountryContent(props: CountryContentProps): JSX.Element {
   const { path, lang, capital, country } = props;
 
@@ -32,6 +54,46 @@ export default function CountryContent(props: CountryContentProps): JSX.Element 
   const [videoLink, setVideoLink] = useState('');
   const [isPlacesLoaded, setIsPlacesLoaded] = useState(false);
   const [isMapLoaded, setIsMapLoaded] = useState(false);
+
+  const timeZones: TimeZone = {
+    'Belarus': 'Europe/Minsk',
+    'Brazil': 'America/Sao_Paulo',
+    'England': 'Europe/London',
+    'Japan': 'Asia/Tokyo',
+    'Netherlands': 'Europe/Minsk',
+    'Peru': 'Europe/Minsk',
+    'Poland': 'Europe/Warsaw',
+    'Russia': 'Europe/Moscow',
+    'USA': 'America/New_York',
+  }
+
+  const titles: Titles = {
+    time: {
+      'ru': 'Текущее время в стране',
+      'en': 'Current time in the country',
+      'de': 'Aktuelle Zeit im Land',
+    },
+    weather: {
+      'ru': 'Погода в стране',
+      'en': 'Country weather',
+      'de': 'Landwetter',
+    },
+    photo: {
+      'ru': 'Фотогалерея',
+      'en': 'Photo gallery',
+      'de': 'Fotogallerie',
+    },
+    video: {
+      'ru': 'Видео о стране',
+      'en': 'Country video',
+      'de': 'Ländervideo',
+    },
+    map: {
+      'ru': 'Карта',
+      'en': 'Map',
+      'de': 'Karte',
+    }
+  }
 
   //Placese data
   useEffect(() => {
@@ -69,16 +131,16 @@ useEffect(() => {
 
   return (
     <div className='country-content'>
-      <ContentTitle title='Текущее время в стране'/>
-      <TimeWidget lang={lang} timeZone='Europe/Minsk'/>
-      <ContentTitle title='Погода в стране'/>
-      <WeatherWidget capital={capital} lang={lang} timeZone='Europe/Minsk'/>
+      <ContentTitle title={titles.time[lang]}/>
+      <TimeWidget lang={lang} timeZone={timeZones[path]}/>
+      <ContentTitle title={titles.weather[lang]}/>
+      <WeatherWidget capital={capital} lang={lang} timeZone={timeZones[path]}/>
       {
         isPlacesLoaded ?
         <>
-          <ContentTitle title='Фотогалерея'/>
+          <ContentTitle title={titles.photo[lang]}/>
           <ImageSlider slides={placesData}/>
-          <ContentTitle title='Видео о стране'/>
+          <ContentTitle title={titles.video[lang]}/>
           <VideoPlayer url={videoLink}/>
         </>
         :
@@ -87,7 +149,7 @@ useEffect(() => {
       {
         isMapLoaded ?
         <>
-          <ContentTitle title='Карта'/>
+          <ContentTitle title={titles.map[lang]}/>
           <Map
             location={mapData.location}
             coordinates={mapData.coordinates}
