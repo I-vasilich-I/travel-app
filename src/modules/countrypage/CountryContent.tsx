@@ -72,7 +72,7 @@ useEffect(() => {
       <ContentTitle title='Текущее время в стране'/>
       <TimeWidget lang={lang} timeZone='Europe/Minsk'/>
       <ContentTitle title='Погода в стране'/>
-      <WeatherWidget country={path}/>
+      <WeatherWidget capital={capital} lang={lang} timeZone='Europe/Minsk'/>
       {
         isPlacesLoaded ?
         <>
