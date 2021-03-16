@@ -6,7 +6,7 @@ import {PLACES_API_URL, COORDINATES_API_URL} from '../constants';
 import VideoPlayer from './VideoPlayer';
 import WeatherWidget from './WeatherWidget';
 import TimeWidget from './TimeWidget';
-import CurrencyWidget from "./ CurrencyWidget";
+import CurrencyWidget from "./CurrencyWidget";
 
 interface CountryContentProps {
   path: string;
