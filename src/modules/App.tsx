@@ -23,7 +23,7 @@ const App = ():JSX.Element  => {
 
   const [countriesData, setCountriesData] = useState([]);
   const [isLoaded, setIsLoaded] = useState(false);
-
+  // Fetch countries data
   useEffect(() => {
       fetch(COUNTRIES_API_URL)
       .then(res => res.json())
@@ -34,7 +34,7 @@ const App = ():JSX.Element  => {
       .catch((e) => console.log(e.message));
   }, []);
 
-  // filter country cards by search input
+  // Filter country cards by search input
   useEffect(() => {
     const childrenArray = CountriesContainerRef.current?.children;
     if (childrenArray) {
@@ -76,7 +76,7 @@ const App = ():JSX.Element  => {
             {
               countriesData.map((elem: Country, id) => (
                 <Route key={id} path={`/${elem.path}`}>
-                  <CountryPage country={elem} />
+                  <CountryPage country={elem} lang={lang} />
                 </Route>
               ))
             }
