@@ -7,6 +7,8 @@ import VideoPlayer from './VideoPlayer';
 import WeatherWidget from './WeatherWidget';
 import TimeWidget from './TimeWidget';
 import CurrencyWidget from "./CurrencyWidget";
+import { CircularProgress } from "@material-ui/core";
+import { LatLngExpression } from 'leaflet';
 
 interface CountryContentProps {
   path: string;
@@ -16,8 +18,8 @@ interface CountryContentProps {
 }
 
 interface MapObj {
-  coordinates: any,
-  location: any
+  coordinates: Array<LatLngExpression[]>,
+  location: LatLngExpression
 }
 
 interface Titles {
@@ -42,13 +44,23 @@ interface TimeZone {
   [id: string]: string
 }
 
+interface Place {
+  img: string
+  name: {
+    [lang: string]: string
+  }
+  info: {
+    [name: string]: string
+  }
+}
+
 export default function CountryContent(props: CountryContentProps): JSX.Element {
   const {path, lang, capital, country} = props;
 
   const placesArray: Array<ImagesSlideType> = [];
   const mapObj: MapObj = {
-    coordinates: [],
-    location: []
+    coordinates: [[]],
+    location: [0, 0]
   };
   const [placesData, setPlacesData] = useState(placesArray);
   const [mapData, setMapData] = useState(mapObj);
@@ -99,22 +111,23 @@ export default function CountryContent(props: CountryContentProps): JSX.Element 
   //Placese data
   useEffect(() => {
     fetch(`${PLACES_API_URL}/${path}`)
-      .then(res => res.json())
-      .then((data) => {
-        data[0].places.map((elem: any) => {
-          const place: ImagesSlideType = {
-            image: elem.img,
-            title: elem.name[lang],
-            description: elem.info[lang]
-          }
-          placesArray.push(place);
-        })
-        setPlacesData(placesArray);
-        setVideoLink(data[0].videoUrl);
-        setIsPlacesLoaded(true);
+    .then(res => res.json())
+    .then((data) => {
+      data[0].places.map((elem: Place) => {
+        const place: ImagesSlideType = {
+          image: elem.img,
+          title: elem.name[lang],
+          description: elem.info[lang]
+        }
+        placesArray.push(place);
       })
-      .catch((e) => console.log(e.message));
-  }, [lang, path]);
+      setPlacesData(placesArray);
+      setVideoLink(data[0].videoUrl);
+      setIsPlacesLoaded(true);
+    })
+    .catch((e) => console.log(e.message));
+// eslint-disable-next-line react-hooks/exhaustive-deps
+}, [lang, path]);
 
 //Map data
   useEffect(() => {
@@ -127,8 +140,8 @@ export default function CountryContent(props: CountryContentProps): JSX.Element 
         setIsMapLoaded(true);
       })
       .catch((e) => console.log(e.message));
-
-  }, [lang, path]);
+// eslint-disable-next-line react-hooks/exhaustive-deps
+}, [lang, path]);
 
   return (
     <div className='country-content'>
@@ -140,30 +153,34 @@ export default function CountryContent(props: CountryContentProps): JSX.Element 
       <CurrencyWidget currency='BYN'/>
       {
         isPlacesLoaded ?
-          <>
-            <ContentTitle title={titles.photo[lang]}/>
-            <ImageSlider slides={placesData}/>
-            <ContentTitle title={titles.video[lang]}/>
-            <VideoPlayer url={videoLink}/>
-          </>
-          :
-          <></>
+        <>
+          <ContentTitle title={titles.photo[lang]}/>
+          <ImageSlider slides={placesData}/>
+          <ContentTitle title={titles.video[lang]}/>
+          <VideoPlayer url={videoLink}/>
+        </>
+        :
+        <div className="countries-container countries-container--onload">
+          <CircularProgress />
+        </div>
       }
       {
         isMapLoaded ?
-          <>
-            <ContentTitle title={titles.map[lang]}/>
-            <Map
-              location={mapData.location}
-              coordinates={mapData.coordinates}
-              lang={lang}
-              capital={capital}
-              country={country}
-              typePolygon={path === 'Belarus' || path === 'Poland' ? 'Polygon' : 'MultiPolygon'}
-            />
-          </>
-          :
-          <></>
+        <>
+          <ContentTitle title={titles.map[lang]}/>
+          <Map
+            location={mapData.location}
+            coordinates={mapData.coordinates}
+            lang={lang}
+            capital={capital}
+            country={country}
+            typePolygon={path === 'Belarus' || path === 'Poland' ? 'Polygon' : 'MultiPolygon'}
+          />
+        </>
+        :
+        <div className="countries-container countries-container--onload">
+          <CircularProgress />
+        </div>
       }
     </div>
   );
