@@ -37,6 +37,10 @@ interface Titles {
   }
 }
 
+interface TimeZone {
+  [id: string]: string
+}
+
 export default function CountryContent(props: CountryContentProps): JSX.Element {
   const { path, lang, capital, country } = props;
 
@@ -50,6 +54,18 @@ export default function CountryContent(props: CountryContentProps): JSX.Element 
   const [videoLink, setVideoLink] = useState('');
   const [isPlacesLoaded, setIsPlacesLoaded] = useState(false);
   const [isMapLoaded, setIsMapLoaded] = useState(false);
+
+  const timeZones: TimeZone = {
+    'Belarus': 'Europe/Minsk',
+    'Brazil': 'America/Sao_Paulo',
+    'England': 'Europe/London',
+    'Japan': 'Asia/Tokyo',
+    'Netherlands': 'Europe/Minsk',
+    'Peru': 'Europe/Minsk',
+    'Poland': 'Europe/Warsaw',
+    'Russia': 'Europe/Moscow',
+    'USA': 'America/New_York',
+  }
 
   const titles: Titles = {
     time: {
@@ -116,9 +132,9 @@ useEffect(() => {
   return (
     <div className='country-content'>
       <ContentTitle title={titles.time[lang]}/>
-      <TimeWidget lang={lang} timeZone='Europe/Minsk'/>
+      <TimeWidget lang={lang} timeZone={timeZones[path]}/>
       <ContentTitle title={titles.weather[lang]}/>
-      <WeatherWidget capital={capital} lang={lang} timeZone='Europe/Minsk'/>
+      <WeatherWidget capital={capital} lang={lang} timeZone={timeZones[path]}/>
       {
         isPlacesLoaded ?
         <>
