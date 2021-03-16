@@ -21,6 +21,24 @@ interface WeatherType {
   sunset: Date,
 }
 
+interface Titles {
+  wind: {
+    [lang: string]: string
+  }
+  humidity: {
+    [lang: string]: string
+  }
+  sunrise: {
+    [lang: string]: string
+  }
+  sunset: {
+    [lang: string]: string
+  }
+  speed: {
+    [lang: string]: string
+  }
+}
+
 export default function WeatherWidget(props: WeatherWidgetProps): JSX.Element {
 
   const [isLoaded, setIsLoaded] = useState(false);
@@ -38,6 +56,34 @@ export default function WeatherWidget(props: WeatherWidgetProps): JSX.Element {
   });
 
   const {country} = props;
+
+  const titles: Titles = {
+    wind: {
+      'ru': 'Ветер',
+      'en': 'Wind',
+      'de': 'Wind',
+    },
+    humidity: {
+      'ru': 'Влажность',
+      'en': 'Humidity',
+      'de': 'Feuchtigkeit',
+    },
+    sunrise: {
+      'ru': 'Рассвет',
+      'en': 'Sunrise',
+      'de': 'Dämmerung',
+    },
+    sunset: {
+      'ru': 'Закат',
+      'en': 'Sunset',
+      'de': 'Sonnenuntergang',
+    },
+    speed: {
+      'ru': 'м/с',
+      'en': 'm/s',
+      'de': 'm/s',
+    }
+  }
 
   useEffect(() => {
     fetch(`http://api.openweathermap.org/data/2.5/weather?q=${country}&units=metric&appid=bfe77b66bdbd401c7b6a4210e7a8f5b2&lang=ru`)
@@ -85,21 +131,21 @@ export default function WeatherWidget(props: WeatherWidgetProps): JSX.Element {
             </div>
             <div className="weather-indicators">
               <div className="weather-indicators__item">
-                <span className="caption-indicator">Ветер</span>
+                <span className="caption-indicator">{titles.wind[lang]}</span>
                 <div className="indicator-wrapper">
                   <WindSpeed/>
-                  <span className="indicator">{`${weather.wind} м/с`}</span>
+                  <span className="indicator">{`${weather.wind} ${titles.speed[lang]}`}</span>
                 </div>
               </div>
               <div className="weather-indicators__item">
-                <span className="caption-indicator">Влажность</span>
+                <span className="caption-indicator">{titles.humidity[lang]}</span>
                 <div className="indicator-wrapper">
                   <Humidity/>
                   <span className="indicator">{`${weather.humidity} %`}</span>
                 </div>
               </div>
               <div className="weather-indicators__item">
-                <span className="caption-indicator">Рассвет</span>
+                <span className="caption-indicator">{titles.sunrise[lang]}</span>
                 <div className="indicator-wrapper">
                   <Sunrise/>
                   <span className="indicator">{weather.sunrise.toLocaleTimeString('ru-Ru', {
@@ -109,7 +155,7 @@ export default function WeatherWidget(props: WeatherWidgetProps): JSX.Element {
                 </div>
               </div>
               <div className="weather-indicators__item">
-                <span className="caption-indicator">Закат</span>
+                <span className="caption-indicator">{titles.sunset[lang]}</span>
                 <div className="indicator-wrapper">
                   <Sunset/>
                   <span className="indicator">{weather.sunset.toLocaleTimeString('ru-Ru', {
