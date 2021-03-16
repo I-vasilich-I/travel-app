@@ -24,9 +24,9 @@ export default function TimeWidget(props: TimeProps): JSX.Element {
 
   return (
     <div className='time-wrapper'>
-      <span className='time'>{new Date(dateTime).toLocaleTimeString(lang, {timeZone: timeZone})}</span>
+      <span className='time'>{new Date(dateTime).toLocaleTimeString(lang, {timeZone: `${timeZone}`})}</span>
       <span className='date'>{new Date(dateTime).toLocaleDateString(lang, {
-        timeZone: timeZone,
+        timeZone: `${timeZone}`,
         year: 'numeric',
         month: 'long',
         day: 'numeric',
