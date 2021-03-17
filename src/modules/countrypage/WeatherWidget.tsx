@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from 'react';
-
 import WindSpeed from '@material-ui/icons/Toys';
 import Humidity from '@material-ui/icons/Opacity';
 import Sunrise from '@material-ui/icons/Brightness5';
@@ -42,10 +41,8 @@ interface Titles {
 }
 
 export default function WeatherWidget(props: WeatherWidgetProps): JSX.Element {
-
   const [isLoaded, setIsLoaded] = useState(false);
   const [useMetrics, setUseMetrics] = useState(true);
-
   const [weather, setWeather] = useState<WeatherType>({
     temp: 0,
     icon: '',
@@ -58,7 +55,6 @@ export default function WeatherWidget(props: WeatherWidgetProps): JSX.Element {
   });
 
   const {capital, lang, timeZone} = props;
-
   const titles: Titles = {
     wind: {
       'ru': 'Ветер',
@@ -88,7 +84,7 @@ export default function WeatherWidget(props: WeatherWidgetProps): JSX.Element {
   }
 
   useEffect(() => {
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${capital}&units=metric&appid=bfe77b66bdbd401c7b6a4210e7a8f5b2&lang=${lang}`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${capital}&units=metric&appid=bfe77b66bdbd401c7b6a4210e7a8f5b2&lang=${lang}`)
       .then(res => res.json())
       .then((data) => {
           setWeather({

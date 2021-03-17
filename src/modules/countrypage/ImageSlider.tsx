@@ -1,19 +1,15 @@
 import React, {useEffect, useRef, useState} from 'react';
 import Slider from 'react-slick';
-
 import {ImageSlide, ImagesSlideType} from "./ImageSlide";
 import CloseIcon from '@material-ui/icons/Close';
-
 
 interface ImagesSliderProps {
   slides: Array<ImagesSlideType>,
 }
 
 export default function ImageSlider(props: ImagesSliderProps): JSX.Element {
-
   const [fullScreenSlider, setFullScreenSlider] = useState(false);
   const imageSliderRef = useRef<Slider>(null);
-
   const {slides} = props;
 
   function fullscreenChange(value: boolean): void {

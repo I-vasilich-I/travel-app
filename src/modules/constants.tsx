@@ -1,4 +1,3 @@
-// const COLOR_MUI_PAPER_BACKGROUND = '#ffffff47';
 const COLOR_MUI_PAPER_BACKGROUND = '#ffffff8a';
 const LANGUAGE_1 = 'ru';
 const LANGUAGE_2 = 'en';

@@ -14,7 +14,8 @@ interface CountryContentProps {
   path: string;
   lang: string;
   capital: string;
-  country: string
+  country: string;
+  currency: string;
 }
 
 interface MapObj {
@@ -38,6 +39,9 @@ interface Titles {
   map: {
     [lang: string]: string
   }
+  currency: {
+    [lang: string]: string
+  }
 }
 
 interface TimeZone {
@@ -55,8 +59,7 @@ interface Place {
 }
 
 export default function CountryContent(props: CountryContentProps): JSX.Element {
-  const {path, lang, capital, country} = props;
-
+  const {path, lang, capital, country, currency} = props;
   const placesArray: Array<ImagesSlideType> = [];
   const mapObj: MapObj = {
     coordinates: [[]],
@@ -67,7 +70,6 @@ export default function CountryContent(props: CountryContentProps): JSX.Element 
   const [videoLink, setVideoLink] = useState('');
   const [isPlacesLoaded, setIsPlacesLoaded] = useState(false);
   const [isMapLoaded, setIsMapLoaded] = useState(false);
-
   const timeZones: TimeZone = {
     'Belarus': 'Europe/Minsk',
     'Brazil': 'America/Sao_Paulo',
@@ -105,6 +107,11 @@ export default function CountryContent(props: CountryContentProps): JSX.Element 
       'ru': 'Карта',
       'en': 'Map',
       'de': 'Karte',
+    },
+    currency: {
+      'ru': 'Курс валют по отношению к',
+      'en': 'Exchange rate in relation to',
+      'de': 'Wechselkurs in Bezug auf',
     }
   }
 
@@ -149,8 +156,8 @@ export default function CountryContent(props: CountryContentProps): JSX.Element 
       <TimeWidget lang={lang} timeZone={timeZones[path]}/>
       <ContentTitle title={titles.weather[lang]}/>
       <WeatherWidget capital={capital} lang={lang} timeZone={timeZones[path]}/>
-      <ContentTitle title='Курс валют по отношению к BYN'/>
-      <CurrencyWidget currency='BYN'/>
+      <ContentTitle title={`${titles.currency[lang]} ${currency}`}/>
+      <CurrencyWidget currency={currency} lang={lang}/>
       {
         isPlacesLoaded ?
         <>

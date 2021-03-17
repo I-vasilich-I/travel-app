@@ -1,12 +1,9 @@
 import React, {useRef, useState} from 'react';
 import {MapContainer, Marker, TileLayer, GeoJSON, Tooltip} from "react-leaflet";
 import L, {LatLngExpression} from 'leaflet';
-
-
 import FullscreenIcon from '@material-ui/icons/Fullscreen';
 import FullscreenExitIcon from '@material-ui/icons/FullscreenExit';
 import 'leaflet/dist/images/marker-shadow.png';
-
 
 interface MapProps {
   location: LatLngExpression,
@@ -18,11 +15,9 @@ interface MapProps {
 }
 
 export default function Map(props: MapProps): JSX.Element {
-
   const [fullscreen, setFullscreen] = useState(false);
   const {location, lang, coordinates, typePolygon, capital, country} = props;
   const mapRef = useRef<L.Map>();
-
   const GeoJsonData = {
     geometry: {
       coordinates: coordinates,
