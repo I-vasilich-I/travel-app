@@ -6,6 +6,7 @@ import CountryPage from "./countrypage/CountryPage";
 import { CircularProgress } from "@material-ui/core";
 import { DEFAULT_LANGUAGE, COUNTRIES_API_URL } from './constants';
 import Country from './interfaces';
+import Login from './login/Login';
 import {
   HashRouter as Router,
   Switch,
@@ -13,16 +14,18 @@ import {
 } from "react-router-dom";
 
 const App = ():JSX.Element  => {
-  const getLanguage = () => {
-    const localStorageLang = localStorage.getItem('language') || null;
-    return localStorageLang ? JSON.parse(localStorageLang) : DEFAULT_LANGUAGE;
+  const getDataFromSessionStorage = (name: string, defaultValue: unknown) => {
+    const tempData = sessionStorage.getItem(name) || null;
+    return tempData ? JSON.parse(tempData) : defaultValue;
   }
 
-  const [lang, setLang] = useState(getLanguage());
+  const [lang, setLang] = useState(getDataFromSessionStorage('language', DEFAULT_LANGUAGE));
   const [search, setSearch] = useState('');
   const CountriesContainerRef: React.Ref<HTMLElement> = React.createRef();
   const [countriesData, setCountriesData] = useState([]);
   const [isLoaded, setIsLoaded] = useState(false);
+  const [token, setToken] = useState(getDataFromSessionStorage('login', false));
+  const [skipAuth, setSkipAuth] = useState(getDataFromSessionStorage('skip', false));
 
   // Fetch countries data
   useEffect(() => {
@@ -55,6 +58,9 @@ const App = ():JSX.Element  => {
     }
 
   }, [search, CountriesContainerRef]);
+  if(!(token && token.token) && !skipAuth) {
+    return <Login setToken={setToken} setSkipAuth={setSkipAuth} />
+  }
 
   return (
     <Router>
@@ -63,6 +69,9 @@ const App = ():JSX.Element  => {
         setLang={setLang}
         search={search}
         setSearch={setSearch}
+        setToken={setToken}
+        token={token}
+        setSkipAuth={setSkipAuth}
       />
       <main className="main">
         { isLoaded ?
