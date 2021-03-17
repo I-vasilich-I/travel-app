@@ -69,6 +69,9 @@ const App = ():JSX.Element  => {
         setLang={setLang}
         search={search}
         setSearch={setSearch}
+        setToken={setToken}
+        token={token}
+        setSkipAuth={setSkipAuth}
       />
       <main className="main">
         { isLoaded ?

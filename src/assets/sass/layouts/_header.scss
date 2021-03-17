@@ -20,10 +20,13 @@
 }
 
 .header__right {
-  width: 120px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.header__language {
+  margin-right: 5px;
 }
 
 .header__avatar {
