@@ -96,10 +96,10 @@ export default function CurrencyWidget(props: CurrencyProps): JSX.Element {
             </div>
             <div className='currency-numbers'>
               <div className='currency-item'>
-                <span className='currency-point'>{`${currencyConverted?.usb} ${currency}`}</span>
+                <span className='currency-point'>{`${currencyConverted?.euro} ${currency}`}</span>
               </div>
               <div className='currency-item'>
-                <span className='currency-point'>{`${currencyConverted?.euro} ${currency}`}</span>
+                <span className='currency-point'>{`${currencyConverted?.usb} ${currency}`}</span>
               </div>
               <div className='currency-item'>
                 <span className='currency-point'>{`${currencyConverted?.ruble} ${currency}`}</span>
