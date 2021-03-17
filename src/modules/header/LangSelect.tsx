@@ -30,7 +30,6 @@ interface Language{
 export default function SimpleSelect(props: Language):JSX.Element  {
   const classes = useStyles();
   const { lang, setLang } = props;
-
   const handleChange = (event: React.ChangeEvent<{ value: unknown }>) => {
     setLang(event.target.value as string);
     localStorage.setItem('language', JSON.stringify(event.target.value));

@@ -1,11 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import ImageSlider from './ImageSlider';
 import {ImagesSlideType} from './ImageSlide';
 import Map from './Map'
-import { PLACES_API_URL, COORDINATES_API_URL } from '../constants';
+import {PLACES_API_URL, COORDINATES_API_URL} from '../constants';
 import VideoPlayer from './VideoPlayer';
 import WeatherWidget from './WeatherWidget';
 import TimeWidget from './TimeWidget';
+import CurrencyWidget from "./CurrencyWidget";
 import { CircularProgress } from "@material-ui/core";
 import { LatLngExpression } from 'leaflet';
 
@@ -13,7 +14,8 @@ interface CountryContentProps {
   path: string;
   lang: string;
   capital: string;
-  country: string
+  country: string;
+  currency: string;
 }
 
 interface MapObj {
@@ -37,6 +39,9 @@ interface Titles {
   map: {
     [lang: string]: string
   }
+  currency: {
+    [lang: string]: string
+  }
 }
 
 interface TimeZone {
@@ -54,8 +59,7 @@ interface Place {
 }
 
 export default function CountryContent(props: CountryContentProps): JSX.Element {
-  const { path, lang, capital, country } = props;
-
+  const {path, lang, capital, country, currency} = props;
   const placesArray: Array<ImagesSlideType> = [];
   const mapObj: MapObj = {
     coordinates: [[]],
@@ -66,7 +70,6 @@ export default function CountryContent(props: CountryContentProps): JSX.Element 
   const [videoLink, setVideoLink] = useState('');
   const [isPlacesLoaded, setIsPlacesLoaded] = useState(false);
   const [isMapLoaded, setIsMapLoaded] = useState(false);
-
   const timeZones: TimeZone = {
     'Belarus': 'Europe/Minsk',
     'Brazil': 'America/Sao_Paulo',
@@ -104,6 +107,11 @@ export default function CountryContent(props: CountryContentProps): JSX.Element 
       'ru': 'Карта',
       'en': 'Map',
       'de': 'Karte',
+    },
+    currency: {
+      'ru': 'Курс валют по отношению к',
+      'en': 'Exchange rate in relation to',
+      'de': 'Wechselkurs in Bezug auf',
     }
   }
 
@@ -129,17 +137,16 @@ export default function CountryContent(props: CountryContentProps): JSX.Element 
 }, [lang, path]);
 
 //Map data
-useEffect(() => {
-  fetch(`${COORDINATES_API_URL}/${path}`)
-    .then(res => res.json())
-    .then((data) => {
-      mapObj.coordinates = data[0].coordinates;
-      mapObj.location = data[0].location;
-      setMapData(mapObj);
-      setIsMapLoaded(true);
-    })
-    .catch((e) => console.log(e.message));
-
+  useEffect(() => {
+    fetch(`${COORDINATES_API_URL}/${path}`)
+      .then(res => res.json())
+      .then((data) => {
+        mapObj.coordinates = data[0].coordinates;
+        mapObj.location = data[0].location;
+        setMapData(mapObj);
+        setIsMapLoaded(true);
+      })
+      .catch((e) => console.log(e.message));
 // eslint-disable-next-line react-hooks/exhaustive-deps
 }, [lang, path]);
 
@@ -149,6 +156,8 @@ useEffect(() => {
       <TimeWidget lang={lang} timeZone={timeZones[path]}/>
       <ContentTitle title={titles.weather[lang]}/>
       <WeatherWidget capital={capital} lang={lang} timeZone={timeZones[path]}/>
+      <ContentTitle title={`${titles.currency[lang]} ${currency}`}/>
+      <CurrencyWidget currency={currency} lang={lang}/>
       {
         isPlacesLoaded ?
         <>

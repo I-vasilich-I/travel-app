@@ -1,8 +1,5 @@
 import React from 'react';
 import CountryInfo from "./CountryInfo";
-
-// import Belarus from '../../assets/images/belarus.jpg';
-// import FlagBel from '../../assets/images/flag.png'
 import CountryContent from "./CountryContent";
 import Country from '../interfaces';
 
@@ -21,8 +18,8 @@ interface Mesure {
 }
 
 function CountryPage(props: CountryData): JSX.Element {
-  const { avatar, name, capital, population, area, region, currency, flag, languages, path } = props.country;
-  const { lang } = props;
+  const {avatar, name, capital, population, area, region, currency, flag, languages, path} = props.country;
+  const {lang} = props;
   const localLang = `${lang}-${lang.toUpperCase()}`;
   const mesureLang: Mesure = {
     areaM: {
@@ -51,7 +48,7 @@ function CountryPage(props: CountryData): JSX.Element {
         flag={flag}
         languages={langObj[lang]}
         lang={lang}/>
-      <CountryContent path={path} lang={lang} capital={capital[lang]} country={name[lang]} />
+      <CountryContent path={path} lang={lang} capital={capital[lang]} country={name[lang]} currency={currency}/>
     </div>
   );
 }

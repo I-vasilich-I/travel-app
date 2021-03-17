@@ -50,7 +50,6 @@ interface Search{
 export default function CustomizedInputBase(props: Search):JSX.Element {
   const classes = useStyles();
   const { lang, search, setSearch } = props;
-
   const placeHolder = () => {
     if (lang === LANGUAGE_1) return SEARCH_PLACE_HOLDER_LANG_1;
     if (lang === LANGUAGE_2) return SEARCH_PLACE_HOLDER_LANG_2;
