@@ -271,21 +271,29 @@
       }
     }
 
-    .weather-indicators__item {
-      .indicator-wrapper {
-        width: max-content;
+    .weather-indicators {
+      flex-wrap: wrap;
 
-        svg {
-          font-size: 1.4rem;
+      &__item {
+        flex: 100%;
+        margin: 3px;
+        align-items: center;
+
+        .indicator-wrapper {
+          width: max-content;
+
+          svg {
+            font-size: 1.4rem;
+          }
+
+          .indicator {
+            font-size: 1.4rem;
+          }
         }
 
-        .indicator {
-          font-size: 1.4rem;
+        .caption-indicator {
+          font-size: 1.2rem;
         }
-      }
-
-      .caption-indicator {
-        font-size: 1.2rem;
       }
     }
   }
@@ -305,73 +313,33 @@
 
   .weather-wrapper {
     .weather-box {
-      .weather-info__icon {
-        font-size: 2rem;
-      }
-
       .weather-info {
-        margin: 30px 0;
+        margin: 45px 0 15px 0;
+      }
 
-        &__degree {
-
-          .degree {
-            font-size: 2rem;
-          }
-
-          .units {
-            margin-left: 2px;
-            font-size: 1rem;
-          }
+      &__description {
+        .country {
+          font-size: 1.2rem;
         }
 
-        &__description {
-          .country {
-            font-size: 1.2rem;
-          }
-
-          .state {
-            font-size: 1.2rem;
-          }
+        .state {
+          font-size: 1.2rem;
         }
       }
     }
-
-    .weather-indicators__item {
-      margin: 0;
-
-      .indicator-wrapper {
-
-        svg {
-          font-size: 1rem;
-        }
-
-        .indicator {
-          font-size: 1rem;
-        }
-      }
-
-      .caption-indicator {
-        font-size: 1rem;
-      }
-
-    }
   }
+}
 
-  .slick-dots li {
-    width: 60px;
+.slick-dots li {
+  width: 60px;
 
-    img {
-      border: 2px solid #e84545;
-    }
+  img {
+    border: 2px solid #e84545;
   }
+}
 
-  .content-caption {
-    margin: 25px auto;
-
-    h1 {
-      font-size: 1.4rem;
-    }
-  }
+.content-caption {
+  margin: 25px auto;
 }
 
 @media (max-width: 460px) {
