@@ -5,7 +5,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   margin: auto;
   padding-bottom: 50px;
@@ -21,8 +21,7 @@
 }
 
 .login__buttons {
-  width: 150px;
-  margin-left: 15px;
+  width: 250px;
   display: flex;
   justify-content: space-between;
   align-items: center;
