@@ -4,6 +4,7 @@ import L, {LatLngExpression} from 'leaflet';
 import FullscreenIcon from '@material-ui/icons/Fullscreen';
 import FullscreenExitIcon from '@material-ui/icons/FullscreenExit';
 import 'leaflet/dist/images/marker-shadow.png';
+import 'leaflet/dist/images/marker-icon-2x.png';
 
 interface MapProps {
   location: LatLngExpression,
