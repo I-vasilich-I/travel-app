@@ -7,7 +7,8 @@ import { CircularProgress } from "@material-ui/core";
 import { DEFAULT_LANGUAGE, COUNTRIES_API_URL } from './constants';
 import Country from './interfaces';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
+  // BrowserRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
