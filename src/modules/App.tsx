@@ -17,18 +17,18 @@ const App = ():JSX.Element  => {
     const localStorageLang = localStorage.getItem('language') || null;
     return localStorageLang ? JSON.parse(localStorageLang) : DEFAULT_LANGUAGE;
   }
+
   const [lang, setLang] = useState(getLanguage());
   const [search, setSearch] = useState('');
   const CountriesContainerRef: React.Ref<HTMLElement> = React.createRef();
-
   const [countriesData, setCountriesData] = useState([]);
   const [isLoaded, setIsLoaded] = useState(false);
+
   // Fetch countries data
   useEffect(() => {
       fetch(COUNTRIES_API_URL)
       .then(res => res.json())
       .then((data) => {
-        // setCountriesData(data.filter((el: Country) => el.path !== "Belarus"));
         setCountriesData(data);
         setIsLoaded(true);
       })
@@ -76,7 +76,6 @@ const App = ():JSX.Element  => {
             </Route>
             {
               countriesData.map((elem: Country, id) => (
-
                 <Route key={id} path={`/${elem.path}`}>
                   <CountryPage country={elem} lang={lang} />
                 </Route>

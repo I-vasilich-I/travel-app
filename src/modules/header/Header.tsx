@@ -15,15 +15,13 @@ const Header = (props: HeaderProps):JSX.Element => {
   const location = useLocation();
   return (
     <header className="header">
-      {/* <div className="header__logo"> */}
-        <Link to="/">
-          <img
-            className="header__logo"
-            src="assets/images/logo.svg"
-            alt="Oleg Vaskevich"
-          />
-        </Link>
-      {/* </div> */}
+      <Link to="/">
+        <img
+          className="header__logo"
+          src="assets/images/logo.svg"
+          alt="Oleg Vaskevich"
+        />
+      </Link>
       {
         location.pathname === '/' &&
         <div className="header__search">

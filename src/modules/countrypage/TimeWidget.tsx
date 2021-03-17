@@ -6,9 +6,7 @@ interface TimeProps {
 }
 
 export default function TimeWidget(props: TimeProps): JSX.Element {
-
   const {lang, timeZone} = props;
-
   const [dateTime, setDateTime] = useState(Date.now());
 
   useEffect(() => {
