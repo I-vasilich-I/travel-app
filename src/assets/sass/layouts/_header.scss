@@ -16,3 +16,17 @@
     transform: scale(1.1);
   }
 }
+
+.header__right {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__avatar {
+  &:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+}

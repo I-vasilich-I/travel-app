@@ -13,6 +13,7 @@ interface HeaderProps{
 const Header = (props: HeaderProps):JSX.Element => {
   const { lang, setLang, search, setSearch } = props;
   const location = useLocation();
+
   return (
     <header className="header">
       <Link to="/">
@@ -32,7 +33,6 @@ const Header = (props: HeaderProps):JSX.Element => {
           />
         </div>
       }
-
       <div className="header__language">
         <LangSelect
           lang={lang}
