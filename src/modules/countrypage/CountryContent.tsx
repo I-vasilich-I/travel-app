@@ -117,6 +117,7 @@ export default function CountryContent(props: CountryContentProps): JSX.Element 
 
   //Placese data
   useEffect(() => {
+    const tempArray: Array<ImagesSlideType> = [];
     fetch(`${PLACES_API_URL}/${path}`)
     .then(res => res.json())
     .then((data) => {
@@ -126,28 +127,30 @@ export default function CountryContent(props: CountryContentProps): JSX.Element 
           title: elem.name[lang],
           description: elem.info[lang]
         }
-        placesArray.push(place);
+        tempArray.push(place);
       })
-      setPlacesData(placesArray);
+      setPlacesData(tempArray);
       setVideoLink(data[0].videoUrl);
       setIsPlacesLoaded(true);
     })
     .catch((e) => console.log(e.message));
-// eslint-disable-next-line react-hooks/exhaustive-deps
 }, [lang, path]);
 
 //Map data
   useEffect(() => {
+    const tempMapObj: MapObj = {
+      coordinates: [[]],
+      location: [0, 0]
+    };
     fetch(`${COORDINATES_API_URL}/${path}`)
       .then(res => res.json())
       .then((data) => {
-        mapObj.coordinates = data[0].coordinates;
-        mapObj.location = data[0].location;
-        setMapData(mapObj);
+        tempMapObj.coordinates = data[0].coordinates;
+        tempMapObj.location = data[0].location;
+        setMapData(tempMapObj);
         setIsMapLoaded(true);
       })
       .catch((e) => console.log(e.message));
-// eslint-disable-next-line react-hooks/exhaustive-deps
 }, [lang, path]);
 
   return (

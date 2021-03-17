@@ -14,18 +14,18 @@ import {
 } from "react-router-dom";
 
 const App = ():JSX.Element  => {
-  const getLanguage = () => {
-    const localStorageLang = localStorage.getItem('language') || null;
-    return localStorageLang ? JSON.parse(localStorageLang) : DEFAULT_LANGUAGE;
+  const getDataFromSessionStorage = (name: string, defaultValue: unknown) => {
+    const tempData = sessionStorage.getItem(name) || null;
+    return tempData ? JSON.parse(tempData) : defaultValue;
   }
 
-  const [lang, setLang] = useState(getLanguage());
+  const [lang, setLang] = useState(getDataFromSessionStorage('language', DEFAULT_LANGUAGE));
   const [search, setSearch] = useState('');
   const CountriesContainerRef: React.Ref<HTMLElement> = React.createRef();
   const [countriesData, setCountriesData] = useState([]);
   const [isLoaded, setIsLoaded] = useState(false);
-  const [token, setToken] = useState(false);
-  const [skipAuth, setSkipAuth] = useState(false);
+  const [token, setToken] = useState(getDataFromSessionStorage('login', false));
+  const [skipAuth, setSkipAuth] = useState(getDataFromSessionStorage('skip', false));
 
   // Fetch countries data
   useEffect(() => {
@@ -58,8 +58,7 @@ const App = ():JSX.Element  => {
     }
 
   }, [search, CountriesContainerRef]);
-
-  if(!token && !skipAuth) {
+  if(!(token && token.token) && !skipAuth) {
     return <Login setToken={setToken} setSkipAuth={setSkipAuth} />
   }
 

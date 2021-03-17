@@ -42,14 +42,29 @@ interface State {
   showPassword: boolean;
 }
 
-
 interface Props {
   lang?: string,
-  setToken: React.Dispatch<React.SetStateAction<boolean>>
+  setToken: React.Dispatch<React.SetStateAction<{user: string, token: boolean}>>
   setSkipAuth: React.Dispatch<React.SetStateAction<boolean>>
 }
 
-
+async function postData(url = '', data = {}) {
+  // Default options are marked with *
+  const response = await fetch(url, {
+    method: 'POST', // *GET, POST, PUT, DELETE, etc.
+    mode: 'cors', // no-cors, *cors, same-origin
+    cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+    credentials: 'same-origin', // include, *same-origin, omit
+    headers: {
+      'Content-Type': 'application/json'
+      // 'Content-Type': 'application/x-www-form-urlencoded',
+    },
+    redirect: 'follow', // manual, *follow, error
+    referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
+    body: JSON.stringify(data) // body data type must match "Content-Type" header
+  });
+  return response.json(); // parses JSON response into native JavaScript objects
+}
 
 export default function InputAdornments({ setToken, setSkipAuth }: Props):JSX.Element {
   const classes = useStyles();
@@ -71,23 +86,13 @@ export default function InputAdornments({ setToken, setSkipAuth }: Props):JSX.El
     event.preventDefault();
   };
 
-  async function postData(url = '', data = {}) {
-  // Default options are marked with *
-  const response = await fetch(url, {
-    method: 'POST', // *GET, POST, PUT, DELETE, etc.
-    mode: 'cors', // no-cors, *cors, same-origin
-    cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
-    credentials: 'same-origin', // include, *same-origin, omit
-    headers: {
-      'Content-Type': 'application/json'
-      // 'Content-Type': 'application/x-www-form-urlencoded',
-    },
-    redirect: 'follow', // manual, *follow, error
-    referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
-    body: JSON.stringify(data) // body data type must match "Content-Type" header
-  });
-  return response.json(); // parses JSON response into native JavaScript objects
-}
+  const setUserInSessionStorage = (user: string, token = true) => {
+    const saveData = {
+      user,
+      token,
+    }
+    sessionStorage.setItem('login', JSON.stringify(saveData));
+  }
 
   const handleLogIn = () => {
     if (!values.user || !values.password) return;
@@ -95,13 +100,17 @@ export default function InputAdornments({ setToken, setSkipAuth }: Props):JSX.El
     .then(res => res.json())
     .then((data) => {
       if (!data.length) {
-        console.log('No such user', values.user);
+        console.log('new user added in db', values.user);
         postData(LOGIN_API_URL, values);
+        setToken({user: values.user, token: true});
+        setUserInSessionStorage(values.user);
       } else if (data[0].password === values.password) {
         console.log('password correct');
-        setToken(true);
+        setToken({user: values.user, token: true});
+        setUserInSessionStorage(values.user);
       } else {
         console.log('wrong password');
+        alert('wrong password');
       }
     })
     .catch((e) => console.log(e.message));
@@ -109,10 +118,12 @@ export default function InputAdornments({ setToken, setSkipAuth }: Props):JSX.El
 
   const handleSkipLogIn = () => {
     setSkipAuth(true);
+    sessionStorage.setItem('skip', JSON.stringify(true));
   }
 
 return (
-  <div className={classes.root}>
+  <>
+    <div className={classes.root}>
       <FormControl className={clsx(classes.margin, classes.textField)} variant="outlined">
         <InputLabel htmlFor="outlined-adornment-password">User</InputLabel>
         <OutlinedInput
@@ -144,21 +155,20 @@ return (
           labelWidth={70}
         />
       </FormControl>
-      <div>
-      <div className="login__buttons">
-        <Button variant="contained" color="primary" onClick={handleLogIn}>
-          Log in
-        </Button>
-        <Button variant="contained" color="primary" onClick={handleSkipLogIn}>
-          Skip loging
-        </Button>
-        <input accept="image/*" className={classes.input} id="icon-button-file" type="file" />
-        <label htmlFor="icon-button-file">
-          <IconButton color="primary" aria-label="upload picture" component="span">
-            <PhotoCamera />
-          </IconButton>
-        </label>
-      </div>
     </div>
-  </div>
+    <div className="login__buttons">
+      <Button variant="contained" color="primary" onClick={handleLogIn}>
+        Log in
+      </Button>
+      <Button variant="contained" color="primary" onClick={handleSkipLogIn}>
+        Skip
+      </Button>
+      <input accept="image/*" className={classes.input} id="icon-button-file" type="file" />
+      <label htmlFor="icon-button-file">
+        <IconButton color="primary" aria-label="upload picture" component="span">
+          <PhotoCamera />
+        </IconButton>
+      </label>
+    </div>
+  </>
 )}

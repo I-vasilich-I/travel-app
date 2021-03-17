@@ -3,7 +3,7 @@ import LoginForm from './LoginForm';
 
 interface LoginProps {
   lang?: string,
-  setToken: React.Dispatch<React.SetStateAction<boolean>>
+  setToken: React.Dispatch<React.SetStateAction<{user: string, token: boolean}>>
   setSkipAuth: React.Dispatch<React.SetStateAction<boolean>>
 }
 
