@@ -33,7 +33,7 @@ $slick-loader-path: "~slick-carousel/slick/";
 
   &__fullscreen {
     position: fixed;
-    padding: 20px 140px;
+    padding: 20px 35px;
     left: 0;
     top: 0;
     width: 100%;
@@ -104,7 +104,7 @@ $slick-loader-path: "~slick-carousel/slick/";
     }
 
     &__desc {
-      height: 60px;
+      height: max-content;
       font-size: 1.4rem;
       font-weight: 400;
       text-align: center;
