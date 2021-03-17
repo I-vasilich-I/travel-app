@@ -6,6 +6,7 @@ import CountryPage from "./countrypage/CountryPage";
 import { CircularProgress } from "@material-ui/core";
 import { DEFAULT_LANGUAGE, COUNTRIES_API_URL } from './constants';
 import Country from './interfaces';
+import Login from './login/Login';
 import {
   HashRouter as Router,
   Switch,
@@ -23,6 +24,7 @@ const App = ():JSX.Element  => {
   const CountriesContainerRef: React.Ref<HTMLElement> = React.createRef();
   const [countriesData, setCountriesData] = useState([]);
   const [isLoaded, setIsLoaded] = useState(false);
+  const [token, setToken] = useState();
 
   // Fetch countries data
   useEffect(() => {
@@ -55,6 +57,10 @@ const App = ():JSX.Element  => {
     }
 
   }, [search, CountriesContainerRef]);
+
+  if(!token) {
+    return <Login setToken={setToken} />
+  }
 
   return (
     <Router>

@@ -1,25 +1,26 @@
 import React from 'react'
 import LoginForm from './LoginForm';
 
-interface Language {
-  lang: string,
+interface LoginProps {
+  lang?: string,
+  setToken: React.Dispatch<React.SetStateAction<undefined>>
 }
 
-interface Title {
-  [lang: string]: string;
-}
+// interface Title {
+//   [lang: string]: string;
+// }
 
-const Login = ({ lang }: Language):JSX.Element => {
+const Login = ({ setToken }: LoginProps):JSX.Element => {
 
-  const title:Title = {
-    'ru': 'Авторизация',
-    'en': 'Log in',
-    'de': 'Einloggen'
-  }
+  // const title:Title = {
+  //   'ru': 'Авторизация',
+  //   'en': 'Log in',
+  //   'de': 'Einloggen'
+  // }
 
   return (
     <section className="login-container">
-      <h1>{title[lang]}</h1>
+      <h1>Log in</h1>
       <LoginForm />
     </section>
   )
