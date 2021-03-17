@@ -44,9 +44,9 @@ export default function CurrencyWidget(props: CurrencyProps): JSX.Element {
       'de': '1 Dollar',
     },
     rub: {
-      'ru': '1 Российский рубль',
-      'en': '1 Russian ruble',
-      'de': '1 Russischer Rubel',
+      'ru': '100 Российский рубль',
+      'en': '100 Russian ruble',
+      'de': '100 Russischer Rubel',
     }
   }
 
@@ -61,7 +61,7 @@ export default function CurrencyWidget(props: CurrencyProps): JSX.Element {
                   {
                     usb: +(dataFirst.results["USD_" + currency].val).toFixed(2),
                     euro: +(dataFirst.results["EUR_" + currency].val).toFixed(2),
-                    ruble: +(dataSecond.results["RUB_" + currency].val).toFixed(2),
+                    ruble: +(dataSecond.results["RUB_" + currency].val*100).toFixed(2),
                   }
                 );
                 setIsLoaded(true);
