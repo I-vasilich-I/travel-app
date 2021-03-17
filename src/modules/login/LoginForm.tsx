@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import clsx from 'clsx';
 import { makeStyles, Theme, createStyles } from '@material-ui/core/styles';
 import IconButton from '@material-ui/core/IconButton';
@@ -11,6 +11,10 @@ import VisibilityOff from '@material-ui/icons/VisibilityOff';
 import PhotoCamera from '@material-ui/icons/PhotoCamera';
 import Button from '@material-ui/core/Button';
 import { LOGIN_API_URL } from '../constants';
+import CustomizedSnackbars from './Alert';
+import { AlertProps } from '@material-ui/lab/Alert';
+
+
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -47,6 +51,11 @@ interface Props {
   setSkipAuth: React.Dispatch<React.SetStateAction<boolean>>
 }
 
+interface alertType {
+  severity: AlertProps["severity"];
+  message: string;
+}
+
 async function postData(url = '', data = {}) {
   const response = await fetch(url, {
     method: 'POST',
@@ -70,6 +79,9 @@ export default function InputAdornments({ setToken, setSkipAuth }: Props):JSX.El
     password: '',
     showPassword: false,
   });
+  const [open, setOpen] = React.useState(false);
+  const alertTypeDefault:alertType = {severity: "success", message:'Logged in'}
+  const [alertType, setAlertType] = useState(alertTypeDefault)
 
   const handleChange = (prop: keyof State) => (event: React.ChangeEvent<HTMLInputElement>) => {
     setValues({ ...values, [prop]: event.target.value });
@@ -97,17 +109,15 @@ export default function InputAdornments({ setToken, setSkipAuth }: Props):JSX.El
     .then(res => res.json())
     .then((data) => {
       if (!data.length) {
-        console.log('new user added in db', values.user);
         postData(LOGIN_API_URL, values);
         setToken({user: values.user, token: true});
         setUserInSessionStorage(values.user);
       } else if (data[0].password === values.password) {
-        console.log('password correct');
         setToken({user: values.user, token: true});
         setUserInSessionStorage(values.user);
       } else {
-        console.log('wrong password');
-        alert('wrong password');
+        setOpen(true);
+        setAlertType({severity: 'error', message: 'Wrong password!'});
       }
     })
     .catch((e) => console.log(e.message));
@@ -120,6 +130,7 @@ export default function InputAdornments({ setToken, setSkipAuth }: Props):JSX.El
 
 return (
   <>
+    <CustomizedSnackbars alertType={alertType} setOpen={setOpen} open={open} />
     <div className={classes.root}>
       <FormControl className={clsx(classes.margin, classes.textField)} variant="outlined">
         <InputLabel htmlFor="outlined-adornment-password">User</InputLabel>
