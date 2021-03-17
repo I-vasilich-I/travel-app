@@ -1,6 +1,7 @@
 import React from 'react';
 import SearchInput from './SearchInput';
 import LangSelect from './LangSelect';
+import Avatar from '@material-ui/core/Avatar';
 import { Link, useLocation } from 'react-router-dom';
 
 interface HeaderProps{
@@ -13,6 +14,7 @@ interface HeaderProps{
 const Header = (props: HeaderProps):JSX.Element => {
   const { lang, setLang, search, setSearch } = props;
   const location = useLocation();
+
   return (
     <header className="header">
       <Link to="/">
@@ -32,13 +34,21 @@ const Header = (props: HeaderProps):JSX.Element => {
           />
         </div>
       }
+      <div className="header__right">
+        <div className="header__language">
+          <LangSelect
+            lang={lang}
+            setLang={setLang}
+          />
+        </div>
+        <Link to="/Login">
+          <div className="header__avatar">
+            <Avatar />
+          </div>
+        </Link>
 
-      <div className="header__language">
-        <LangSelect
-          lang={lang}
-          setLang={setLang}
-        />
       </div>
+
     </header>
   )
 }

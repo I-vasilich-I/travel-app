@@ -6,6 +6,7 @@ import CountryPage from "./countrypage/CountryPage";
 import { CircularProgress } from "@material-ui/core";
 import { DEFAULT_LANGUAGE, COUNTRIES_API_URL } from './constants';
 import Country from './interfaces';
+import Login from './login/Login';
 import {
   BrowserRouter as Router,
   Switch,
@@ -81,6 +82,9 @@ const App = ():JSX.Element  => {
                 </Route>
               ))
             }
+            <Route path="/Login">
+              <Login lang={lang} />
+            </Route>
           </Switch> :
           <div className="countries-container countries-container--onload">
             <CircularProgress />
