@@ -3,14 +3,15 @@ import LoginForm from './LoginForm';
 
 interface LoginProps {
   lang?: string,
-  setToken: React.Dispatch<React.SetStateAction<undefined>>
+  setToken: React.Dispatch<React.SetStateAction<boolean>>
+  setSkipAuth: React.Dispatch<React.SetStateAction<boolean>>
 }
 
 // interface Title {
 //   [lang: string]: string;
 // }
 
-const Login = ({ setToken }: LoginProps):JSX.Element => {
+const Login = ({ setToken, setSkipAuth }: LoginProps):JSX.Element => {
 
   // const title:Title = {
   //   'ru': 'Авторизация',
@@ -21,7 +22,7 @@ const Login = ({ setToken }: LoginProps):JSX.Element => {
   return (
     <section className="login-container">
       <h1>Log in</h1>
-      <LoginForm />
+      <LoginForm setToken={setToken} setSkipAuth={setSkipAuth}/>
     </section>
   )
 }

@@ -10,6 +10,7 @@ import Visibility from '@material-ui/icons/Visibility';
 import VisibilityOff from '@material-ui/icons/VisibilityOff';
 import PhotoCamera from '@material-ui/icons/PhotoCamera';
 import Button from '@material-ui/core/Button';
+import { LOGIN_API_URL } from '../constants';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -42,9 +43,15 @@ interface State {
 }
 
 
+interface Props {
+  lang?: string,
+  setToken: React.Dispatch<React.SetStateAction<boolean>>
+  setSkipAuth: React.Dispatch<React.SetStateAction<boolean>>
+}
 
 
-export default function InputAdornments():JSX.Element {
+
+export default function InputAdornments({ setToken, setSkipAuth }: Props):JSX.Element {
   const classes = useStyles();
   const [values, setValues] = React.useState<State>({
     user: '',
@@ -63,6 +70,46 @@ export default function InputAdornments():JSX.Element {
   const handleMouseDownPassword = (event: React.MouseEvent<HTMLButtonElement>) => {
     event.preventDefault();
   };
+
+  async function postData(url = '', data = {}) {
+  // Default options are marked with *
+  const response = await fetch(url, {
+    method: 'POST', // *GET, POST, PUT, DELETE, etc.
+    mode: 'cors', // no-cors, *cors, same-origin
+    cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+    credentials: 'same-origin', // include, *same-origin, omit
+    headers: {
+      'Content-Type': 'application/json'
+      // 'Content-Type': 'application/x-www-form-urlencoded',
+    },
+    redirect: 'follow', // manual, *follow, error
+    referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
+    body: JSON.stringify(data) // body data type must match "Content-Type" header
+  });
+  return response.json(); // parses JSON response into native JavaScript objects
+}
+
+  const handleLogIn = () => {
+    if (!values.user || !values.password) return;
+    fetch(`${LOGIN_API_URL}/${values.user}`)
+    .then(res => res.json())
+    .then((data) => {
+      if (!data.length) {
+        console.log('No such user', values.user);
+        postData(LOGIN_API_URL, values);
+      } else if (data[0].password === values.password) {
+        console.log('password correct');
+        setToken(true);
+      } else {
+        console.log('wrong password');
+      }
+    })
+    .catch((e) => console.log(e.message));
+  }
+
+  const handleSkipLogIn = () => {
+    setSkipAuth(true);
+  }
 
 return (
   <div className={classes.root}>
@@ -99,8 +146,11 @@ return (
       </FormControl>
       <div>
       <div className="login__buttons">
-        <Button variant="contained" color="primary">
+        <Button variant="contained" color="primary" onClick={handleLogIn}>
           Log in
+        </Button>
+        <Button variant="contained" color="primary" onClick={handleSkipLogIn}>
+          Skip loging
         </Button>
         <input accept="image/*" className={classes.input} id="icon-button-file" type="file" />
         <label htmlFor="icon-button-file">

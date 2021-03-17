@@ -24,7 +24,8 @@ const App = ():JSX.Element  => {
   const CountriesContainerRef: React.Ref<HTMLElement> = React.createRef();
   const [countriesData, setCountriesData] = useState([]);
   const [isLoaded, setIsLoaded] = useState(false);
-  const [token, setToken] = useState();
+  const [token, setToken] = useState(false);
+  const [skipAuth, setSkipAuth] = useState(false);
 
   // Fetch countries data
   useEffect(() => {
@@ -58,8 +59,8 @@ const App = ():JSX.Element  => {
 
   }, [search, CountriesContainerRef]);
 
-  if(!token) {
-    return <Login setToken={setToken} />
+  if(!token && !skipAuth) {
+    return <Login setToken={setToken} setSkipAuth={setSkipAuth} />
   }
 
   return (
