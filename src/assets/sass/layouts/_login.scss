@@ -1,0 +1,28 @@
+.login-container {
+  margin-top: 25vh;
+  max-width: 1280px;
+  min-height: 75vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-bottom: 50px;
+  a {
+    min-width: 300px;
+    width: 370px;
+    text-decoration: none;
+  }
+
+  &--onload {
+    align-items: center;
+  }
+}
+
+.login__buttons {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

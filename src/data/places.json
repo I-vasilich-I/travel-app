@@ -1,0 +1,758 @@
+[
+  {
+    "path":"Russia",
+    "videoUrl": "https://www.youtube.com/watch?v=YrNxPr4PKQo",
+    "places": [
+      {
+        "name": {
+          "ru": "Гора Эльбрус",
+          "en": "Mount Elbrus",
+          "de": "Berg Elbrus"
+        },
+        "info": {
+          "ru": "Гора Эльбрус расположена в Кавказском хребте на юге России. Эльбрус высотой 5642 метра (18 510 футов) входит в число семи вершин, высочайших вершин на каждом из семи континентов планеты, привлекающих как опытных, так и начинающих альпинистов. Хотя гора образовалась из вулкана, она считается бездействующей, извержений не зарегистрировано. Система канатной дороги может поднимать посетителей на высоту до 3800 метров (12500 футов), что облегчает восхождение на вершину.",
+          "en": "Mount Elbrus is located in the Caucasus Mountain Range in Southern Russia. At 5,642 meters (18,510 ft), Elbrus is included as one of the Seven Summits, the highest summits on each of the planet’s seven continents, attracting both experienced and novice mountain climbers. While the mountain was formed from a volcano, it is considered dormant, with no recorded eruptions. A cable car system can take visitors as high as 3,800 meters (12,500 ft), facilitating ascents to the summit.",
+          "de": "Der Elbrus liegt im Kaukasus in Südrussland. Mit 5.642 Metern gehört Elbrus zu den sieben Gipfeln, den höchsten Gipfeln auf jedem der sieben Kontinente des Planeten, und zieht sowohl erfahrene als auch unerfahrene Bergsteiger an. Während der Berg aus einem Vulkan geformt wurde, gilt er als ruhend, ohne dass Ausbrüche registriert wurden. Ein Seilbahnsystem kann Besucher bis zu 3.800 Meter hoch bringen und so den Aufstieg zum Gipfel erleichtern."
+        },
+        "img": "../assets/images/Russia/mount_elbrus.jpg"
+      },
+      {
+        "name": {
+          "ru": "Озеро Байкал",
+          "en": "Lake Baikal",
+          "de": "Baikalsee"
+        },
+        "info": {
+          "ru": "Многие путешественники по Транссибирской магистрали планируют остановиться на Байкале, самом глубоком и старейшем озере на Земле. Озеро Байкал содержит около 20 процентов пресной воды в мире. Озеро возрастом 25 миллионов лет, расположенное в Сибири, окружено горными хребтами. Озеро считается одним из самых чистых озер мира. Озеро Байкал, известное как Жемчужина Сибири, является домом для нескольких курортов, что делает его популярным местом отдыха.",
+          "en": "Many travelers on the Trans-Siberian railway make plans to stop at Lake Baikal, the deepest and oldest lake on Earth. Lake Baikal holds around 20 percent of the world’s fresh water. Located in Siberia, the 25-million-year-old lake is surrounded by mountain ranges. The lake is considered one of the clearest lakes in the world. Known as the Pearl of Siberia, Lake Baikal is home to several resorts, making the area a popular vacation destination.",
+          "de": "Viele Reisende der Transsibirischen Eisenbahn planen, am Baikalsee, dem tiefsten und ältesten See der Erde, Halt zu machen. Der Baikalsee enthält rund 20 Prozent des weltweiten Süßwassers. Der 25 Millionen Jahre alte See in Sibirien ist von Gebirgszügen umgeben. Der See gilt als einer der klarsten Seen der Welt. Der Baikalsee, der als Perle Sibiriens bekannt ist, beherbergt mehrere Ferienorte, was die Gegend zu einem beliebten Urlaubsziel macht."
+        },
+        "img": "../assets/images/Russia/lake_baikal.jpg"
+      },
+      {
+        "name": {
+          "ru": "Суздаль",
+          "en": "Suzdal",
+          "de": "Susdal"
+        },
+        "info": {
+          "ru": "Когда-то столица нескольких русских княжеств, Суздаль является жемчужиной «Золотого кольца» России, древних городов, которые страна сохранила как живые музеи культурного прошлого России. Те, кто желает увидеть лучшее из исторической архитектуры России, полной кремлей с луковичными куполами, соборов и монастырей, найдут это в Суздале. Здание было построено в 1024 году, и весь город похож на большой музей под открытым небом, который переносит посетителей в прошлое.",
+          "en": "Once the capital of several Russian principalities, Suzdal is the jewel of Russia’s “Golden Ring,” ancient cities that the country has preserved as living museums of Russia’s cultural past. Those who wish to experience the best of Russia’s historic architecture, full of onion-dome topped kremlins, cathedrals and monasteries, will find it in Suzdal. Dating back to 1024, the entire city is like a large open-air museum that transports visitors back in time.",
+          "de": "Suzdal, einst die Hauptstadt mehrerer russischer Fürstentümer, ist das Juwel des „Goldenen Rings“ Russlands, einer antiken Stadt, die das Land als lebendige Museen der kulturellen Vergangenheit Russlands erhalten hat. Wer das Beste der historischen Architektur Russlands mit Kremlins, Kathedralen und Klöstern mit Zwiebeltürmen erleben möchte, findet es in Susdal. Die ganze Stadt stammt aus dem Jahr 1024 und ist wie ein großes Freilichtmuseum, das Besucher in die Vergangenheit versetzt."
+        },
+        "img": "../assets/images/Russia/suzdal.jpg"
+      },
+      {
+        "name": {
+          "ru": "Московский Кремль",
+          "en": "Moscow Kremlin",
+          "de": "Moskauer Kreml"
+        },
+        "info": {
+          "ru": "Кремль является обязательной достопримечательностью для всех, кто приезжает в Москву. В обнесенном стеной корпусе находятся высшие правительственные учреждения страны, четыре собора, построенные в 15 и 16 веках, а также несколько известных музеев. На территории площадью 250 акров находится Оружейная палата, наполненная королевскими сокровищами прошлого, и Выставка алмазного фонда, коллекция ювелирных изделий, в которую входит бриллиант весом 190 карат, подаренный Екатерине Великой.",
+          "en": "The Kremlin is a must-see attraction for anyone visiting Moscow. Home to the nation’s top governmental offices, the walled enclosure also houses four cathedrals built in the 15th and 16th century as well as several notable museums. The 250-acre grounds include the Armoury, filled with royal treasures of the past, and the Diamond Fund Exhibition, a collection of jewelry that includes a 190-carat diamond given to Catherine the Great.",
+          "de": "Der Kreml ist ein Muss für jeden, der Moskau besucht. Das ummauerte Gehege beherbergt die wichtigsten Regierungsbüros des Landes und beherbergt vier Kathedralen aus dem 15. und 16. Jahrhundert sowie mehrere bemerkenswerte Museen. Auf dem 250 Hektar großen Gelände befinden sich die Waffenkammer, die mit königlichen Schätzen der Vergangenheit gefüllt ist, und die Diamond Fund Exhibition, eine Schmucksammlung mit einem 190-Karat-Diamanten, der Katharina der Großen übergeben wurde."
+        },
+        "img": "../assets/images/Russia/moscow_kremlin.jpg"
+      },
+      {
+        "name": {
+          "ru": "Эрмитаж",
+          "en": "Hermitage Museum",
+          "de": "Eremitage"
+        },
+        "info": {
+          "ru": "Эрмитаж в Санкт-Петербурге, Россия, основанный в 1764 году Екатериной Великой, представляет собой огромный музей искусства и культуры, демонстрирующий основные моменты коллекции из более чем 3 миллионов предметов, охватывающих весь земной шар. Коллекции занимают большой комплекс из шести исторических зданий, включая Зимний дворец, бывшую резиденцию русских императоров.",
+          "en": "Founded in 1764 by Catherine the Great, the Hermitage Museum in Saint Petersburg, Russia is a massive museum of art and culture showing the highlights of a collection of over 3 million items spanning the globe. The collections occupy a large complex of six historic buildings including the Winter Palace, a former residence of Russian emperors.",
+          "de": "Die Eremitage in Sankt Petersburg, Russland, wurde 1764 von Katharina der Großen gegründet und ist ein riesiges Kunst- und Kulturmuseum, das die Höhepunkte einer Sammlung von über 3 Millionen Objekten auf der ganzen Welt zeigt. Die Sammlungen befinden sich in einem großen Komplex von sechs historischen Gebäuden, darunter der Winterpalast, eine ehemalige Residenz russischer Kaiser."
+        },
+        "img": "../assets/images/Russia/hermitage_museum.jpg"
+      },
+      {
+        "name": {
+          "ru": "Собор Василия Блаженного",
+          "en": "Saint Basil's Cathedral",
+          "de": "Basilius-Kathedrale"
+        },
+        "info": {
+          "ru": "Собор Василия Блаженного, построенный между 1554 и 1561 годами и расположенный в самом центре Москвы, входит в число главных туристических достопримечательностей России. Посетителей привлекают не предметы интерьера здания, а самобытная архитектура собора. Архитектура, напоминающая форму открытого костра, уникальна не только для того периода, в который она была построена, но и для любого последующего периода. На земле нет ничего лучше храма Василия Блаженного.",
+          "en": "Built between 1554 and 1561 and situated in the heart of Moscow, St. Basil’s Cathedral has been among the top tourist attractions in Russia. It is not the building’s interior artifacts that attract visitors, but rather the cathedral’s distinctive architecture. Designed to resemble the shape of a bonfire in full flame, the architecture is not only unique to the period in which it was built but to any subsequent period. There is no other structure on earth quite like St. Basil’s Cathedral.",
+          "de": "Die Basilius-Kathedrale wurde zwischen 1554 und 1561 erbaut und befindet sich im Herzen von Moskau. Sie gehört zu den beliebtesten Touristenattraktionen in Russland. Es sind nicht die inneren Artefakte des Gebäudes, die Besucher anziehen, sondern die unverwechselbare Architektur der Kathedrale. Die Architektur wurde so entworfen, dass sie der Form eines Freudenfeuers in voller Flamme ähnelt. Sie ist nicht nur einzigartig für die Zeit, in der sie gebaut wurde, sondern auch für jede weitere Zeit. Es gibt kein anderes Bauwerk auf der Erde wie die Basilius-Kathedrale."
+        },
+        "img": "../assets/images/Russia/saint_basils_cathedral.jpg"
+      }
+    ]
+  },
+  {
+    "path":"Poland",
+    "videoUrl": "https://www.youtube.com/watch?v=6KjOfVTX10Q",
+    "places": [
+      {
+        "name": {
+          "ru": "Главная рыночная площадь",
+          "en": "Main Market Square",
+          "de": "Hauptmarkt"
+        },
+        "info": {
+          "ru": "Возведенная в 13 веке, Главная рыночная площадь в Старом городе Кракова является крупнейшей средневековой городской площадью в Европе и одной из главных туристических достопримечательностей Польши.",
+          "en": "Dating back to the 13th century, the Main Market Square in the Old Town in Kraków is the largest medieval town square in Europe and one of the main tourist attractions in Poland.",
+          "de": "Der Hauptmarkt in der Altstadt von Krakau stammt aus dem 13. Jahrhundert und ist der größte mittelalterliche Stadtplatz in Europa und eine der wichtigsten Touristenattraktionen in Polen."
+        },
+        "img": "../assets/images/Poland/main_market_square.jpg"
+      },
+      {
+        "name": {
+          "ru": "Варшавский Старый рынок",
+          "en": "Warsaw Old Market Place",
+          "de": "Warschauer alter Marktplatz"
+        },
+        "info": {
+          "ru": "Варшава и центральная рыночная площадь города, основанная в конце 13 века, на протяжении пяти веков были сердцем польской культуры.",
+          "en": "Founded in the late 13th century, Warsaw and the city’s central marketplace were the heart of Polish culture for five centuries.",
+          "de": "Warschau und der zentrale Marktplatz der Stadt wurden Ende des 13. Jahrhunderts gegründet und waren fünf Jahrhunderte lang das Herz der polnischen Kultur."
+        },
+        "img": "../assets/images/Poland/warsaw_old_market_place.jpg"
+      },
+      {
+        "name": {
+          "ru": "Старый город Гданьска",
+          "en": "Gdansk Old Town",
+          "de": "Danziger Altstadt"
+        },
+        "info": {
+          "ru": "Город Гданьск, расположенный на побережье Балтийского моря, включает в себя долгую жизнь тевтонских рыцарей 14 века, чьи крепости сильно контрастировали с существующим городом, который стал известен как Альтштадт, или «Старый город».",
+          "en": "Located on the Baltic coast, the city of Gdansk’s history includes a long occupation by 14th century Teutonic Knights whose fortresses contrasted strongly with the existing town that came to be known as Altstadt, or “Old Town.”",
+          "de": "Die an der Ostseeküste gelegene Stadt Danzig umfasst eine lange Besetzung durch germanische Ritter aus dem 14. Jahrhundert, deren Festungen einen starken Kontrast zu der bestehenden Stadt bildeten, die als Altstadt oder „Altstadt“ bekannt wurde."
+        },
+        "img": "../assets/images/Poland/gdansk_old_town.jpg"
+      },
+      {
+        "name": {
+          "ru": "Соляная шахта в Величке",
+          "en": "Wieliczka Salt Mine",
+          "de": "Salzbergwerk Wieliczka"
+        },
+        "info": {
+          "ru": "Соляная шахта в Величке, расположенная на окраине Кракова, считается одной из старейших компаний в мире. Соль добывается на этом месте непрерывно с 13 века.",
+          "en": "Located on the outskirts of Krakow, the Wieliczka Salt Mine is considered one of the oldest companies in the world. Salt has been mined from the site continuously since the 13th century.",
+          "de": "Das Salzbergwerk Wieliczka am Stadtrand von Krakau gilt als eines der ältesten Unternehmen der Welt. Seit dem 13. Jahrhundert wird auf dem Gelände kontinuierlich Salz abgebaut."
+        },
+        "img": "../assets/images/Poland/wieliczka_salt_mine.jpg"
+      },
+      {
+        "name": {
+          "ru": "Замок Мальборк",
+          "en": "Malbork Castle",
+          "de": "Schloss Malbork"
+        },
+        "info": {
+          "ru": "Замок Мальборк был основан в 1274 году тевтонскими рыцарями, которые использовали его в качестве своей штаб-квартиры, чтобы помочь победить польских врагов и управлять своими собственными северными балтийскими территориями.",
+          "en": "Malbork Castle was founded in 1274 by the Teutonic Knights who used it as their headquarters to help defeat Polish enemies and rule their own northern Baltic territories.",
+          "de": "Die Burg von Malbork wurde 1274 von den Deutschen Rittern gegründet, die sie als Hauptquartier nutzten, um polnische Feinde zu besiegen und ihre eigenen nördlichen baltischen Gebiete zu regieren."
+        },
+        "img": "../assets/images/Poland/malbork_castle.jpg"
+      },
+      {
+        "name": {
+          "ru": "Песчаные дюны Словински",
+          "en": "Slowinski Sand Dunes",
+          "de": "Slowinski Sanddünen"
+        },
+        "info": {
+          "ru": "Песчаные дюны Словински, расположенные на севере Польши, являются частью Словинского национального парка, расположенного на побережье Балтийского моря. Парк назван в честь словинцев, которые когда-то там жили, а в музее под открытым небом в городе Клюки представлены артефакты их культуры.",
+          "en": "Situated in northern Poland, the Slowinski Sand Dunes are part of the Slowinski National Park located on the coast of the Baltic Sea. The park is named after the Slovincians who once lived there, and an open-air museum in the town of Kluki features artifacts of their culture.",
+          "de": "Die Slowinski Sanddünen im Norden Polens sind Teil des Slowinski-Nationalparks an der Ostseeküste. Der Park ist nach den Slowaken benannt, die einst dort lebten, und ein Freilichtmuseum in der Stadt Kluki zeigt Artefakte ihrer Kultur."
+        },
+        "img": "../assets/images/Poland/slowinski_sand_dunes.jpg"
+      }
+    ]
+  },
+  {
+    "path":"Netherlands",
+    "videoUrl": "https://www.youtube.com/watch?v=wAppCTDtW3Y",
+    "places": [
+      {
+        "name": {
+          "ru": "Каналы Йордана и Амстердама",
+          "en": "Jordaan and Amsterdam's Canals",
+          "de": "Jordaan und Amsterdams Kanäle"
+        },
+        "info": {
+          "ru": "Каналы являются такой же важной частью городского пейзажа Амстердама, как и Венеции, и одним из самых ярких воспоминаний для любого посетителя является время, потраченное на изучение прекрасных водных путей города. Хотя до многих из лучших туристических достопримечательностей Амстердама можно легко добраться на лодке или водном такси, включая большинство крупных музеев и художественных галерей, ничто не сравнится с прогулкой по меньшим, более тихим улочкам, тянущимся вдоль водных путей.",
+          "en": "Canals are as important a part of Amsterdam's cityscape as they are to the city of Venice, and some of the most enduring memories for any visitor are the time spent exploring the city's wonderful waterways. While many of Amsterdam's best tourist attractions can easily be accessed by boat tour or water taxi - including most of the major museums and art galleries - nothing beats strolling along the smaller, quieter streets that line the waterways.",
+          "de": "Kanäle sind ein ebenso wichtiger Bestandteil des Amsterdamer Stadtbildes wie für die Stadt Venedig, und einige der beständigsten Erinnerungen für jeden Besucher sind die Zeit, die er damit verbringt, die wunderschönen Wasserstraßen der Stadt zu erkunden. Während viele der besten Touristenattraktionen Amsterdams leicht mit dem Boot oder dem Wassertaxi zu erreichen sind - einschließlich der meisten großen Museen und Kunstgalerien -, gibt es nichts Schöneres, als durch die kleineren, ruhigeren Straßen zu schlendern, die die Wasserstraßen säumen."
+        },
+        "img": "../assets/images/Netherlands/netherlands-amsterdam-jordaan-canal.jpg"
+      },
+      {
+        "name": {
+          "ru": "Кёкенхоф",
+          "en": "Keukenhof",
+          "de": "Keukenhof"
+        },
+        "info": {
+          "ru": "Кёкенхоф, также известный как «Сад Европы», расположен на окраине города Лиссе, в том месте, которое считается «поясом луковиц» в Нидерландах. Самый большой общественный сад в мире, занимающий более 70 акров того, что когда-то было кухонным (или «кёкеном») садом большого загородного поместья, Кёкенхоф демонстрирует более 700 разновидностей тюльпанов, которые находятся на пике формы. Апрель и май.",
+          "en": "Keukenhof, otherwise known as the \"Garden of Europe,\" is located on the outskirts of the town of Lisse in what's widely considered the \"bulb belt\" of the Netherlands. The largest public garden in the world, encompassing more than 70 acres of what was once the former kitchen (or \"keuken\") garden of a large country estate, Keukenhof displays more than 700 varieties of tulips, which are at their height in April and May.",
+          "de": "Der Keukenhof, auch als \"Garten Europas\" bekannt, befindet sich am Rande der Stadt Lisse im sogenannten \"Glühbirnengürtel\" der Niederlande. Der Keukenhof ist der größte öffentliche Garten der Welt und umfasst mehr als 70 Hektar des ehemaligen Küchengartens (oder \"Keuken\") eines großen Landgutes. Er zeigt mehr als 700 Tulpensorten, die sich auf ihrem Höhepunkt befinden April und Mai."
+        },
+        "img": "../assets/images/Netherlands/netherlands-keukenhof.jpg"
+      },
+      {
+        "name": {
+          "ru": "Рейксмузеум, Амстердам",
+          "en": "Rijksmuseum, Amsterdam",
+          "de": "Rijksmuseum, Amsterdam"
+        },
+        "info": {
+          "ru": "Впечатляющий Рейксмузеум - также известный как Национальный музей - на Музейной площади Амстердама собирает редкие предметы искусства и старины с 1809 года. Неудивительно, что сегодня его обширная коллекция насчитывает почти семь миллионов произведений искусства, в том числе 5000 картин в более чем 250 залах. , а также обширная библиотека, насчитывающая около 35 000 книг.",
+          "en": "The spectacular Rijksmuseum - aka the National Museum - in Amsterdam's Museumplein (Museum Square) has been collecting rare art and antiquities since 1809. Not surprisingly, its extensive collection today amounts to nearly seven million works of art, including 5,000 paintings in more than 250 rooms, as well as a vast library with some 35,000 books.",
+          "de": "Das spektakuläre Rijksmuseum - auch bekannt als Nationalmuseum - im Amsterdamer Museumplein (Museumsplatz) sammelt seit 1809 seltene Kunst und Antiquitäten. Es überrascht nicht, dass seine umfangreiche Sammlung heute fast sieben Millionen Kunstwerke umfasst, darunter 5.000 Gemälde in mehr als 250 Räumen sowie eine riesige Bibliothek mit rund 35.000 Büchern."
+        },
+        "img": "../assets/images/Netherlands/netherlands-amsterdam-rijksmuseum-2.jpg"
+      },
+      {
+        "name": {
+          "ru": "Дом Анны Франк, Амстердам",
+          "en": "Anne Frank House, Amsterdam",
+          "de": "Anne-Frank-Haus, Amsterdam"
+        },
+        "info": {
+          "ru": "Обязательно посетите Дом Анны Франк в Амстердаме. На Принсенграхте, в доме, где семья Анны пряталась большую часть Второй мировой войны (они были еврейскими беженцами из Франкфурта), эта замечательная девушка вела свой знаменитый дневник. Хотя она умерла всего за два месяца до окончания войны, ее наследие живет благодаря ее словам, которые с тех пор были переведены на 51 язык.",
+          "en": "The Anne Frank House is a must-see when in Amsterdam. On Prinsengracht, in the home where Anne's family hid for much of WWII (they were Jewish refugees from Frankfurt), is where this remarkable girl wrote her famous diary. Although she died just two months before the war ended, her legacy lives on through her words, which have since been translated into 51 languages.",
+          "de": "Das Anne-Frank-Haus ist ein Muss in Amsterdam. In der Prinsengracht, in dem Haus, in dem sich Annes Familie während eines Großteils des Zweiten Weltkriegs versteckte (sie waren jüdische Flüchtlinge aus Frankfurt), schrieb dieses bemerkenswerte Mädchen ihr berühmtes Tagebuch. Obwohl sie nur zwei Monate vor Kriegsende starb, lebt ihr Erbe durch ihre Worte weiter, die inzwischen in 51 Sprachen übersetzt wurden."
+        },
+        "img": "../assets/images/Netherlands/netherlands-amsterdam-anne-frank-statue.jpg"
+      },
+      {
+        "name": {
+          "ru": "Музей Ван Гога, Амстердам",
+          "en": "Van Gogh Museum, Amsterdam",
+          "de": "Van Gogh Museum, Amsterdam"
+        },
+        "info": {
+          "ru": "Как и положено одному из величайших художников мира, великолепный музей Ван Гога в Амстердаме занимает впечатляющее 2-е место в ведущем списке лучших художественных музеев мира, привлекая почти 1,5 миллиона посетителей каждый год.",
+          "en": "As befits one of the world's greatest artists, the spectacular Van Gogh Museum in Amsterdam is ranked an impressive #2 in a leading list of the top art museums globally, attracting almost 1.5 million visitors each year.",
+          "de": "Wie es sich für einen der größten Künstler der Welt gehört, ist das spektakuläre Van Gogh Museum in Amsterdam eine beeindruckende Nummer 2 in einer führenden Liste der besten Kunstmuseen der Welt und zieht jedes Jahr fast 1,5 Millionen Besucher an."
+        },
+        "img": "../assets/images/Netherlands/netherlands-amsterdam-van-gogh-museum-2.jpg"
+      },
+      {
+        "name": {
+          "ru": "Ветряные мельницы Киндердейка",
+          "en": "The Windmills of Kinderdijk",
+          "de": "Die Windmühlen von Kinderdijk"
+        },
+        "info": {
+          "ru": "В наши дни главная достопримечательность - это фантастически сохранившиеся ветряные мельницы 18-го века. В настоящее время объекты всемирного наследия ЮНЕСКО, 19 ветряных мельниц Киндердейк, построенных между 1722 и 1761 годами, являются крупнейшим сохранившимся скоплением ветряных мельниц в Нидерландах. Первоначально использовавшиеся для осушения болот, эти величественные здания с их впечатляющими 92-футовыми парусами открыты для публики с апреля по октябрь, включая специальные Мельничные дни, когда паруса приводят в движение.",
+          "en": "The big draw these days are the fantastically preserved 18th-century windmills. Now UNESCO World Heritage Sites, the 19 Kinderdijk windmills, built between 1722 and 1761, are the largest surviving concentration of windmills in the Netherlands. Originally used to drain the fenlands, these majestic buildings with their impressive 92-foot sails are open to the public from April to October, including special Mill Days when the sails are set in motion.",
+          "de": "Die große Attraktion dieser Tage sind die fantastisch erhaltenen Windmühlen aus dem 18. Jahrhundert. Die 19 Windmühlen von Kinderdijk, die zwischen 1722 und 1761 gebaut wurden und heute zum UNESCO-Weltkulturerbe gehören, sind die größte erhaltene Windmühlenkonzentration in den Niederlanden. Ursprünglich zur Entwässerung der Moore verwendet, sind diese majestätischen Gebäude mit ihren beeindruckenden 92-Fuß-Segeln von April bis Oktober für die Öffentlichkeit zugänglich, einschließlich spezieller Mühlentage, an denen die Segel in Bewegung gesetzt werden."
+        },
+        "img": "../assets/images/Netherlands/netherlands-kinderdijk.jpg"
+      }
+    ]
+  },
+  {
+    "path":"Brazil",
+    "videoUrl": "https://www.youtube.com/watch?v=q7zdJ-nMrlE",
+    "places": [
+      {
+        "name": {
+          "ru": "Кристо Редентор и Корковадо, Рио-де-Жанейро",
+          "en": "Cristo Redentor and Corcovado, Rio de Janeiro",
+          "de": "Cristo Redentor und Corcovado, Rio de Janeiro"
+        },
+        "info": {
+          "ru": "С вытянутыми руками на 28 метров, как если бы охватывала все человечество, колоссальная статуя Христа в стиле ар-деко, называемая Cristo Redentor (Христос-Искупитель), смотрит на Рио-де-Жанейро и залив с вершины Корковадо.",
+          "en": "With arms outstretched 28 meters, as if to encompass all of humanity, the colossal Art Deco statue of Christ, called Cristo Redentor (Christ the Redeemer), gazes out over Rio de Janeiro and the bay from the summit of Corcovado.",
+          "de": "Mit 28 Metern ausgestreckten Armen, als wollte sie die gesamte Menschheit erfassen, blickt die kolossale Art-Deco-Statue Christi namens Cristo Redentor (Christus der Erlöser) vom Gipfel des Corcovado über Rio de Janeiro und die Bucht."
+        },
+        "img": "../assets/images/Brazil/brazil-rio-de-janeiro-cristo-redentor.jpg"
+      },
+      {
+        "name": {
+          "ru": "Сахарная голова, Рио-де-Жанейро",
+          "en": "Sugar Loaf, Rio de Janeiro",
+          "de": "Zuckerhut, Rio de Janeiro"
+        },
+        "info": {
+          "ru": "Легко узнаваемая эмблема Рио-де-Жанейро, округлая скала Сахарная голова выступает из покрытого деревьями мыса, возвышаясь на 394 метра над пляжами и городом. Его вершина - одно из первых мест, которое стоит посетить для туристов, чтобы полюбоваться видами Рио и гавани, а также испытать острые ощущения от езды на канатной дороге между Сахарной Головой и Морро-да-Урка, более низкой вершиной, с которой соединяется вторая канатная дорога. в город.",
+          "en": "The easily recognized emblem of Rio de Janeiro, the rounded rock peak of Sugar Loaf juts out of a tree-covered promontory, rising 394 meters above the beaches and city. Its summit is one of the first places to visit for tourists, for views of Rio and the harbor, and for the thrill of riding suspended in a cable car between Sugar Loaf and the Morro da Urca, a lower peak from which a second cableway connects to the city.",
+          "de": "Das leicht zu erkennende Wahrzeichen von Rio de Janeiro, der abgerundete Felsgipfel des Zuckerhuts, ragt aus einem mit Bäumen bewachsenen Vorgebirge heraus und erhebt sich 394 Meter über den Stränden und der Stadt. Der Gipfel ist einer der ersten Orte für Touristen, für die Aussicht auf Rio und den Hafen sowie für den Nervenkitzel, in einer Seilbahn zwischen dem Zuckerhut und dem Morro da Urca zu fahren, einem unteren Gipfel, von dem aus eine zweite Seilbahn verbunden ist in die Stadt."
+        },
+        "img": "../assets/images/Brazil/brazil-rio-de-janeiro-sugar-loaf.jpg"
+      },
+      {
+        "name": {
+          "ru": "Водопады Игуасу",
+          "en": "Iguazu Falls",
+          "de": "Iguazu Falls"
+        },
+        "info": {
+          "ru": "В том месте, где встречаются Бразилия, Парагвай и Аргентина, река Игуасу эффектно обрывается полукругом из 247 водопадов, которые с грохотом ниспадают в ущелье внизу. Прямо над водопадом река сужена до одной четвертой своей обычной ширины, что усиливает силу воды.",
+          "en": "At the point where Brazil, Paraguay, and Argentina meet, the Iguaçu river drops spectacularly in a semicircle of 247 waterfalls that thunder down into the gorge below. Just above the falls, the river is constricted to one-fourth of its usual width, making the force of the water even stronger.At the point where Brazil, Paraguay, and Argentina meet, the Iguaçu river drops spectacularly in a semicircle of 247 waterfalls that thunder down into the gorge below. Just above the falls, the river is constricted to one-fourth of its usual width, making the force of the water even stronger.",
+          "de": "An dem Punkt, an dem sich Brasilien, Paraguay und Argentinien treffen, fällt der Fluss Iguaçu spektakulär in einen Halbkreis von 247 Wasserfällen ab, die in die darunter liegende Schlucht donnern. Unmittelbar über den Wasserfällen ist der Fluss auf ein Viertel seiner üblichen Breite eingeengt, wodurch die Kraft des Wassers noch stärker wird."
+        },
+        "img": "../assets/images/Brazil/foz-do-iguacu.jpg"
+      },
+      {
+        "name": {
+          "ru": "Копакабана, Рио-де-Жанейро",
+          "en": "Copacabana, Rio de Janeiro",
+          "de": "Copacabana, Rio de Janeiro"
+        },
+        "info": {
+          "ru": "Самый модный и знаменитый район центра Рио следует за Авенида Носа-Сеньора-де-Копакабана и граничит с одной стороны четырьмя километрами белого песка и серфингом. Пляж отделен от зданий и движения широкой набережной, вымощенной черно-белой мозаикой с волнистым рисунком, напоминающим улицы Лиссабона, Португалия.",
+          "en": "Downtown Rio's most fashionable and famous section follows Avenida Nossa Senhora de Copacabana and is bordered all along one side by four kilometers of white sand and breaking surf. The beach is separated from the buildings and traffic by a broad promenade paved in black and white mosaic in an undulating pattern reminiscent of streets in Lisbon, Portugal.",
+          "de": "Der angesagteste und berühmteste Abschnitt der Innenstadt von Rio folgt der Avenida Nossa Senhora de Copacabana und wird auf einer Seite von vier Kilometern weißem Sand und brechender Brandung begrenzt. Der Strand ist von den Gebäuden und dem Verkehr durch eine breite Promenade getrennt, die mit einem schwarz-weißen Mosaik in einem welligen Muster gepflastert ist, das an Straßen in Lissabon, Portugal, erinnert."
+        },
+        "img": "../assets/images/Brazil/brazil-rio-de-janeiro-copacabana.jpg"
+      },
+      {
+        "name": {
+          "ru": "Ипанема",
+          "en": "Ipanema",
+          "de": "Ipanema"
+        },
+        "info": {
+          "ru": "Помимо пляжей Копакабаны, великолепный белый песок сливается с столь же знаменитыми пляжами Ипанемы. Тот же волновой дизайн широкой набережной Копакабаны продолжается и здесь, отделяя песок от ряда отелей, ресторанов, кафе, художественных галерей и кинотеатров, которые делают это место популярной общественной зоной круглый год.",
+          "en": "Beyond the beaches of Copacabana, the glorious white sands merge into the just-as-famous beaches of Ipanema. The same wave design of Copacabana's wide promenade continues here, separating the sand from the line of hotels, restaurants, cafés, art galleries, and cinemas that make this a popular social zone year-round.",
+          "de": "Jenseits der Strände der Copacabana verschmelzen die herrlichen weißen Sande mit den ebenso berühmten Stränden von Ipanema. Das gleiche Wellendesign der breiten Promenade von Copacabana setzt sich hier fort und trennt den Sand von der Reihe von Hotels, Restaurants, Cafés, Kunstgalerien und Kinos, die diese Zone das ganze Jahr über zu einer beliebten sozialen Zone machen."
+        },
+        "img": "../assets/images/Brazil/brazil-top-attractions-ipanema.jpg"
+      },
+      {
+        "name": {
+          "ru": "Дождевые леса Амазонки",
+          "en": "Amazon Rain Forests",
+          "de": "Amazonas-Regenwälder"
+        },
+        "info": {
+          "ru": "Примерно в 20 километрах к юго-востоку от Манауса темные воды Рио-Негро встречаются со светлой мутной водой Рио-Солимоэнс, протекая бок о бок примерно на шесть километров, прежде чем смешаться с Амазонкой. Морские прогулки из Манауса приведут вас к этой точке, называемой Encontro das Aguas, слиянием вод.",
+          "en": "About 20 kilometers southeast of Manaus, the dark Rio Negro waters meet the light muddy water of the Rio Solimões, flowing side by side for about six kilometers before mixing as the Amazon. Boat trips from Manaus take you to this point, called Encontro das Aguas, meeting of the waters.",
+          "de": "Ungefähr 20 Kilometer südöstlich von Manaus treffen die dunklen Gewässer des Rio Negro auf das leichte schlammige Wasser des Rio Solimões, das etwa sechs Kilometer nebeneinander fließt, bevor es sich als Amazonas mischt. Bootsfahrten von Manaus bringen Sie zu diesem Punkt, dem Encontro das Aguas, dem Treffen der Gewässer."
+        },
+        "img": "../assets/images/Brazil/brazil-amazon-rain-forest.jpg"
+      }
+    ]
+  },
+  {
+    "path":"Peru",
+    "videoUrl": "https://www.youtube.com/watch?v=Nye_O4PEh7k",
+    "places": [
+      {
+        "name": {
+          "ru": "Мачу-Пикчу",
+          "en": "Machu Picchu",
+          "de": "Machu Picchu"
+        },
+        "info": {
+          "ru": "Расположенный высоко на хребте, на высоте 300 метров над рекой Урубамба, величественный город инков Мачу-Пикчу является одним из самых драматических мест разрушенного города в мире. Почти так же впечатляюще, как и сами руины, впечатляющий фон крутых, пышных и часто окутанных облаками гор.",
+          "en": "Perched high upon a ridge, 300 meters above the Urubamba River, the majestic Inca City of Machu Picchu is one of the most dramatic settings of a ruined city anywhere in the world. Almost as impressive as the ruins themselves is the spectacular backdrop of steep, lush, and often cloud-shrouded mountains.",
+          "de": "Die majestätische Inka-Stadt Machu Picchu thront hoch auf einem Bergrücken 300 Meter über dem Urubamba-Fluss und ist eine der dramatischsten Kulissen einer zerstörten Stadt auf der ganzen Welt. Fast so beeindruckend wie die Ruinen selbst ist die spektakuläre Kulisse steiler, üppiger und oft wolkenverhangener Berge."
+        },
+        "img": "../assets/images/Peru/peru-machu-picchu-1.jpg"
+      },
+      {
+        "name": {
+          "ru": "Тропа инков",
+          "en": "The Inca Trail",
+          "de": "Der Inka-Pfad"
+        },
+        "info": {
+          "ru": "Знаменитая тропа инков - это четырехдневный поход, который заканчивается в Мачу-Пикчу, и многие считают его кульминационным моментом их поездки в Перу. Этот живописный маршрут зачастую более сложен, чем ожидают многие, но и приносит больше удовольствия.",
+          "en": "The famous Inca Trail is a four-day hike, which terminates at Machu Picchu, and is regarded by many as the highlight of their trip to Peru. This scenic trail is often more demanding than what many people are expecting, but also more rewarding.",
+          "de": "Der berühmte Inka-Pfad ist eine viertägige Wanderung, die in Machu Picchu endet und von vielen als Höhepunkt ihrer Reise nach Peru angesehen wird. Dieser landschaftlich reizvolle Weg ist oft anspruchsvoller als von vielen Menschen erwartet, aber auch lohnender."
+        },
+        "img": "../assets/images/Peru/peru-inca-trail.jpg"
+      },
+      {
+        "name": {
+          "ru": "Архитектурные сокровища Куско",
+          "en": "Cusco's Architectural Treasures",
+          "de": "Cuscos architektonische Schätze"
+        },
+        "info": {
+          "ru": "Прогулка по улицам Куско похожа на прогулку по музею, история которого основана на истории в этом объекте Всемирного наследия ЮНЕСКО. Руины инков были использованы в фундаменте многих прекрасных старых колониальных зданий, выстроившихся вдоль узких дорог, демонстрируя многовековую историю города.",
+          "en": "Walking through the streets of Cusco is like wandering through a museum, with history built upon history in this UNESCO World Heritage Site. Inca ruins have been used in the foundations of many of the lovely old colonial buildings lining the narrow roads, showcasing the city's long history.",
+          "de": "Ein Spaziergang durch die Straßen von Cusco ist wie ein Spaziergang durch ein Museum, dessen Geschichte auf der Geschichte dieses UNESCO-Weltkulturerbes basiert. Inka-Ruinen wurden in den Fundamenten vieler der schönen alten Kolonialgebäude entlang der engen Straßen verwendet, um die lange Geschichte der Stadt zu demonstrieren."
+        },
+        "img": "../assets/images/Peru/peru-cusco-inca-wall.jpg"
+      },
+      {
+        "name": {
+          "ru": "Озеро Титикака",
+          "en": "Lake Titicaca",
+          "de": "Titicacasee"
+        },
+        "info": {
+          "ru": "Сверкающая голубая вода озера Титикака окружена холмами и небольшими традиционными деревнями. Район озера представляет собой сочетание красивых пейзажей и культуры, что отличает его от других регионов страны. Озеро Титикака, расположенное на высоте 3820 метров над уровнем моря, известно как самое высокое судоходное озеро в мире.",
+          "en": "The sparkling blue water of Lake Titicaca is surrounded by rolling hills and traditional small villages. The lake area is a mix of beautiful scenery and culture that sets it apart from other regions of the country. Sitting at 3,820 meters above sea level, Lake Titicaca is known for being the highest navigable lake in the world.",
+          "de": "Das glitzernde blaue Wasser des Titicacasees ist von sanften Hügeln und traditionellen kleinen Dörfern umgeben. Das Seegebiet ist eine Mischung aus wunderschöner Landschaft und Kultur, die es von anderen Regionen des Landes unterscheidet. Der Titicacasee liegt auf 3.820 Metern über dem Meeresspiegel und ist als der höchste schiffbare See der Welt bekannt."
+        },
+        "img": "../assets/images/Peru/peru-lake-titicaca-amantani.jpg"
+      },
+      {
+        "name": {
+          "ru": "Каньон Колка",
+          "en": "Colca Canyon",
+          "de": "Colca Canyon"
+        },
+        "info": {
+          "ru": "Хотя когда-то считалось, что это самый глубокий каньон в мире, Каньон Колка (Каньон-дель-Колка), вдвое глубже Гранд-Каньона, является вторым по глубине после близлежащего каньона Котахуаси. Каньон достигает глубины 3400 метров и является результатом сейсмического разлома между двумя вулканами. У основания далеко внизу протекает извилистая река.",
+          "en": "Although it was once thought to be the deepest canyon in the world, Colca Canyon (Cañon del Colca), twice as deep as the Grand Canyon, is the second deepest after nearby Cotahuasi Canyon. The canyon reaches a depth of 3,400 meters and is the result of a seismic fault between two volcanoes. At the base far below is a winding river.",
+          "de": "Obwohl einst angenommen wurde, dass es sich um den tiefsten Canyon der Welt handelt, ist der Colca Canyon (Cañon del Colca), doppelt so tief wie der Grand Canyon, nach dem nahe gelegenen Cotahuasi Canyon der zweittiefste. Der Canyon erreicht eine Tiefe von 3.400 Metern und ist das Ergebnis eines seismischen Fehlers zwischen zwei Vulkanen. An der Basis weit unten befindet sich ein gewundener Fluss."
+        },
+        "img": "../assets/images/Peru/peru-colca-canyon-view.jpg"
+      },
+      {
+        "name": {
+          "ru": "Священная долина",
+          "en": "The Sacred Valley",
+          "de": "Das Heilige Tal"
+        },
+        "info": {
+          "ru": "Менее чем в часе езды к северу от Куско находится красивая Священная долина и города Писак, Урубамба и Ольянтайтамбо. В этой плодородной долине есть много руин инков, которые стоит исследовать, но это также спокойное место, где можно провести некоторое время, прогуливаясь по рынкам или знакомясь с местной культурой.",
+          "en": "Less than an hour's drive north of Cusco is the beautiful Sacred Valley and the towns of Pisac, Urubamba, and Ollantaytambo. This fertile valley has many Inca ruins worth exploring but is also a peaceful area to spend some time wandering through markets or soaking up local culture.",
+          "de": "Weniger als eine Autostunde nördlich von Cusco liegen das wunderschöne Heilige Tal und die Städte Pisac, Urubamba und Ollantaytambo. Dieses fruchtbare Tal hat viele Inka-Ruinen, die es wert sind, erkundet zu werden, ist aber auch eine friedliche Gegend, um einige Zeit auf Märkten zu verbringen oder die lokale Kultur zu genießen."
+        },
+        "img": "../assets/images/Peru/peru-sacred-valley-3.jpg"
+      }
+    ]
+  },
+  {
+    "path":"Japan",
+    "videoUrl": "https://www.youtube.com/watch?v=CxuiFNYnEr4",
+    "places": [
+      {
+        "name": {
+          "ru": "Гора Фудзи",
+          "en": "Mount Fuji",
+          "de": "Berg Fuji"
+        },
+        "info": {
+          "ru": "Без сомнения, самая узнаваемая достопримечательность Японии, величественная гора Фудзи (Fuji-san), также является самой высокой горной вершиной страны. Эта величественная и легендарная гора возвышается на 3776 метров над равнинным ландшафтом на юге и востоке, достаточно высока, чтобы ее можно было увидеть из Токио, находящегося на расстоянии более 100 километров.",
+          "en": "Without a doubt Japan's most recognizable landmark, majestic Mount Fuji (Fuji-san) is also the country's highest mountain peak. Towering 3,776 meters over an otherwise largely flat landscape to the south and east, this majestic and fabled mountain is tall enough to be seen from Tokyo, more than 100 kilometers away.",
+          "de": "Ohne Zweifel ist Japans bekanntestes Wahrzeichen, der majestätische Berg Fuji (Fuji-san), auch der höchste Berg des Landes. Dieser majestätische und sagenumwobene Berg ragt 3.776 Meter über eine ansonsten weitgehend flache Landschaft im Süden und Osten und ist hoch genug, um von Tokio aus gesehen zu werden, das mehr als 100 Kilometer entfernt ist."
+        },
+        "img": "../assets/images/Japan/japan-attractions-mount-fuji.jpg"
+      },
+      {
+        "name": {
+          "ru": "Императорский Токио",
+          "en": "Imperial Tokyo",
+          "de": "Kaiserliches Tokio"
+        },
+        "info": {
+          "ru": "Самая известная достопримечательность Токио, Императорский дворец с его красивыми парками 17-го века, окруженными стенами и рвами, является обязательным для посещения при посещении столицы страны. Не пугайтесь того факта, что большая часть дворца закрыта для публики (он все еще используется императорской семьей), так как здесь все еще достаточно, чтобы увидеть, просто прогуливаясь по территории.",
+          "en": "Tokyo's most famous landmark, the Imperial Palace with its beautiful 17th-century parks surrounded by walls and moats, is a must-see when visiting the nation's capital. Don't be put off by the fact that the majority of the palace is closed to the public (it's still in use by the Imperial family), as there is still enough to see simply by strolling the grounds.",
+          "de": "Tokios berühmtestes Wahrzeichen, der Kaiserpalast mit seinen wunderschönen Parks aus dem 17. Jahrhundert, die von Mauern und Wassergräben umgeben sind, ist ein Muss, wenn Sie die Hauptstadt des Landes besuchen. Lassen Sie sich nicht von der Tatsache abschrecken, dass der Großteil des Palastes für die Öffentlichkeit geschlossen ist (er wird immer noch von der kaiserlichen Familie genutzt), da es immer noch genug gibt, um einfach durch das Gelände zu schlendern."
+        },
+        "img": "../assets/images/Japan/japan-attractions-imperial-palace.jpg"
+      },
+      {
+        "name": {
+          "ru": "Мемориальный парк мира в Хиросиме",
+          "en": "Hiroshima Peace Memorial Park",
+          "de": "Hiroshima Peace Memorial Park"
+        },
+        "info": {
+          "ru": "Хотя здесь мало что нужно сказать об ужасах атомной бомбардировки Хиросимы в августе 1945 года, многое можно сказать о невероятных усилиях, предпринятых этим ярким городом, чтобы почтить память многих жертв первой в мире ядерной атаки. Возможно, что еще более важно, Хиросима стала символом прочного мира.",
+          "en": "While little needs to be said here of the horrors of the atomic bombing of Hiroshima in August 1945, much can be said of the incredible efforts this vibrant city has made to commemorate the many victims of the world's first nuclear attack. Perhaps even more importantly, Hiroshima has become a symbol of lasting peace.",
+          "de": "Während hier wenig über die Schrecken der Atombomben auf Hiroshima im August 1945 gesagt werden muss, kann viel über die unglaublichen Anstrengungen gesagt werden, die diese pulsierende Stadt unternommen hat, um den vielen Opfern des ersten Atomangriffs der Welt zu gedenken. Vielleicht noch wichtiger ist, dass Hiroshima ein Symbol für dauerhaften Frieden geworden ist."
+        },
+        "img": "../assets/images/Japan/japan-attractions-hiroshima-peace-memorial-park.jpg"
+      },
+      {
+        "name": {
+          "ru": "Исторический Киото",
+          "en": "Historic Kyoto",
+          "de": "Historisches Kyoto"
+        },
+        "info": {
+          "ru": "Один из самых посещаемых городов Японии, прекрасный Киото - один из немногих городов страны, который избежал разрушений Второй мировой войны - ежегодно привлекает более 10 миллионов посетителей. Большинство из них здесь, чтобы исследовать прекрасные старые улицы и архитектуру Киото, большая часть которой не изменилась с тех пор, как Императорская семья поселилась здесь более 1000 лет назад.",
+          "en": "One of Japan's most visited cities, lovely Kyoto - one of the few cities in the country to be spared the devastation of WWII - attracts more than 10 million visitors annually. Most of them are here to explore Kyoto's fine old streets and architecture, much of it unchanged since the Imperial family took up residence here more than 1,000 years ago.",
+          "de": "Eine der meistbesuchten Städte Japans, das schöne Kyoto - eine der wenigen Städte des Landes, die von den Verwüstungen des Zweiten Weltkriegs verschont bleiben - zieht jährlich mehr als 10 Millionen Besucher an. Die meisten von ihnen sind hier, um Kyotos schöne alte Straßen und Architektur zu erkunden. Ein Großteil davon ist unverändert geblieben, seit die kaiserliche Familie vor mehr als 1.000 Jahren hier ihren Wohnsitz gefunden hat."
+        },
+        "img": "../assets/images/Japan/japan-attractions-kyoto.jpg"
+      },
+      {
+        "name": {
+          "ru": "Островной храм Ицукусима",
+          "en": "The Island Shrine of Itsukushima",
+          "de": "Der Inselschrein von Itsukushima"
+        },
+        "info": {
+          "ru": "Всего в нескольких минутах езды на пароме от материковой части Хиросимы находится остров Миядзима, известный во всем мире как Японский остров святынь. Миядзима, занимающий территорию в 30 квадратных километров в заливе Хиросима, наиболее известен как дом для святилища Ицукусима, синтоистского храма, посвященного принцессам, дочерям бога ветра Сусаноо.",
+          "en": "Just a short ferry ride from mainland Hiroshima is the island of Miyajima, famous the world over as Japan's Shrine Island. Covering an area of 30 square kilometers in Hiroshima Bay, Miyajima is best known as the home of the Itsukushima Shrine, a Shinto temple dedicated to the Princess daughters of the wind god Susanoo.",
+          "de": "Nur eine kurze Fahrt mit der Fähre vom Festland Hiroshima entfernt liegt die Insel Miyajima, die weltweit als Japans Schreininsel bekannt ist. Auf einer Fläche von 30 Quadratkilometern in der Hiroshima-Bucht ist Miyajima vor allem als Heimat des Itsukushima-Schreins bekannt, eines shintoistischen Tempels, der den Töchtern der Prinzessin des Windgottes Susanoo gewidmet ist."
+        },
+        "img": "../assets/images/Japan/japan-attractions-hiroshima-itsukushima.jpg"
+      },
+      {
+        "name": {
+          "ru": "Храм Ацута, Нагоя",
+          "en": "The Atsuta Shrine, Nagoya",
+          "de": "Der Atsuta-Schrein, Nagoya"
+        },
+        "info": {
+          "ru": "Святилище Ацута в центре города Нагоя является самым важным синтоистским святилищем в Японии и ежегодно привлекает более пяти миллионов посетителей. Основанный в первом веке, это религиозное место славится сохранившимися императорскими знаками отличия, «мечом для косилки травы» (кусанаги-но-цуруги), одним из трех в стране.",
+          "en": "The Atsuta Shrine, in the heart of the city of Nagoya, is the most important Shinto shrine in Japan, and attracts more than five million visitors each year. Established in the first century, this religious site is famous for its preserved Imperial insignia, the \"grass-mowing sword\" (kusanagi-no-tsurugi), one of only three in the country.",
+          "de": "Der Atsuta-Schrein im Herzen der Stadt Nagoya ist der wichtigste Shinto-Schrein in Japan und zieht jedes Jahr mehr als fünf Millionen Besucher an. Diese religiöse Stätte wurde im ersten Jahrhundert gegründet und ist berühmt für ihre erhaltenen kaiserlichen Insignien, das \"Grasmähschwert\" (kusanagi-no-tsurugi), eines von nur drei im Land."
+        },
+        "img": "../assets/images/Japan/japan-attractions-atsuta-shrine.jpg"
+      }
+    ]
+  },
+  {
+    "path":"England",
+    "videoUrl": "https://www.youtube.com/watch?v=wSHXd-K-jIk",
+    "places": [
+      {
+        "name": {
+          "ru": "Стоунхендж",
+          "en": "Stonehenge",
+          "de": "Stonehenge"
+        },
+        "info": {
+          "ru": "Стоунхендж, расположенный в 10 милях к северу от исторического города Солсбери на равнине Солсбери, является самым известным доисторическим памятником Европы. Это настолько популярно, что посетителям необходимо заранее купить билет на время, чтобы гарантировать вход. Выставки в превосходном центре для посетителей Стоунхенджа подготовили почву для посещения, объясняя через аудиовизуальные впечатления и более 250 древних объектов, как были возведены мегалиты между 3000 и 1500 годами до нашей эры, и делясь информацией о жизни в то время.",
+          "en": "Stonehenge, 10 miles north of the historic city of Salisbury on Salisbury Plain, is Europe's best-known prehistoric monument. It's so popular that visitors need to purchase a timed ticket in advance to guarantee entry. Exhibitions at the excellent Stonehenge visitor center set the stage for a visit, explaining through audio-visual experiences and more than 250 ancient objects how the megaliths were erected between 3000 and 1500 BC, and sharing information about life during this time.",
+          "de": "Stonehenge, 16 km nördlich der historischen Stadt Salisbury in der Salisbury Plain, ist Europas bekanntestes prähistorisches Denkmal. Es ist so beliebt, dass Besucher im Voraus ein zeitgesteuertes Ticket kaufen müssen, um den Eintritt zu garantieren. Ausstellungen im hervorragenden Besucherzentrum von Stonehenge bereiteten die Bühne für einen Besuch. Sie erklärten anhand von audiovisuellen Erlebnissen und mehr als 250 antiken Objekten, wie die Megalithen zwischen 3000 und 1500 v. Chr. Errichtet wurden, und tauschten Informationen über das Leben in dieser Zeit aus."
+        },
+        "img": "../assets/images/England/england-stonehenge.jpg"
+      },
+      {
+        "name": {
+          "ru": "Башня Лондона",
+          "en": "Tower of London",
+          "de": "Tower of London"
+        },
+        "info": {
+          "ru": "Тюрьма, дворец, сокровищница, обсерватория и зверинец: Лондонский Тауэр сделал все это, и это одна из главных достопримечательностей Лондона. Считается самым важным зданием в Англии, в этом объекте всемирного наследия есть что посмотреть и чем заняться, чтобы посетители были заняты часами.",
+          "en": "Prison, palace, treasure vault, observatory, and menagerie: the Tower of London has done it all and it's one of the top attractions in London. Widely considered the most important building in England, there's enough to see and do at this World Heritage Site to keep visitors busy for hours.",
+          "de": "Gefängnis, Palast, Schatzkammer, Observatorium und Menagerie: Der Tower of London hat alles getan und ist eine der Hauptattraktionen in London. Dieses Weltkulturerbe gilt als das wichtigste Gebäude Englands und bietet genug zu sehen und zu erleben, um die Besucher stundenlang zu beschäftigen."
+        },
+        "img": "../assets/images/England/england-tower-of-london.jpg"
+      },
+      {
+        "name": {
+          "ru": "Британский музей",
+          "en": "The British Museum",
+          "de": "Das Britische Museum"
+        },
+        "info": {
+          "ru": "Британский музей с коллекциями древностей, которые являются одними из лучших в мире, хранит более 13 миллионов артефактов из Ассирии, Вавилонии, Египта, Греции, Римской империи, Китая и Европы. Самыми известными древними артефактами являются мрамор Элгин из Парфенона в Афинах, а также знаменитый Розеттский камень.",
+          "en": "With collections of antiquities that are among the world's finest, the British Museum holds more than 13 million artifacts from Assyria, Babylonia, Egypt, Greece, the Roman Empire, China, and Europe. The most famous ancient artifacts are the Elgin Marbles from the Parthenon in Athens, as well as the famous Rosetta Stone.",
+          "de": "Mit Sammlungen von Antiquitäten, die zu den besten der Welt gehören, besitzt das British Museum mehr als 13 Millionen Artefakte aus Assyrien, Babylonien, Ägypten, Griechenland, dem Römischen Reich, China und Europa. Die bekanntesten antiken Artefakte sind die Elgin Marbles aus dem Parthenon in Athen sowie der berühmte Rosetta Stone."
+        },
+        "img": "../assets/images/England/england-london-british-museum.jpg"
+      },
+      {
+        "name": {
+          "ru": "Йоркский собор и исторический Йоркшир",
+          "en": "York Minster and Historic Yorkshire",
+          "de": "York Minster und historisches Yorkshire"
+        },
+        "info": {
+          "ru": "Великолепный Йоркский собор является вторым по значимости в англиканской церкви только после Кентерберийского собора. Он стоит в центре исторического Йорка, в окружении фахверковых домов и магазинов, средневековых ратушей гильдий и церквей.",
+          "en": "The magnificent York Minster is second in importance in the Church of England only to the cathedral at Canterbury. It stands in the center of historic York, surrounded by half-timbered homes and shops, medieval guildhalls, and churches.",
+          "de": "Das prächtige York Minster ist in der Church of England nach der Kathedrale von Canterbury an zweiter Stelle. Es befindet sich im Zentrum des historischen York, umgeben von Fachwerkhäusern und Geschäften, mittelalterlichen Gildenhäusern und Kirchen."
+        },
+        "img": "../assets/images/England/england-historic-yorkshire.jpg"
+      },
+      {
+        "name": {
+          "ru": "Честерский зоопарк",
+          "en": "Chester Zoo",
+          "de": "Chester Zoo"
+        },
+        "info": {
+          "ru": "Зоопарк Честера, расположенный в Аптоне, чуть более чем в миле к северу от центра города Честер, является самой посещаемой достопримечательностью Англии за пределами Лондона и одним из лучших мест в Англии для семейного отдыха.",
+          "en": "Located in Upton, just over a mile north of Chester city center, Chester Zoo is England's most visited attraction outside of London and is one of the best places to visit in England for families.",
+          "de": "Der Chester Zoo befindet sich in Upton, etwas mehr als 1,6 km nördlich des Stadtzentrums von Chester. Er ist Englands meistbesuchte Sehenswürdigkeit außerhalb Londons und einer der besten Orte für Familien in England."
+        },
+        "img": "../assets/images/England/england-chester-zoo-2.jpg"
+      },
+      {
+        "name": {
+          "ru": "Котсуолдс",
+          "en": "The Cotswolds",
+          "de": "Die Cotswolds"
+        },
+        "info": {
+          "ru": "Котсуолдс покрывает около 787 квадратных миль и включает части некоторых из самых красивых графств Англии: Глостершир, Оксфордшир, Уилтшир, Сомерсет, Вустершир и Уорикшир. И все это требует изучения. Зона выдающейся природной красоты благодаря редким местам обитания известняковых пастбищ и старовозрастным буковым лесам, красота Котсуолдса во многом связана с его причудливыми деревнями и городами, такими как Касл Комб, Чиппинг Нортон и Тетбери.",
+          "en": "The Cotswolds cover some 787 square miles and encompass parts of some of England's prettiest counties: Gloucestershire, Oxfordshire, Wiltshire, Somerset, Worcestershire, and Warwickshire. And all of it begs to be explored. Designated an Area of Outstanding Natural Beauty due to its rare limestone grassland habitats and old-growth beech woodlands, the beauty of the Cotswolds has much to do with its quaint villages and towns, such as Castle Combe, Chipping Norton, and Tetbury.",
+          "de": "Die Cotswolds erstrecken sich über 787 Quadratmeilen und umfassen Teile einiger der schönsten Grafschaften Englands: Gloucestershire, Oxfordshire, Wiltshire, Somerset, Worcestershire und Warwickshire. Und alles muss erforscht werden. Die Schönheit der Cotswolds, die aufgrund ihrer seltenen Lebensräume aus Kalkwiesen und altem Buchenwald als Gebiet von außergewöhnlicher natürlicher Schönheit ausgewiesen ist, hat viel mit ihren malerischen Dörfern und Städten wie Castle Combe, Chipping Norton und Tetbury zu tun."
+        },
+        "img": "../assets/images/England/england-the-cotswolds.jpg"
+      }
+    ]
+  },
+  {
+    "path":"USA",
+    "videoUrl": "https://www.youtube.com/watch?v=b7FNvq11CEw&t=3s",
+    "places": [
+      {
+        "name": {
+          "ru": "Большой Каньон",
+          "en": "Grand Canyon",
+          "de": "Grand Canyon"
+        },
+        "info": {
+          "ru": "Гранд-Каньон расположен в северной части Аризоны и является одной из величайших туристических достопримечательностей Соединенных Штатов. Вырезанный на протяжении нескольких миллионов лет рекой Колорадо, каньон достигает глубины более 1,6 км (1 мили) и 446 км (277 миль) в длину.",
+          "en": "The Grand Canyon is located in northern Arizona and is one of the great tourist attractions in the United States. Carved over several million years by the Colorado River, the canyon attains a depth of over 1.6 km (1 mile) and 446 km (277 miles) long.",
+          "de": "Der Grand Canyon befindet sich im Norden von Arizona und ist eine der größten Touristenattraktionen in den Vereinigten Staaten. Der vom Colorado River über mehrere Millionen Jahre geschnitzte Canyon erreicht eine Tiefe von über 1,6 km und eine Länge von 446 km."
+        },
+        "img": "../assets/images/USA/grand_canyon.jpg"
+      },
+      {
+        "name": {
+          "ru": "Йеллоустон",
+          "en": "Yellowstone",
+          "de": "Yellowstone"
+        },
+        "info": {
+          "ru": "Йеллоустонский национальный парк был первым в мире национальным парком, созданным в 1872 году для сохранения огромного количества гейзеров, горячих источников и других термальных зон, а также для защиты невероятной дикой природы и суровой красоты местности. Йеллоустон находится на вершине гигантской горячей точки, где легкие, горячие, расплавленные мантийные породы поднимаются к поверхности.",
+          "en": "Yellowstone National Park was the world’s first national park, set aside in 1872 to preserve the vast number of geysers, hot springs, and other thermal areas, as well as to protect the incredible wildlife and rugged beauty of the area. Yellowstone lies on top of a gigantic hotspot where light, hot, molten mantle rock rises towards the surface.",
+          "de": "Der Yellowstone-Nationalpark war der erste Nationalpark der Welt, der 1872 zur Erhaltung der großen Anzahl von Geysiren, heißen Quellen und anderen Thermalgebieten sowie zum Schutz der unglaublichen Tierwelt und der rauen Schönheit der Region eingerichtet wurde. Yellowstone liegt auf einem riesigen Hotspot, an dem leichtes, heißes, geschmolzenes Mantelgestein an die Oberfläche steigt."
+        },
+        "img": "../assets/images/USA/yellowstone.jpg"
+      },
+      {
+        "name": {
+          "ru": "Мост Золотые Ворота в Сан-Франциско",
+          "en": "Golden Gate Bridge in San Francisco",
+          "de": "Golden Gate Bridge in San Francisco"
+        },
+        "info": {
+          "ru": "Мост Золотые Ворота был самым длинным пролетом подвесного моста в мире, когда он был построен в 1937 году, и стал всемирно признанным символом Сан-Франциско и Калифорнии. Знаменитый красно-оранжевый цвет моста был выбран специально, чтобы сделать его более заметным в густом тумане, который часто окутывает мост.",
+          "en": "The Golden Gate Bridge was the longest suspension bridge span in the world when it was completed in 1937, and has become an internationally recognized symbol of San Francisco and California. The famous red-orange color of the bridge was specifically chosen to make the bridge more easily visible through the thick fog that frequently shrouds the bridge.",
+          "de": "Die Golden Gate Bridge war die längste Hängebrücke der Welt, als sie 1937 fertiggestellt wurde, und hat sich zu einem international anerkannten Symbol für San Francisco und Kalifornien entwickelt. Die berühmte rot-orange Farbe der Brücke wurde speziell gewählt, um die Brücke durch den dichten Nebel, der die Brücke häufig bedeckt, besser sichtbar zu machen."
+        },
+        "img": "../assets/images/USA/golden_gate_bridge.jpg"
+      },
+      {
+        "name": {
+          "ru": "Ниагарский водопад",
+          "en": "Niagara Falls",
+          "de": "Niagarafälle"
+        },
+        "info": {
+          "ru": "Ниагарский водопад, расположенный между штатом Нью-Йорк и провинцией Онтарио, является одним из самых впечатляющих природных чудес на североамериканском континенте. Ниагарский водопад - это на самом деле три разных водопада: Американский водопад, водопад Фата невесты и водопад Подкова.",
+          "en": "Situated between the state of New York and the province of Ontario, Niagara Falls is one of the most spectacular natural wonders on the North American continent. Niagara Falls is actually three different falls, the American Falls, Bridal Veil Falls and Horseshoe Falls.",
+          "de": "Die Niagarafälle liegen zwischen dem Bundesstaat New York und der Provinz Ontario und sind eines der spektakulärsten Naturwunder des nordamerikanischen Kontinents. Niagara Falls ist eigentlich drei verschiedene Fälle, die American Falls, Bridal Veil Falls und Horseshoe Falls."
+        },
+        "img": "../assets/images/USA/niagara_falls.jpg"
+      },
+      {
+        "name": {
+          "ru": "Лас-Вегас-Стрип",
+          "en": "Las Vegas Strip",
+          "de": "Las Vegas Strip"
+        },
+        "info": {
+          "ru": "Мекка азартных игр мира, Лас-Вегас расположен посреди пустынного ландшафта южной Невады. Казино можно найти по всему Лас-Вегасу, но большинство из них находится на южной части бульвара Лас-Вегаса.",
+          "en": "The gambling mecca of the world, Las Vegas is situated in the midst of the southern Nevada desert landscape. Casinos can be found throughout Las Vegas, but the strip, a stretch of Las Vegas Boulevard South, contains the most of them.",
+          "de": "Las Vegas, das Glücksspiel-Mekka der Welt, liegt inmitten der südlichen Wüstenlandschaft von Nevada. Casinos gibt es in ganz Las Vegas, aber der Strip, ein Abschnitt des Las Vegas Boulevard South, enthält die meisten davon."
+        },
+        "img": "../assets/images/USA/las_vegas_strip.jpg"
+      },
+      {
+        "name": {
+          "ru": "Мир Уолта Диснея в Орландо",
+          "en": "Walt Disney World in Orlando",
+          "de": "Walt Disney World in Orlando"
+        },
+        "info": {
+          "ru": "Орландо, штат Флорида, является центром парков развлечений, но ни один из них не пользуется такой популярностью, как Мир Уолта Диснея. Многие путешественники не догадываются, что Мир Уолта Диснея на самом деле состоит из нескольких тематических парков, включая Волшебное королевство, Эпкот, Голливудские студии, Царство животных и аквапарк Blizzard Beach.",
+          "en": "Orlando, Florida, is a hub of amusement parks, but none is so popular as Walt Disney World. Many travelers don’t realize that Walt Disney World is actually made up of several distinct theme parks, including the Magic Kingdom, Epcot, Hollywood Studios, Animal Kingdom and the Blizzard Beach Water Park.",
+          "de": "Orlando, Florida, ist ein Zentrum für Vergnügungsparks, aber keiner ist so beliebt wie Walt Disney World. Vielen Reisenden ist nicht klar, dass Walt Disney World tatsächlich aus mehreren unterschiedlichen Themenparks besteht, darunter das Magic Kingdom, Epcot, die Hollywood Studios, das Animal Kingdom und der Blizzard Beach Water Park."
+        },
+        "img": "../assets/images/USA/walt_disney_world.jpg"
+      }
+    ]
+  },
+  {
+    "path":"Belarus",
+    "videoUrl": "https://youtu.be/hHy_uUnvkho",
+    "places": [
+      {
+        "name": {
+          "ru": "Брестская крепость",
+          "en": "Brest Fortress",
+          "de": "Festung Brest"
+        },
+        "info": {
+          "ru": "Одно из знаковых мест Беларуси, символ советского сопротивления во время Второй мировой войны.",
+          "en": "One of the iconic places in Belarus, a symbol of Soviet resistance during the Second World War.",
+          "de": "Einer der Wahrzeichen in Belarus, ein Symbol des sowjetischen Widerstands während des Zweiten Weltkriegs."
+        },
+        "img": "../assets/images/Belarus/Brest_Fortress.jpg"
+      },
+      {
+        "name": {
+          "ru": "Августовский канал",
+          "en": "Augustow Canal",
+          "de": "Augustow-Kanal"
+        },
+        "info": {
+          "ru": "Судоходный канал, построенный в XIX веке, чтобы создать путь от Черного моря до Балтийского.",
+          "en": "A shipping canal built in the 19th century to create a route from the Black Sea to the Baltic.",
+          "de": "Ein Schifffahrtskanal, der im 19. Jahrhundert gebaut wurde, um eine Route vom Schwarzen Meer zur Ostsee zu schaffen."
+        },
+        "img": "../assets/images/Belarus/Augustow_Canal.jpg"
+      },
+      {
+        "name": {
+          "ru": "Несвижский замок",
+          "en": "Nesvizh Castle",
+          "de": "Nesvizh Schloss"
+        },
+        "info": {
+          "ru": "В XVI веке Несвиж стал родовом гнездом Радзивиллов, главной династии в истории Великого Княжества Литовского.",
+          "en": "In the 16th century, Nesvizh became the ancestral home of the Radziwills, the main dynasty in the history of the Grand Duchy of Lithuania.",
+          "de": "Im 16. Jahrhundert wurde Nesvizh das Stammhaus der Radziwills, der Hauptdynastie in der Geschichte des Großherzogtums Litauen."
+        },
+        "img": "../assets/images/Belarus/Nesvizh_Castle.jpg"
+      },
+      {
+        "name": {
+          "ru": "Софийский собор",
+          "en": "Saint Sophia Cathedral",
+          "de": "St. Sophia Kathedrale"
+        },
+        "info": {
+          "ru": "Первый мурованый храм на территории Беларуси, построенный в XI веке главным героем всех беларусских легенд Всеславом Черодеем.",
+          "en": "The first moored temple on the territory of Belarus, built in the XI century by the main hero of all Belarusian legends Vseslav Cherodey.",
+          "de": "Der erste festgemachte Tempel auf dem Territorium von Belarus, der im 11. Jahrhundert vom Haupthelden aller belarussischen Legenden, Vseslav Cherodey, erbaut wurde."
+        },
+        "img": "../assets/images/Belarus/Saint_Sophia_Cathedral.jpg"
+      },
+      {
+        "name": {
+          "ru": "Новогрудский замок",
+          "en": "Novogrudok castle",
+          "de": "Novogrudok Schloss"
+        },
+        "info": {
+          "ru": "Новогрудок – древний беларусский город, который был первой столицей ВКЛ.",
+          "en": "Novogrudok is an ancient Belarusian city, which was the first capital of the Grand Duchy of Lithuania.",
+          "de": "Novogrudok ist eine alte belarussische Stadt, die die erste Hauptstadt des Großherzogtums Litauen war."
+        },
+        "img": "../assets/images/Belarus/Novogrudok_castle.jpg"
+      },
+      {
+        "name": {
+          "ru": "Беловежская пуща",
+          "en": "Bialowieza Forest",
+          "de": "Bialowieza Wald"
+        },
+        "info": {
+          "ru": "Беларусский повод для гордости – самый большой и старый лесной массив Европы.",
+          "en": "The Belarusian reason for pride is the largest and oldest forest in Europe.",
+          "de": "Der belarussische Grund für Stolz ist der größte und älteste Wald in Europa."
+        },
+        "img": "../assets/images/Belarus/Bialowieza_Forest.jpg"
+      }
+    ]
+  }
+]

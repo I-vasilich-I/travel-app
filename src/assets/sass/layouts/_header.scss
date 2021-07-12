@@ -1,0 +1,37 @@
+.header {
+  width: 100%;
+  max-width: 1280px;
+  padding: 0 25px;
+  margin: auto;
+  padding-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  height: 45px;
+  margin: 10px 0;
+  transition: .3s ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.header__right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__language {
+  margin-right: 5px;
+}
+
+.header__avatar {
+  &:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+}
