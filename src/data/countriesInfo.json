@@ -1,0 +1,320 @@
+[
+  {
+    "name":{
+      "ru":"Республика Беларусь",
+      "en":"Republic of Belarus",
+      "de":"Republik Weißrussland"
+      },
+    "capital":{
+      "ru":"Минск",
+      "en":"Minsk",
+      "de":"Minsk"
+      },
+    "region":{
+      "ru":"Восточная Европа",
+      "en":"Eastern Europe",
+      "de":"Osteuropa"
+    },
+    "languages":{
+      "ru": [
+        "Русский",
+        "Белорусский"
+      ],
+      "en": [
+        "Russian",
+        "Belarusian"
+      ],
+      "de": [
+        "Russisch",
+        "Belarussisch"
+      ]
+    },
+    "avatar":"../assets/images/belarus.jpg",
+    "path":"Belarus",
+    "population":9408400,
+    "area":207600,
+    "currency":"BYN",
+    "flag":"../assets/images/flag.png"
+  },
+  {
+    "name":{
+      "ru":"Российская Федерация",
+      "en":"Russian Federation",
+      "de":"Russische Föderation"
+    },
+    "capital":{
+      "ru":"Москва",
+      "en":"Moscow",
+      "de":"Moskau"
+    },
+    "region":{
+      "ru":"Восточная Европа/Северная Азия",
+      "en":"Eastern Europe/North Asia",
+      "de":"Osteuropa/Nordasien"
+    },
+    "languages":{
+      "ru": [
+        "Русский"
+      ],
+      "en": [
+        "Russian"
+      ],
+      "de": [
+        "Russisch"
+      ]
+    },
+    "avatar":"../assets/images/Russia.jpg",
+    "path":"Russia",
+    "population":146238185,
+    "area":17125191,
+    "currency":"RUB",
+    "flag":"../assets/images/Flag_of_Russia.png"
+  },
+  {
+    "name":{
+      "ru":"Польша",
+      "en":"Poland",
+      "de":"Polen"
+    },
+    "capital":{
+      "ru":"Варшава",
+      "en":"Warsaw",
+      "de":"Warschau"
+    },
+    "region":{
+      "ru":"Центральная Европа",
+      "en":"Central Europe",
+      "de":"Zentraleuropa"
+    },
+    "languages":{
+      "ru": [
+        "Польский"
+      ],
+      "en": [
+        "Polish"
+      ],
+      "de": [
+        "Polieren"
+      ]
+    },
+    "avatar":"../assets/images/Poland.jpg",
+    "path":"Poland",
+    "population":37817529,
+    "area":312679,
+    "currency":"PLN",
+    "flag":"../assets/images/Poland/Flag-Poland.jpg"
+  },
+  {
+    "name":{
+      "ru":"США",
+      "en":"USA",
+      "de":"USA"
+    },
+    "capital":{
+      "ru":"Вашингтон",
+      "en":"Washington",
+      "de":"Washington"
+    },
+    "region":{
+      "ru":"Северная Америка",
+      "en":"North America",
+      "de":"Nordamerika"
+    },
+    "languages":{
+      "ru": [
+        "Английский"
+      ],
+      "en": [
+        "English"
+      ],
+      "de": [
+        "Englisch"
+      ]
+    },
+    "avatar":"../assets/images/USA/USA.jpg",
+    "path":"USA",
+    "population":332380049,
+    "area":9834000,
+    "currency":"USD",
+    "flag":"../assets/images/USA/Flag_USA.png"
+  },
+  {
+    "name":{
+      "ru":"Англия",
+      "en":"England",
+      "de":"England"
+    },
+    "capital":{
+      "ru":"Лондон",
+      "en":"London",
+      "de":"London"
+    },
+    "region":{
+      "ru":"Европа",
+      "en":"Europe",
+      "de":"Europa"
+    },
+    "languages":{
+      "ru": [
+        "Английский"
+      ],
+      "en": [
+        "English"
+      ],
+      "de": [
+        "Englisch"
+      ]
+    },
+    "avatar":"../assets/images/England/England.jpg",
+    "path":"England",
+    "population":56286961,
+    "area":130279,
+    "currency":"GBP",
+    "flag":"../assets/images/England/Flag_England.jpg"
+  },
+  {
+    "name":{
+      "ru":"Бразилия",
+      "en":"Brazil",
+      "de":"Brasilien"
+    },
+    "capital":{
+      "ru":"Бразилия",
+      "en":"Brasilia",
+      "de":"Brasilia"
+    },
+    "region":{
+      "ru":"Южная америка",
+      "en":"South America",
+      "de":"Südamerika"
+    },
+    "languages":{
+      "ru": [
+        "Португальский"
+      ],
+      "en": [
+        "Portuguese"
+      ],
+      "de": [
+        "Portugiesisch"
+      ]
+    },
+    "avatar":"../assets/images/Brazil/Brazil.png",
+    "path":"Brazil",
+    "population":210147125,
+    "area":8515767,
+    "currency":"BRL",
+    "flag":"../assets/images/Brazil/Flag-Brazil.jpg"
+  },
+  {
+    "name":{
+      "ru":"Япония",
+      "en":"Japan",
+      "de":"Japan"
+    },
+    "capital":{
+      "ru":"Токио",
+      "en":"Tokyo",
+      "de":"Tokio"
+    },
+    "region":{
+      "ru":"Восточная Азия",
+      "en":"East Asia",
+      "de":"Ostasien"
+    },
+    "languages":{
+      "ru": [
+        "Японский"
+      ],
+      "en": [
+        "Japanese"
+      ],
+      "de": [
+        "Japanisch"
+      ]
+    },
+    "avatar":"../assets/images/Japan/Japan.jpg",
+    "path":"Japan",
+    "population":125620000,
+    "area":377975,
+    "currency":"Yen",
+    "flag":"../assets/images/Japan/Flag_Japan.png"
+  },
+  {
+    "name":{
+      "ru":"Нидерланды",
+      "en":"Netherlands",
+      "de":"Niederlande"
+    },
+    "capital":{
+      "ru":"Амстердам",
+      "en":"Amsterdam",
+      "de":"Amsterdam"
+    },
+    "region":{
+      "ru":"Западная Европа",
+      "en":"Western Europe",
+      "de":"Westeuropa"
+    },
+    "languages":{
+      "ru": [
+        "Нидерландский язык",
+        "Английский",
+        "Папьяменто",
+        "Западно-Фризский"
+      ],
+      "en": [
+        "Dutch",
+        "English",
+        "Papiamento",
+        "West Frisian"
+      ],
+      "de": [
+        "Niederländisch",
+        "Englisch",
+        "Papiamento",
+        "Westfriesisch"
+      ]
+    },
+    "avatar":"../assets/images/Netherlands/Netherlands.jpg",
+    "path":"Netherlands",
+    "population":17469635,
+    "area":41865,
+    "currency":"EUR,USD",
+    "flag":"../assets/images/Netherlands/Flag_Netherlands.png"
+  },
+  {
+    "name":{
+      "ru":"Перу",
+      "en":"Peru",
+      "de":"Peru"
+    },
+    "capital":{
+      "ru":"Лима",
+      "en":"Lima",
+      "de":"Lima"
+    },
+    "region":{
+      "ru":"Южная америка",
+      "en":"South America",
+      "de":"Südamerika"
+    },
+    "languages":{
+      "ru": [
+        "Испанский"
+      ],
+      "en": [
+        "Spanish"
+      ],
+      "de": [
+        "Spanisch"
+      ]
+    },
+    "avatar":"../assets/images/Peru/Peru.jpg",
+    "path":"Peru",
+    "population":32824358,
+    "area":1285216,
+    "currency":"PEN",
+    "flag":"../assets/images/Peru/Flag_Peru.png"
+  }
+]

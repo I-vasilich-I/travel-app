@@ -1,0 +1,155 @@
+.weather-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 240px;
+  background-color: #2b2e4a;
+  padding: 10px 50px;
+
+
+  .MuiCircularProgress-svg {
+    color: #e4e9ea;
+  }
+
+  .weather-box {
+    position: relative;
+
+    .weather-info {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin: 10px 0;
+
+      &__icon {
+        font-size: 6.5rem;
+        color: #e4e9ea;
+      }
+
+      &__degree {
+        display: flex;
+        flex-direction: row;
+        margin: 0 25px;
+
+        .degree, .units {
+          color: #e4e9ea;
+          font-size: 5rem;
+          font-weight: 700;
+        }
+
+        .units {
+          font-size: 2rem;
+          font-weight: 600;
+          margin: 10px 0px;
+        }
+      }
+
+      &__description {
+        display: flex;
+        flex-direction: column;
+
+        .state, .country {
+          color: #e4e9ea;
+          font-size: 2rem;
+          font-weight: 700;
+        }
+      }
+    }
+
+    .MuiSwitch-root {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 70px;
+      height: 43px;
+      padding: 6px;
+    }
+
+    .MuiSwitch-thumb {
+      width: 25px;
+      height: 25px;
+    }
+
+    .MuiSwitch-colorSecondary.Mui-checked + .MuiSwitch-track {
+      background-color: rgba(0,0,0,0.38);
+      opacity: 1;
+    }
+
+    .MuiSwitch-track {
+      border-radius: 20px;
+      position: relative;
+      opacity: 1;
+      background-color: rgba(0,0,0,0.38);
+
+      &:before, &:after {
+        display: inline-block;
+        position: absolute;
+        font-size: 1.2rem;
+        font-weight: 700;
+        top: 50%;
+        width: 50%;
+        color: #ffffff;
+        transform: translateY(-40%);
+      }
+
+      &:before {
+        content: '℉';
+        left: 4px;
+        text-align: start;
+      }
+
+      &:after {
+        content: '℃';
+        right: 4px;
+        text-align: center;
+      }
+    }
+
+    .MuiSwitch-switchBase.Mui-checked {
+      transform: translateX(25px);
+    }
+
+    .MuiSwitch-colorSecondary.Mui-checked {
+      color: #fafafa;
+    }
+  }
+
+  .weather-indicators {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &__item {
+      display: flex;
+      flex-direction: column;
+      margin: 10px 20px;
+
+      .caption-indicator {
+        font-size: 1.8rem;
+        font-weight: 500;
+        color: #e4e9ea;
+        text-align: center;
+      }
+
+      .indicator-wrapper {
+        display: flex;
+        flex-direction: row;
+
+        svg {
+          font-size: 2rem;
+          color: #e4e9ea;
+          margin: 5px;
+        }
+
+        .indicator {
+          font-size: 1.8rem;
+          font-weight: 500;
+          color: #e4e9ea;
+          margin: 5px;
+        }
+      }
+    }
+  }
+}

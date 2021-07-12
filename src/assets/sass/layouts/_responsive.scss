@@ -1,0 +1,392 @@
+@media (max-height: 870px) {
+  .country-info {
+    &__name {
+      font-size: 1.2rem;
+    }
+
+    &__summary {
+      &__flag {
+        width: 80px;
+      }
+
+      &__text {
+        font-size: 1.2rem;
+      }
+
+      &__label, &__text {
+        padding: 3px;
+      }
+
+      &__currency {
+        font-size: 1.2rem;
+        margin: 3px;
+        padding: 2px 6px;
+      }
+    }
+  }
+}
+
+@media (max-height: 721px) {
+  .country-info {
+    &__summary__text, &__summary__label {
+      font-size: 1rem;
+    }
+
+    &__name {
+      font-size: 1rem;
+    }
+
+    &__summary__flag {
+      width: 70px;
+      margin: 8px;
+    }
+  }
+}
+
+@media (max-height: 645px) {
+  .country-info {
+    &__name {
+      font-size: 1.2rem;
+    }
+
+    &__summary__flag {
+      width: 65px;
+      margin: 6px;
+    }
+  }
+}
+
+
+@media (max-width: 1070px) {
+  .weather-wrapper {
+    .weather-indicators__item {
+      .indicator-wrapper {
+        .indicator {
+          font-size: 1.4rem;
+        }
+      }
+
+      .caption-indicator {
+        font-size: 1.4rem;
+      }
+    }
+  }
+
+  .currency-box {
+    .currency-item {
+      .currency-point {
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 910px) {
+  .country-info__avatar {
+    max-height: 190px;
+  }
+
+  .slick-dots li {
+    width: 80px;
+  }
+
+  .slider-box {
+
+    &__item {
+      &__img {
+        height: 300px;
+      }
+
+      &__title {
+        font-size: 1.2rem;
+      }
+
+      &__desc {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .time-wrapper {
+    .time {
+      font-size: 3rem;
+    }
+
+    .date {
+      font-size: 1.6rem;
+    }
+  }
+
+  .weather-wrapper {
+    padding: 10px 10px;
+    min-height: 190px;
+
+    .weather-box {
+
+      .MuiSwitch-track {
+        &:before, &:after {
+          font-size: 1rem;
+        }
+      }
+
+      .weather-info {
+        &__degree {
+
+          .degree {
+            font-size: 3rem;
+          }
+        }
+
+        &__icon {
+          font-size: 4rem;
+        }
+
+        &__description {
+
+          .country {
+            font-size: 1.2rem;
+          }
+
+          .state {
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+
+    .weather-indicators__item {
+      .indicator-wrapper {
+
+        svg {
+          font-size: 1.2rem;
+        }
+
+        .indicator {
+          font-size: 1.2rem;
+        }
+      }
+
+      .caption-indicator {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  .currency-box {
+    min-height: 190px;
+    padding: 10px 20px;
+
+    .currency-item {
+      height: 60px;
+
+      .currency-icon {
+        width: 50px;
+      }
+
+      .currency-point {
+        font-size: 1.4rem;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 741px) {
+  .slider-box__fullscreen .slider-box__item__img {
+    height: calc(100vh - 210px);
+  }
+
+  .country-container {
+    flex-wrap: wrap;
+
+    .country-info {
+      width: 100%;
+      height: 100%;
+      position: static;
+
+      &__summary__text, .country-info__summary__label {
+        font-size: 1.4rem;
+      }
+
+      &__name {
+        font-size: 1.6rem;
+      }
+
+      &__summary__flag {
+        width: 120px;
+      }
+
+      &__summary__currency {
+        font-size: 1.4rem;
+      }
+
+      &__avatar {
+        max-height: 300px;
+      }
+    }
+
+    .country-content {
+      width: 100%;
+    }
+  }
+
+  .content-caption {
+    margin: 25px auto;
+  }
+
+  .weather-wrapper {
+    padding: 10px 20px;
+
+    .weather-box {
+      width: 100%;
+
+      .MuiSwitch-track {
+        &:before, &:after {
+          font-size: 1rem;
+        }
+      }
+
+      .weather-info {
+        &__degree {
+
+          .degree {
+            font-size: 3rem;
+          }
+        }
+
+        &__icon {
+          font-size: 4rem;
+        }
+
+        &__description {
+
+          .country {
+            font-size: 1.4rem;
+          }
+
+          .state {
+            font-size: 1.4rem;
+          }
+        }
+      }
+    }
+
+    .weather-indicators {
+      flex-wrap: wrap;
+
+      &__item {
+        flex: 100%;
+        margin: 3px;
+        align-items: center;
+
+        .indicator-wrapper {
+          width: max-content;
+
+          svg {
+            font-size: 1.4rem;
+          }
+
+          .indicator {
+            font-size: 1.4rem;
+          }
+        }
+
+        .caption-indicator {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 580px) {
+  .slider-box {
+    &__fullscreen {
+      padding: 25% 35px;
+
+      .slider-box__item__img {
+        height: calc(100vh - 320px);
+      }
+    }
+  }
+
+  .weather-wrapper {
+    .weather-box {
+      .weather-info {
+        margin: 45px 0 15px 0;
+      }
+
+      &__description {
+        .country {
+          font-size: 1.2rem;
+        }
+
+        .state {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}
+
+.slick-dots li {
+  width: 60px;
+
+  img {
+    border: 2px solid #e84545;
+  }
+}
+
+.content-caption {
+  margin: 25px auto;
+}
+
+@media (max-width: 460px) {
+  .slider-box {
+    &__fullscreen {
+      .slider-box__item__img {
+        height: calc(100vh - 410px);
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .slider-box {
+    &__fullscreen {
+      padding: 50% 35px;
+
+      .slider-box__item__img {
+        height: calc(100vh - 490px);
+      }
+    }
+  }
+
+  .slider-box__item__img {
+    height: 150px;
+  }
+  .slick-dots li {
+    width: 45px;
+  }
+
+  .footer {
+    &__year {
+      padding: 0 10px;
+      font-size: 1rem;
+    }
+
+    &__link {
+      display: flex;
+      align-items: center;
+    }
+
+    .github__logo {
+      height: 50%;
+    }
+
+    .rss__logo {
+      width: 70px;
+    }
+  }
+}
